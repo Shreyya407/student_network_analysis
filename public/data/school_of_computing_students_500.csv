@@ -1,0 +1,501 @@
+registration_number,department,year,section,club,synthetic_community,network_status
+RA231100300001,CSE Core,4th Year,Section A,Coding Club,Community 1,Connected
+RA231102700002,Big Data Analytics,4th Year,Section D,None,Community 2,Connected
+RA231102800003,Cloud Computing,4th Year,Section C,ACM Student Chapter,Community 3,Connected
+RA231102900004,Cybersecurity,4th Year,Section B,Web3 & Open Source,Community 4,Connected
+RA231103000005,Information Technology,4th Year,Section A,Big Data Analytics Club,Community 5,Connected
+RA231105400006,Data Science,4th Year,Section D,Cloud Computing Society,Community 6,Connected
+RA231105600007,AIML,4th Year,Section C,Cyber Security Club,Community 1,Connected
+RA231100300008,CSE Core,4th Year,Section B,AI & Robotics Club,Community 2,Connected
+RA231102700009,Big Data Analytics,4th Year,Section A,Coding Club,Community 3,Connected
+RA231102800010,Cloud Computing,4th Year,Section D,None,Community 4,Connected
+RA231102900011,Cybersecurity,4th Year,Section C,ACM Student Chapter,Community 5,Connected
+RA231103000012,Information Technology,4th Year,Section B,Web3 & Open Source,Community 6,Connected
+RA231105400013,Data Science,4th Year,Section A,Big Data Analytics Club,Isolated,Network-Isolated
+RA231105600014,AIML,4th Year,Section D,Cloud Computing Society,Community 2,Connected
+RA231100300015,CSE Core,4th Year,Section C,Cyber Security Club,Community 3,Connected
+RA231102700016,Big Data Analytics,4th Year,Section B,AI & Robotics Club,Community 4,Connected
+RA231102800017,Cloud Computing,4th Year,Section A,Coding Club,Community 5,Connected
+RA231102900018,Cybersecurity,4th Year,Section D,None,Community 6,Connected
+RA231103000019,Information Technology,4th Year,Section C,ACM Student Chapter,Community 1,Connected
+RA231105400020,Data Science,4th Year,Section B,Web3 & Open Source,Community 2,Connected
+RA231105600021,AIML,4th Year,Section A,Big Data Analytics Club,Community 3,Connected
+RA231100300022,CSE Core,4th Year,Section D,Cloud Computing Society,Community 4,Connected
+RA231102700023,Big Data Analytics,4th Year,Section C,Cyber Security Club,Community 5,Connected
+RA231102800024,Cloud Computing,4th Year,Section B,AI & Robotics Club,Community 6,Connected
+RA231102900025,Cybersecurity,4th Year,Section A,Coding Club,Community 1,Connected
+RA231103000026,Information Technology,4th Year,Section D,None,Community 2,Connected
+RA231105400027,Data Science,4th Year,Section C,ACM Student Chapter,Community 3,Connected
+RA231105600028,AIML,4th Year,Section B,Web3 & Open Source,Community 4,Connected
+RA231100300029,CSE Core,4th Year,Section A,Big Data Analytics Club,Community 5,Connected
+RA231102700030,Big Data Analytics,4th Year,Section D,Cloud Computing Society,Community 6,Connected
+RA231102800031,Cloud Computing,4th Year,Section C,Cyber Security Club,Community 1,Connected
+RA231102900032,Cybersecurity,4th Year,Section B,AI & Robotics Club,Community 2,Connected
+RA231103000033,Information Technology,4th Year,Section A,Coding Club,Community 3,Connected
+RA231105400034,Data Science,4th Year,Section D,None,Community 4,Connected
+RA231105600035,AIML,4th Year,Section C,ACM Student Chapter,Community 5,Connected
+RA231100300036,CSE Core,4th Year,Section B,Web3 & Open Source,Community 6,Connected
+RA231102700037,Big Data Analytics,4th Year,Section A,Big Data Analytics Club,Community 1,Connected
+RA231102800038,Cloud Computing,4th Year,Section D,Cloud Computing Society,Community 2,Connected
+RA231102900039,Cybersecurity,4th Year,Section C,Cyber Security Club,Community 3,Connected
+RA231103000040,Information Technology,4th Year,Section B,AI & Robotics Club,Community 4,Connected
+RA231105400041,Data Science,4th Year,Section A,Coding Club,Community 5,Connected
+RA231105600042,AIML,4th Year,Section D,None,Community 6,Connected
+RA231100300043,CSE Core,4th Year,Section C,ACM Student Chapter,Community 1,Connected
+RA231102700044,Big Data Analytics,4th Year,Section B,Web3 & Open Source,Community 2,Connected
+RA231102800045,Cloud Computing,4th Year,Section A,Big Data Analytics Club,Community 3,Connected
+RA231102900046,Cybersecurity,4th Year,Section D,Cloud Computing Society,Community 4,Connected
+RA231103000047,Information Technology,4th Year,Section C,Cyber Security Club,Community 5,Connected
+RA231105400048,Data Science,4th Year,Section B,AI & Robotics Club,Community 6,Connected
+RA231105600049,AIML,4th Year,Section A,Coding Club,Community 1,Connected
+RA231100300050,CSE Core,4th Year,Section D,None,Community 2,Connected
+RA231102700051,Big Data Analytics,4th Year,Section C,ACM Student Chapter,Community 3,Connected
+RA231102800052,Cloud Computing,4th Year,Section B,Web3 & Open Source,Community 4,Connected
+RA231102900053,Cybersecurity,4th Year,Section A,Big Data Analytics Club,Community 5,Connected
+RA231103000054,Information Technology,4th Year,Section D,Cloud Computing Society,Community 6,Connected
+RA231105400055,Data Science,4th Year,Section C,Cyber Security Club,Community 1,Connected
+RA231105600056,AIML,4th Year,Section B,AI & Robotics Club,Community 2,Connected
+RA231100300057,CSE Core,4th Year,Section A,Coding Club,Community 3,Connected
+RA231102700058,Big Data Analytics,4th Year,Section D,None,Community 4,Connected
+RA231102800059,Cloud Computing,4th Year,Section C,ACM Student Chapter,Community 5,Connected
+RA231102900060,Cybersecurity,4th Year,Section B,Web3 & Open Source,Community 6,Connected
+RA231103000061,Information Technology,4th Year,Section A,Big Data Analytics Club,Community 1,Connected
+RA231105400062,Data Science,4th Year,Section D,Cloud Computing Society,Community 2,Connected
+RA231105600063,AIML,4th Year,Section C,Cyber Security Club,Community 3,Connected
+RA231100300064,CSE Core,4th Year,Section B,AI & Robotics Club,Community 4,Connected
+RA231102700065,Big Data Analytics,4th Year,Section A,Coding Club,Community 5,Connected
+RA231102800066,Cloud Computing,4th Year,Section D,None,Isolated,Network-Isolated
+RA231102900067,Cybersecurity,4th Year,Section C,ACM Student Chapter,Community 1,Connected
+RA231103000068,Information Technology,4th Year,Section B,Web3 & Open Source,Community 2,Connected
+RA231105400069,Data Science,4th Year,Section A,Big Data Analytics Club,Community 3,Connected
+RA231105600070,AIML,4th Year,Section D,Cloud Computing Society,Community 4,Connected
+RA231100300071,CSE Core,4th Year,Section C,Cyber Security Club,Community 5,Connected
+RA231102700072,Big Data Analytics,4th Year,Section B,AI & Robotics Club,Community 6,Connected
+RA231102800073,Cloud Computing,4th Year,Section A,Coding Club,Community 1,Connected
+RA231102900074,Cybersecurity,4th Year,Section D,None,Community 2,Connected
+RA231103000075,Information Technology,4th Year,Section C,ACM Student Chapter,Community 3,Connected
+RA231105400076,Data Science,4th Year,Section B,Web3 & Open Source,Community 4,Connected
+RA231105600077,AIML,4th Year,Section A,Big Data Analytics Club,Community 5,Connected
+RA231100300078,CSE Core,4th Year,Section D,Cloud Computing Society,Community 6,Connected
+RA231102700079,Big Data Analytics,4th Year,Section C,Cyber Security Club,Community 1,Connected
+RA231102800080,Cloud Computing,4th Year,Section B,AI & Robotics Club,Community 2,Connected
+RA231102900081,Cybersecurity,4th Year,Section A,Coding Club,Community 3,Connected
+RA231103000082,Information Technology,4th Year,Section D,None,Community 4,Connected
+RA231105400083,Data Science,4th Year,Section C,ACM Student Chapter,Community 5,Connected
+RA231105600084,AIML,4th Year,Section B,Web3 & Open Source,Community 6,Connected
+RA231100300085,CSE Core,4th Year,Section A,Big Data Analytics Club,Community 1,Connected
+RA231102700086,Big Data Analytics,4th Year,Section D,Cloud Computing Society,Community 2,Connected
+RA231102800087,Cloud Computing,4th Year,Section C,Cyber Security Club,Community 3,Connected
+RA231102900088,Cybersecurity,4th Year,Section B,AI & Robotics Club,Community 4,Connected
+RA231103000089,Information Technology,4th Year,Section A,Coding Club,Community 5,Connected
+RA231105400090,Data Science,4th Year,Section D,None,Community 6,Connected
+RA231105600091,AIML,4th Year,Section C,ACM Student Chapter,Community 1,Connected
+RA231100300092,CSE Core,4th Year,Section B,Web3 & Open Source,Community 2,Connected
+RA231102700093,Big Data Analytics,4th Year,Section A,Big Data Analytics Club,Community 3,Connected
+RA231102800094,Cloud Computing,4th Year,Section D,Cloud Computing Society,Community 4,Connected
+RA231102900095,Cybersecurity,4th Year,Section C,Cyber Security Club,Community 5,Connected
+RA231103000096,Information Technology,4th Year,Section B,AI & Robotics Club,Community 6,Connected
+RA231105400097,Data Science,4th Year,Section A,Coding Club,Community 1,Connected
+RA231105600098,AIML,4th Year,Section D,None,Community 2,Connected
+RA231100300099,CSE Core,4th Year,Section C,ACM Student Chapter,Community 3,Connected
+RA231102700100,Big Data Analytics,4th Year,Section B,Web3 & Open Source,Community 4,Connected
+RA231102800101,Cloud Computing,4th Year,Section A,Big Data Analytics Club,Community 5,Connected
+RA231102900102,Cybersecurity,4th Year,Section D,Cloud Computing Society,Community 6,Connected
+RA231103000103,Information Technology,4th Year,Section C,Cyber Security Club,Community 1,Connected
+RA231105400104,Data Science,4th Year,Section B,AI & Robotics Club,Community 2,Connected
+RA231105600105,AIML,4th Year,Section A,Coding Club,Community 3,Connected
+RA231100300106,CSE Core,4th Year,Section D,None,Community 4,Connected
+RA231102700107,Big Data Analytics,4th Year,Section C,ACM Student Chapter,Community 5,Connected
+RA231102800108,Cloud Computing,4th Year,Section B,Web3 & Open Source,Community 6,Connected
+RA231102900109,Cybersecurity,4th Year,Section A,Big Data Analytics Club,Community 1,Connected
+RA231103000110,Information Technology,4th Year,Section D,Cloud Computing Society,Community 2,Connected
+RA231105400111,Data Science,4th Year,Section C,Cyber Security Club,Community 3,Connected
+RA231105600112,AIML,4th Year,Section B,AI & Robotics Club,Community 4,Connected
+RA231100300113,CSE Core,4th Year,Section A,Coding Club,Community 5,Connected
+RA231102700114,Big Data Analytics,4th Year,Section D,None,Community 6,Connected
+RA231102800115,Cloud Computing,4th Year,Section C,ACM Student Chapter,Community 1,Connected
+RA231102900116,Cybersecurity,4th Year,Section B,Web3 & Open Source,Community 2,Connected
+RA231103000117,Information Technology,4th Year,Section A,Big Data Analytics Club,Community 3,Connected
+RA231105400118,Data Science,4th Year,Section D,Cloud Computing Society,Community 4,Connected
+RA231105600119,AIML,4th Year,Section C,Cyber Security Club,Community 5,Connected
+RA231100300120,CSE Core,4th Year,Section B,AI & Robotics Club,Community 6,Connected
+RA231102700121,Big Data Analytics,4th Year,Section A,Coding Club,Community 1,Connected
+RA231102800122,Cloud Computing,4th Year,Section D,None,Community 2,Connected
+RA231102900123,Cybersecurity,4th Year,Section C,ACM Student Chapter,Community 3,Connected
+RA231103000124,Information Technology,4th Year,Section B,Web3 & Open Source,Community 4,Connected
+RA231105400125,Data Science,4th Year,Section A,Big Data Analytics Club,Community 5,Connected
+RA241102900126,Cybersecurity,3rd Year,Section D,Cloud Computing Society,Community 6,Connected
+RA241103000127,Information Technology,3rd Year,Section C,Cyber Security Club,Community 1,Connected
+RA241105400128,Data Science,3rd Year,Section B,AI & Robotics Club,Community 2,Connected
+RA241105600129,AIML,3rd Year,Section A,Coding Club,Community 3,Connected
+RA241100300130,CSE Core,3rd Year,Section D,None,Community 4,Connected
+RA241102700131,Big Data Analytics,3rd Year,Section C,ACM Student Chapter,Community 5,Connected
+RA241102800132,Cloud Computing,3rd Year,Section B,Web3 & Open Source,Community 6,Connected
+RA241102900133,Cybersecurity,3rd Year,Section A,Big Data Analytics Club,Community 1,Connected
+RA241103000134,Information Technology,3rd Year,Section D,Cloud Computing Society,Community 2,Connected
+RA241105400135,Data Science,3rd Year,Section C,Cyber Security Club,Community 3,Connected
+RA241105600136,AIML,3rd Year,Section B,AI & Robotics Club,Community 4,Connected
+RA241100300137,CSE Core,3rd Year,Section A,Coding Club,Community 5,Connected
+RA241102700138,Big Data Analytics,3rd Year,Section D,None,Community 6,Connected
+RA241102800139,Cloud Computing,3rd Year,Section C,ACM Student Chapter,Community 1,Connected
+RA241102900140,Cybersecurity,3rd Year,Section B,Web3 & Open Source,Community 2,Connected
+RA241103000141,Information Technology,3rd Year,Section A,Big Data Analytics Club,Isolated,Network-Isolated
+RA241105400142,Data Science,3rd Year,Section D,Cloud Computing Society,Community 4,Connected
+RA241105600143,AIML,3rd Year,Section C,Cyber Security Club,Community 5,Connected
+RA241100300144,CSE Core,3rd Year,Section B,AI & Robotics Club,Community 6,Connected
+RA241102700145,Big Data Analytics,3rd Year,Section A,Coding Club,Community 1,Connected
+RA241102800146,Cloud Computing,3rd Year,Section D,None,Community 2,Connected
+RA241102900147,Cybersecurity,3rd Year,Section C,ACM Student Chapter,Community 3,Connected
+RA241103000148,Information Technology,3rd Year,Section B,Web3 & Open Source,Community 4,Connected
+RA241105400149,Data Science,3rd Year,Section A,Big Data Analytics Club,Community 5,Connected
+RA241105600150,AIML,3rd Year,Section D,Cloud Computing Society,Community 6,Connected
+RA241100300151,CSE Core,3rd Year,Section C,Cyber Security Club,Community 1,Connected
+RA241102700152,Big Data Analytics,3rd Year,Section B,AI & Robotics Club,Community 2,Connected
+RA241102800153,Cloud Computing,3rd Year,Section A,Coding Club,Community 3,Connected
+RA241102900154,Cybersecurity,3rd Year,Section D,None,Community 4,Connected
+RA241103000155,Information Technology,3rd Year,Section C,ACM Student Chapter,Community 5,Connected
+RA241105400156,Data Science,3rd Year,Section B,Web3 & Open Source,Community 6,Connected
+RA241105600157,AIML,3rd Year,Section A,Big Data Analytics Club,Community 1,Connected
+RA241100300158,CSE Core,3rd Year,Section D,Cloud Computing Society,Community 2,Connected
+RA241102700159,Big Data Analytics,3rd Year,Section C,Cyber Security Club,Community 3,Connected
+RA241102800160,Cloud Computing,3rd Year,Section B,AI & Robotics Club,Community 4,Connected
+RA241102900161,Cybersecurity,3rd Year,Section A,Coding Club,Community 5,Connected
+RA241103000162,Information Technology,3rd Year,Section D,None,Community 6,Connected
+RA241105400163,Data Science,3rd Year,Section C,ACM Student Chapter,Community 1,Connected
+RA241105600164,AIML,3rd Year,Section B,Web3 & Open Source,Community 2,Connected
+RA241100300165,CSE Core,3rd Year,Section A,Big Data Analytics Club,Community 3,Connected
+RA241102700166,Big Data Analytics,3rd Year,Section D,Cloud Computing Society,Community 4,Connected
+RA241102800167,Cloud Computing,3rd Year,Section C,Cyber Security Club,Community 5,Connected
+RA241102900168,Cybersecurity,3rd Year,Section B,AI & Robotics Club,Community 6,Connected
+RA241103000169,Information Technology,3rd Year,Section A,Coding Club,Community 1,Connected
+RA241105400170,Data Science,3rd Year,Section D,None,Community 2,Connected
+RA241105600171,AIML,3rd Year,Section C,ACM Student Chapter,Community 3,Connected
+RA241100300172,CSE Core,3rd Year,Section B,Web3 & Open Source,Community 4,Connected
+RA241102700173,Big Data Analytics,3rd Year,Section A,Big Data Analytics Club,Community 5,Connected
+RA241102800174,Cloud Computing,3rd Year,Section D,Cloud Computing Society,Community 6,Connected
+RA241102900175,Cybersecurity,3rd Year,Section C,Cyber Security Club,Community 1,Connected
+RA241103000176,Information Technology,3rd Year,Section B,AI & Robotics Club,Community 2,Connected
+RA241105400177,Data Science,3rd Year,Section A,Coding Club,Community 3,Connected
+RA241105600178,AIML,3rd Year,Section D,None,Community 4,Connected
+RA241100300179,CSE Core,3rd Year,Section C,ACM Student Chapter,Community 5,Connected
+RA241102700180,Big Data Analytics,3rd Year,Section B,Web3 & Open Source,Community 6,Connected
+RA241102800181,Cloud Computing,3rd Year,Section A,Big Data Analytics Club,Community 1,Connected
+RA241102900182,Cybersecurity,3rd Year,Section D,Cloud Computing Society,Community 2,Connected
+RA241103000183,Information Technology,3rd Year,Section C,Cyber Security Club,Community 3,Connected
+RA241105400184,Data Science,3rd Year,Section B,AI & Robotics Club,Community 4,Connected
+RA241105600185,AIML,3rd Year,Section A,Coding Club,Community 5,Connected
+RA241100300186,CSE Core,3rd Year,Section D,None,Community 6,Connected
+RA241102700187,Big Data Analytics,3rd Year,Section C,ACM Student Chapter,Community 1,Connected
+RA241102800188,Cloud Computing,3rd Year,Section B,Web3 & Open Source,Community 2,Connected
+RA241102900189,Cybersecurity,3rd Year,Section A,Big Data Analytics Club,Community 3,Connected
+RA241103000190,Information Technology,3rd Year,Section D,Cloud Computing Society,Community 4,Connected
+RA241105400191,Data Science,3rd Year,Section C,Cyber Security Club,Community 5,Connected
+RA241105600192,AIML,3rd Year,Section B,AI & Robotics Club,Community 6,Connected
+RA241100300193,CSE Core,3rd Year,Section A,Coding Club,Community 1,Connected
+RA241102700194,Big Data Analytics,3rd Year,Section D,None,Community 2,Connected
+RA241102800195,Cloud Computing,3rd Year,Section C,ACM Student Chapter,Community 3,Connected
+RA241102900196,Cybersecurity,3rd Year,Section B,Web3 & Open Source,Community 4,Connected
+RA241103000197,Information Technology,3rd Year,Section A,Big Data Analytics Club,Community 5,Connected
+RA241105400198,Data Science,3rd Year,Section D,Cloud Computing Society,Community 6,Connected
+RA241105600199,AIML,3rd Year,Section C,Cyber Security Club,Community 1,Connected
+RA241100300200,CSE Core,3rd Year,Section B,AI & Robotics Club,Community 2,Connected
+RA241102700201,Big Data Analytics,3rd Year,Section A,Coding Club,Community 3,Connected
+RA241102800202,Cloud Computing,3rd Year,Section D,None,Community 4,Connected
+RA241102900203,Cybersecurity,3rd Year,Section C,ACM Student Chapter,Community 5,Connected
+RA241103000204,Information Technology,3rd Year,Section B,Web3 & Open Source,Community 6,Connected
+RA241105400205,Data Science,3rd Year,Section A,Big Data Analytics Club,Community 1,Connected
+RA241105600206,AIML,3rd Year,Section D,Cloud Computing Society,Community 2,Connected
+RA241100300207,CSE Core,3rd Year,Section C,Cyber Security Club,Community 3,Connected
+RA241102700208,Big Data Analytics,3rd Year,Section B,AI & Robotics Club,Community 4,Connected
+RA241102800209,Cloud Computing,3rd Year,Section A,Coding Club,Community 5,Connected
+RA241102900210,Cybersecurity,3rd Year,Section D,None,Community 6,Connected
+RA241103000211,Information Technology,3rd Year,Section C,ACM Student Chapter,Isolated,Network-Isolated
+RA241105400212,Data Science,3rd Year,Section B,Web3 & Open Source,Community 2,Connected
+RA241105600213,AIML,3rd Year,Section A,Big Data Analytics Club,Community 3,Connected
+RA241100300214,CSE Core,3rd Year,Section D,Cloud Computing Society,Community 4,Connected
+RA241102700215,Big Data Analytics,3rd Year,Section C,Cyber Security Club,Community 5,Connected
+RA241102800216,Cloud Computing,3rd Year,Section B,AI & Robotics Club,Community 6,Connected
+RA241102900217,Cybersecurity,3rd Year,Section A,Coding Club,Community 1,Connected
+RA241103000218,Information Technology,3rd Year,Section D,None,Community 2,Connected
+RA241105400219,Data Science,3rd Year,Section C,ACM Student Chapter,Community 3,Connected
+RA241105600220,AIML,3rd Year,Section B,Web3 & Open Source,Community 4,Connected
+RA241100300221,CSE Core,3rd Year,Section A,Big Data Analytics Club,Community 5,Connected
+RA241102700222,Big Data Analytics,3rd Year,Section D,Cloud Computing Society,Community 6,Connected
+RA241102800223,Cloud Computing,3rd Year,Section C,Cyber Security Club,Community 1,Connected
+RA241102900224,Cybersecurity,3rd Year,Section B,AI & Robotics Club,Community 2,Connected
+RA241103000225,Information Technology,3rd Year,Section A,Coding Club,Community 3,Connected
+RA241105400226,Data Science,3rd Year,Section D,None,Community 4,Connected
+RA241105600227,AIML,3rd Year,Section C,ACM Student Chapter,Community 5,Connected
+RA241100300228,CSE Core,3rd Year,Section B,Web3 & Open Source,Community 6,Connected
+RA241102700229,Big Data Analytics,3rd Year,Section A,Big Data Analytics Club,Community 1,Connected
+RA241102800230,Cloud Computing,3rd Year,Section D,Cloud Computing Society,Community 2,Connected
+RA241102900231,Cybersecurity,3rd Year,Section C,Cyber Security Club,Community 3,Connected
+RA241103000232,Information Technology,3rd Year,Section B,AI & Robotics Club,Community 4,Connected
+RA241105400233,Data Science,3rd Year,Section A,Coding Club,Community 5,Connected
+RA241105600234,AIML,3rd Year,Section D,None,Community 6,Connected
+RA241100300235,CSE Core,3rd Year,Section C,ACM Student Chapter,Community 1,Connected
+RA241102700236,Big Data Analytics,3rd Year,Section B,Web3 & Open Source,Community 2,Connected
+RA241102800237,Cloud Computing,3rd Year,Section A,Big Data Analytics Club,Community 3,Connected
+RA241102900238,Cybersecurity,3rd Year,Section D,Cloud Computing Society,Community 4,Connected
+RA241103000239,Information Technology,3rd Year,Section C,Cyber Security Club,Community 5,Connected
+RA241105400240,Data Science,3rd Year,Section B,AI & Robotics Club,Community 6,Connected
+RA241105600241,AIML,3rd Year,Section A,Coding Club,Community 1,Connected
+RA241100300242,CSE Core,3rd Year,Section D,None,Community 2,Connected
+RA241102700243,Big Data Analytics,3rd Year,Section C,ACM Student Chapter,Community 3,Connected
+RA241102800244,Cloud Computing,3rd Year,Section B,Web3 & Open Source,Community 4,Connected
+RA241102900245,Cybersecurity,3rd Year,Section A,Big Data Analytics Club,Community 5,Connected
+RA241103000246,Information Technology,3rd Year,Section D,Cloud Computing Society,Community 6,Connected
+RA241105400247,Data Science,3rd Year,Section C,Cyber Security Club,Community 1,Connected
+RA241105600248,AIML,3rd Year,Section B,AI & Robotics Club,Community 2,Connected
+RA241100300249,CSE Core,3rd Year,Section A,Coding Club,Community 3,Connected
+RA241102700250,Big Data Analytics,3rd Year,Section D,None,Community 4,Connected
+RA251105600251,AIML,2nd Year,Section C,ACM Student Chapter,Community 5,Connected
+RA251100300252,CSE Core,2nd Year,Section B,Web3 & Open Source,Community 6,Connected
+RA251102700253,Big Data Analytics,2nd Year,Section A,Big Data Analytics Club,Community 1,Connected
+RA251102800254,Cloud Computing,2nd Year,Section D,Cloud Computing Society,Community 2,Connected
+RA251102900255,Cybersecurity,2nd Year,Section C,Cyber Security Club,Community 3,Connected
+RA251103000256,Information Technology,2nd Year,Section B,AI & Robotics Club,Community 4,Connected
+RA251105400257,Data Science,2nd Year,Section A,Coding Club,Community 5,Connected
+RA251105600258,AIML,2nd Year,Section D,None,Community 6,Connected
+RA251100300259,CSE Core,2nd Year,Section C,ACM Student Chapter,Community 1,Connected
+RA251102700260,Big Data Analytics,2nd Year,Section B,Web3 & Open Source,Community 2,Connected
+RA251102800261,Cloud Computing,2nd Year,Section A,Big Data Analytics Club,Community 3,Connected
+RA251102900262,Cybersecurity,2nd Year,Section D,Cloud Computing Society,Community 4,Connected
+RA251103000263,Information Technology,2nd Year,Section C,Cyber Security Club,Community 5,Connected
+RA251105400264,Data Science,2nd Year,Section B,AI & Robotics Club,Community 6,Connected
+RA251105600265,AIML,2nd Year,Section A,Coding Club,Community 1,Connected
+RA251100300266,CSE Core,2nd Year,Section D,None,Community 2,Connected
+RA251102700267,Big Data Analytics,2nd Year,Section C,ACM Student Chapter,Community 3,Connected
+RA251102800268,Cloud Computing,2nd Year,Section B,Web3 & Open Source,Community 4,Connected
+RA251102900269,Cybersecurity,2nd Year,Section A,Big Data Analytics Club,Community 5,Connected
+RA251103000270,Information Technology,2nd Year,Section D,Cloud Computing Society,Community 6,Connected
+RA251105400271,Data Science,2nd Year,Section C,Cyber Security Club,Community 1,Connected
+RA251105600272,AIML,2nd Year,Section B,AI & Robotics Club,Community 2,Connected
+RA251100300273,CSE Core,2nd Year,Section A,Coding Club,Community 3,Connected
+RA251102700274,Big Data Analytics,2nd Year,Section D,None,Community 4,Connected
+RA251102800275,Cloud Computing,2nd Year,Section C,ACM Student Chapter,Community 5,Connected
+RA251102900276,Cybersecurity,2nd Year,Section B,Web3 & Open Source,Community 6,Connected
+RA251103000277,Information Technology,2nd Year,Section A,Big Data Analytics Club,Community 1,Connected
+RA251105400278,Data Science,2nd Year,Section D,Cloud Computing Society,Community 2,Connected
+RA251105600279,AIML,2nd Year,Section C,Cyber Security Club,Community 3,Connected
+RA251100300280,CSE Core,2nd Year,Section B,AI & Robotics Club,Community 4,Connected
+RA251102700281,Big Data Analytics,2nd Year,Section A,Coding Club,Community 5,Connected
+RA251102800282,Cloud Computing,2nd Year,Section D,None,Community 6,Connected
+RA251102900283,Cybersecurity,2nd Year,Section C,ACM Student Chapter,Community 1,Connected
+RA251103000284,Information Technology,2nd Year,Section B,Web3 & Open Source,Community 2,Connected
+RA251105400285,Data Science,2nd Year,Section A,Big Data Analytics Club,Community 3,Connected
+RA251105600286,AIML,2nd Year,Section D,Cloud Computing Society,Community 4,Connected
+RA251100300287,CSE Core,2nd Year,Section C,Cyber Security Club,Community 5,Connected
+RA251102700288,Big Data Analytics,2nd Year,Section B,AI & Robotics Club,Community 6,Connected
+RA251102800289,Cloud Computing,2nd Year,Section A,Coding Club,Community 1,Connected
+RA251102900290,Cybersecurity,2nd Year,Section D,None,Community 2,Connected
+RA251103000291,Information Technology,2nd Year,Section C,ACM Student Chapter,Isolated,Network-Isolated
+RA251105400292,Data Science,2nd Year,Section B,Web3 & Open Source,Community 4,Connected
+RA251105600293,AIML,2nd Year,Section A,Big Data Analytics Club,Community 5,Connected
+RA251100300294,CSE Core,2nd Year,Section D,Cloud Computing Society,Community 6,Connected
+RA251102700295,Big Data Analytics,2nd Year,Section C,Cyber Security Club,Community 1,Connected
+RA251102800296,Cloud Computing,2nd Year,Section B,AI & Robotics Club,Community 2,Connected
+RA251102900297,Cybersecurity,2nd Year,Section A,Coding Club,Community 3,Connected
+RA251103000298,Information Technology,2nd Year,Section D,None,Community 4,Connected
+RA251105400299,Data Science,2nd Year,Section C,ACM Student Chapter,Community 5,Connected
+RA251105600300,AIML,2nd Year,Section B,Web3 & Open Source,Community 6,Connected
+RA251100300301,CSE Core,2nd Year,Section A,Big Data Analytics Club,Community 1,Connected
+RA251102700302,Big Data Analytics,2nd Year,Section D,Cloud Computing Society,Community 2,Connected
+RA251102800303,Cloud Computing,2nd Year,Section C,Cyber Security Club,Community 3,Connected
+RA251102900304,Cybersecurity,2nd Year,Section B,AI & Robotics Club,Community 4,Connected
+RA251103000305,Information Technology,2nd Year,Section A,Coding Club,Community 5,Connected
+RA251105400306,Data Science,2nd Year,Section D,None,Community 6,Connected
+RA251105600307,AIML,2nd Year,Section C,ACM Student Chapter,Community 1,Connected
+RA251100300308,CSE Core,2nd Year,Section B,Web3 & Open Source,Community 2,Connected
+RA251102700309,Big Data Analytics,2nd Year,Section A,Big Data Analytics Club,Community 3,Connected
+RA251102800310,Cloud Computing,2nd Year,Section D,Cloud Computing Society,Community 4,Connected
+RA251102900311,Cybersecurity,2nd Year,Section C,Cyber Security Club,Community 5,Connected
+RA251103000312,Information Technology,2nd Year,Section B,AI & Robotics Club,Community 6,Connected
+RA251105400313,Data Science,2nd Year,Section A,Coding Club,Community 1,Connected
+RA251105600314,AIML,2nd Year,Section D,None,Community 2,Connected
+RA251100300315,CSE Core,2nd Year,Section C,ACM Student Chapter,Community 3,Connected
+RA251102700316,Big Data Analytics,2nd Year,Section B,Web3 & Open Source,Community 4,Connected
+RA251102800317,Cloud Computing,2nd Year,Section A,Big Data Analytics Club,Community 5,Connected
+RA251102900318,Cybersecurity,2nd Year,Section D,Cloud Computing Society,Community 6,Connected
+RA251103000319,Information Technology,2nd Year,Section C,Cyber Security Club,Community 1,Connected
+RA251105400320,Data Science,2nd Year,Section B,AI & Robotics Club,Community 2,Connected
+RA251105600321,AIML,2nd Year,Section A,Coding Club,Community 3,Connected
+RA251100300322,CSE Core,2nd Year,Section D,None,Community 4,Connected
+RA251102700323,Big Data Analytics,2nd Year,Section C,ACM Student Chapter,Community 5,Connected
+RA251102800324,Cloud Computing,2nd Year,Section B,Web3 & Open Source,Community 6,Connected
+RA251102900325,Cybersecurity,2nd Year,Section A,Big Data Analytics Club,Community 1,Connected
+RA251103000326,Information Technology,2nd Year,Section D,Cloud Computing Society,Community 2,Connected
+RA251105400327,Data Science,2nd Year,Section C,Cyber Security Club,Community 3,Connected
+RA251105600328,AIML,2nd Year,Section B,AI & Robotics Club,Community 4,Connected
+RA251100300329,CSE Core,2nd Year,Section A,Coding Club,Community 5,Connected
+RA251102700330,Big Data Analytics,2nd Year,Section D,None,Community 6,Connected
+RA251102800331,Cloud Computing,2nd Year,Section C,ACM Student Chapter,Community 1,Connected
+RA251102900332,Cybersecurity,2nd Year,Section B,Web3 & Open Source,Community 2,Connected
+RA251103000333,Information Technology,2nd Year,Section A,Big Data Analytics Club,Community 3,Connected
+RA251105400334,Data Science,2nd Year,Section D,Cloud Computing Society,Community 4,Connected
+RA251105600335,AIML,2nd Year,Section C,Cyber Security Club,Community 5,Connected
+RA251100300336,CSE Core,2nd Year,Section B,AI & Robotics Club,Community 6,Connected
+RA251102700337,Big Data Analytics,2nd Year,Section A,Coding Club,Community 1,Connected
+RA251102800338,Cloud Computing,2nd Year,Section D,None,Community 2,Connected
+RA251102900339,Cybersecurity,2nd Year,Section C,ACM Student Chapter,Community 3,Connected
+RA251103000340,Information Technology,2nd Year,Section B,Web3 & Open Source,Community 4,Connected
+RA251105400341,Data Science,2nd Year,Section A,Big Data Analytics Club,Community 5,Connected
+RA251105600342,AIML,2nd Year,Section D,Cloud Computing Society,Community 6,Connected
+RA251100300343,CSE Core,2nd Year,Section C,Cyber Security Club,Community 1,Connected
+RA251102700344,Big Data Analytics,2nd Year,Section B,AI & Robotics Club,Community 2,Connected
+RA251102800345,Cloud Computing,2nd Year,Section A,Coding Club,Community 3,Connected
+RA251102900346,Cybersecurity,2nd Year,Section D,None,Community 4,Connected
+RA251103000347,Information Technology,2nd Year,Section C,ACM Student Chapter,Community 5,Connected
+RA251105400348,Data Science,2nd Year,Section B,Web3 & Open Source,Community 6,Connected
+RA251105600349,AIML,2nd Year,Section A,Big Data Analytics Club,Community 1,Connected
+RA251100300350,CSE Core,2nd Year,Section D,Cloud Computing Society,Community 2,Connected
+RA251102700351,Big Data Analytics,2nd Year,Section C,Cyber Security Club,Community 3,Connected
+RA251102800352,Cloud Computing,2nd Year,Section B,AI & Robotics Club,Community 4,Connected
+RA251102900353,Cybersecurity,2nd Year,Section A,Coding Club,Community 5,Connected
+RA251103000354,Information Technology,2nd Year,Section D,None,Community 6,Connected
+RA251105400355,Data Science,2nd Year,Section C,ACM Student Chapter,Community 1,Connected
+RA251105600356,AIML,2nd Year,Section B,Web3 & Open Source,Community 2,Connected
+RA251100300357,CSE Core,2nd Year,Section A,Big Data Analytics Club,Community 3,Connected
+RA251102700358,Big Data Analytics,2nd Year,Section D,Cloud Computing Society,Community 4,Connected
+RA251102800359,Cloud Computing,2nd Year,Section C,Cyber Security Club,Community 5,Connected
+RA251102900360,Cybersecurity,2nd Year,Section B,AI & Robotics Club,Community 6,Connected
+RA251103000361,Information Technology,2nd Year,Section A,Coding Club,Isolated,Network-Isolated
+RA251105400362,Data Science,2nd Year,Section D,None,Community 2,Connected
+RA251105600363,AIML,2nd Year,Section C,ACM Student Chapter,Community 3,Connected
+RA251100300364,CSE Core,2nd Year,Section B,Web3 & Open Source,Community 4,Connected
+RA251102700365,Big Data Analytics,2nd Year,Section A,Big Data Analytics Club,Community 5,Connected
+RA251102800366,Cloud Computing,2nd Year,Section D,Cloud Computing Society,Community 6,Connected
+RA251102900367,Cybersecurity,2nd Year,Section C,Cyber Security Club,Community 1,Connected
+RA251103000368,Information Technology,2nd Year,Section B,AI & Robotics Club,Community 2,Connected
+RA251105400369,Data Science,2nd Year,Section A,Coding Club,Community 3,Connected
+RA251105600370,AIML,2nd Year,Section D,None,Community 4,Connected
+RA251100300371,CSE Core,2nd Year,Section C,ACM Student Chapter,Community 5,Connected
+RA251102700372,Big Data Analytics,2nd Year,Section B,Web3 & Open Source,Community 6,Connected
+RA251102800373,Cloud Computing,2nd Year,Section A,Big Data Analytics Club,Community 1,Connected
+RA251102900374,Cybersecurity,2nd Year,Section D,Cloud Computing Society,Community 2,Connected
+RA251103000375,Information Technology,2nd Year,Section C,Cyber Security Club,Community 3,Connected
+RA261102800376,Cloud Computing,1st Year,Section B,AI & Robotics Club,Community 4,Connected
+RA261102900377,Cybersecurity,1st Year,Section A,Coding Club,Community 5,Connected
+RA261103000378,Information Technology,1st Year,Section D,None,Community 6,Connected
+RA261105400379,Data Science,1st Year,Section C,ACM Student Chapter,Community 1,Connected
+RA261105600380,AIML,1st Year,Section B,Web3 & Open Source,Community 2,Connected
+RA261100300381,CSE Core,1st Year,Section A,Big Data Analytics Club,Community 3,Connected
+RA261102700382,Big Data Analytics,1st Year,Section D,Cloud Computing Society,Community 4,Connected
+RA261102800383,Cloud Computing,1st Year,Section C,Cyber Security Club,Community 5,Connected
+RA261102900384,Cybersecurity,1st Year,Section B,AI & Robotics Club,Community 6,Connected
+RA261103000385,Information Technology,1st Year,Section A,Coding Club,Community 1,Connected
+RA261105400386,Data Science,1st Year,Section D,None,Community 2,Connected
+RA261105600387,AIML,1st Year,Section C,ACM Student Chapter,Community 3,Connected
+RA261100300388,CSE Core,1st Year,Section B,Web3 & Open Source,Community 4,Connected
+RA261102700389,Big Data Analytics,1st Year,Section A,Big Data Analytics Club,Community 5,Connected
+RA261102800390,Cloud Computing,1st Year,Section D,Cloud Computing Society,Community 6,Connected
+RA261102900391,Cybersecurity,1st Year,Section C,Cyber Security Club,Community 1,Connected
+RA261103000392,Information Technology,1st Year,Section B,AI & Robotics Club,Community 2,Connected
+RA261105400393,Data Science,1st Year,Section A,Coding Club,Community 3,Connected
+RA261105600394,AIML,1st Year,Section D,None,Community 4,Connected
+RA261100300395,CSE Core,1st Year,Section C,ACM Student Chapter,Community 5,Connected
+RA261102700396,Big Data Analytics,1st Year,Section B,Web3 & Open Source,Community 6,Connected
+RA261102800397,Cloud Computing,1st Year,Section A,Big Data Analytics Club,Community 1,Connected
+RA261102900398,Cybersecurity,1st Year,Section D,Cloud Computing Society,Community 2,Connected
+RA261103000399,Information Technology,1st Year,Section C,Cyber Security Club,Community 3,Connected
+RA261105400400,Data Science,1st Year,Section B,AI & Robotics Club,Community 4,Connected
+RA261105600401,AIML,1st Year,Section A,Coding Club,Community 5,Connected
+RA261100300402,CSE Core,1st Year,Section D,None,Community 6,Connected
+RA261102700403,Big Data Analytics,1st Year,Section C,ACM Student Chapter,Community 1,Connected
+RA261102800404,Cloud Computing,1st Year,Section B,Web3 & Open Source,Community 2,Connected
+RA261102900405,Cybersecurity,1st Year,Section A,Big Data Analytics Club,Community 3,Connected
+RA261103000406,Information Technology,1st Year,Section D,Cloud Computing Society,Community 4,Connected
+RA261105400407,Data Science,1st Year,Section C,Cyber Security Club,Community 5,Connected
+RA261105600408,AIML,1st Year,Section B,AI & Robotics Club,Community 6,Connected
+RA261100300409,CSE Core,1st Year,Section A,Coding Club,Community 1,Connected
+RA261102700410,Big Data Analytics,1st Year,Section D,None,Community 2,Connected
+RA261102800411,Cloud Computing,1st Year,Section C,ACM Student Chapter,Community 3,Connected
+RA261102900412,Cybersecurity,1st Year,Section B,Web3 & Open Source,Community 4,Connected
+RA261103000413,Information Technology,1st Year,Section A,Big Data Analytics Club,Community 5,Connected
+RA261105400414,Data Science,1st Year,Section D,Cloud Computing Society,Community 6,Connected
+RA261105600415,AIML,1st Year,Section C,Cyber Security Club,Community 1,Connected
+RA261100300416,CSE Core,1st Year,Section B,AI & Robotics Club,Community 2,Connected
+RA261102700417,Big Data Analytics,1st Year,Section A,Coding Club,Community 3,Connected
+RA261102800418,Cloud Computing,1st Year,Section D,None,Community 4,Connected
+RA261102900419,Cybersecurity,1st Year,Section C,ACM Student Chapter,Community 5,Connected
+RA261103000420,Information Technology,1st Year,Section B,Web3 & Open Source,Community 6,Connected
+RA261105400421,Data Science,1st Year,Section A,Big Data Analytics Club,Community 1,Connected
+RA261105600422,AIML,1st Year,Section D,Cloud Computing Society,Community 2,Connected
+RA261100300423,CSE Core,1st Year,Section C,Cyber Security Club,Community 3,Connected
+RA261102700424,Big Data Analytics,1st Year,Section B,AI & Robotics Club,Community 4,Connected
+RA261102800425,Cloud Computing,1st Year,Section A,Coding Club,Community 5,Connected
+RA261102900426,Cybersecurity,1st Year,Section D,None,Isolated,Network-Isolated
+RA261103000427,Information Technology,1st Year,Section C,ACM Student Chapter,Community 1,Connected
+RA261105400428,Data Science,1st Year,Section B,Web3 & Open Source,Community 2,Connected
+RA261105600429,AIML,1st Year,Section A,Big Data Analytics Club,Community 3,Connected
+RA261100300430,CSE Core,1st Year,Section D,Cloud Computing Society,Community 4,Connected
+RA261102700431,Big Data Analytics,1st Year,Section C,Cyber Security Club,Community 5,Connected
+RA261102800432,Cloud Computing,1st Year,Section B,AI & Robotics Club,Community 6,Connected
+RA261102900433,Cybersecurity,1st Year,Section A,Coding Club,Community 1,Connected
+RA261103000434,Information Technology,1st Year,Section D,None,Community 2,Connected
+RA261105400435,Data Science,1st Year,Section C,ACM Student Chapter,Community 3,Connected
+RA261105600436,AIML,1st Year,Section B,Web3 & Open Source,Community 4,Connected
+RA261100300437,CSE Core,1st Year,Section A,Big Data Analytics Club,Community 5,Connected
+RA261102700438,Big Data Analytics,1st Year,Section D,Cloud Computing Society,Community 6,Connected
+RA261102800439,Cloud Computing,1st Year,Section C,Cyber Security Club,Community 1,Connected
+RA261102900440,Cybersecurity,1st Year,Section B,AI & Robotics Club,Community 2,Connected
+RA261103000441,Information Technology,1st Year,Section A,Coding Club,Community 3,Connected
+RA261105400442,Data Science,1st Year,Section D,None,Community 4,Connected
+RA261105600443,AIML,1st Year,Section C,ACM Student Chapter,Community 5,Connected
+RA261100300444,CSE Core,1st Year,Section B,Web3 & Open Source,Community 6,Connected
+RA261102700445,Big Data Analytics,1st Year,Section A,Big Data Analytics Club,Community 1,Connected
+RA261102800446,Cloud Computing,1st Year,Section D,Cloud Computing Society,Community 2,Connected
+RA261102900447,Cybersecurity,1st Year,Section C,Cyber Security Club,Community 3,Connected
+RA261103000448,Information Technology,1st Year,Section B,AI & Robotics Club,Community 4,Connected
+RA261105400449,Data Science,1st Year,Section A,Coding Club,Community 5,Connected
+RA261105600450,AIML,1st Year,Section D,None,Community 6,Connected
+RA261100300451,CSE Core,1st Year,Section C,ACM Student Chapter,Community 1,Connected
+RA261102700452,Big Data Analytics,1st Year,Section B,Web3 & Open Source,Community 2,Connected
+RA261102800453,Cloud Computing,1st Year,Section A,Big Data Analytics Club,Community 3,Connected
+RA261102900454,Cybersecurity,1st Year,Section D,Cloud Computing Society,Community 4,Connected
+RA261103000455,Information Technology,1st Year,Section C,Cyber Security Club,Community 5,Connected
+RA261105400456,Data Science,1st Year,Section B,AI & Robotics Club,Community 6,Connected
+RA261105600457,AIML,1st Year,Section A,Coding Club,Community 1,Connected
+RA261100300458,CSE Core,1st Year,Section D,None,Community 2,Connected
+RA261102700459,Big Data Analytics,1st Year,Section C,ACM Student Chapter,Community 3,Connected
+RA261102800460,Cloud Computing,1st Year,Section B,Web3 & Open Source,Community 4,Connected
+RA261102900461,Cybersecurity,1st Year,Section A,Big Data Analytics Club,Community 5,Connected
+RA261103000462,Information Technology,1st Year,Section D,Cloud Computing Society,Community 6,Connected
+RA261105400463,Data Science,1st Year,Section C,Cyber Security Club,Community 1,Connected
+RA261105600464,AIML,1st Year,Section B,AI & Robotics Club,Community 2,Connected
+RA261100300465,CSE Core,1st Year,Section A,Coding Club,Community 3,Connected
+RA261102700466,Big Data Analytics,1st Year,Section D,None,Community 4,Connected
+RA261102800467,Cloud Computing,1st Year,Section C,ACM Student Chapter,Community 5,Connected
+RA261102900468,Cybersecurity,1st Year,Section B,Web3 & Open Source,Community 6,Connected
+RA261103000469,Information Technology,1st Year,Section A,Big Data Analytics Club,Community 1,Connected
+RA261105400470,Data Science,1st Year,Section D,Cloud Computing Society,Community 2,Connected
+RA261105600471,AIML,1st Year,Section C,Cyber Security Club,Community 3,Connected
+RA261100300472,CSE Core,1st Year,Section B,AI & Robotics Club,Community 4,Connected
+RA261102700473,Big Data Analytics,1st Year,Section A,Coding Club,Community 5,Connected
+RA261102800474,Cloud Computing,1st Year,Section D,None,Community 6,Connected
+RA261102900475,Cybersecurity,1st Year,Section C,ACM Student Chapter,Community 1,Connected
+RA261103000476,Information Technology,1st Year,Section B,Web3 & Open Source,Community 2,Connected
+RA261105400477,Data Science,1st Year,Section A,Big Data Analytics Club,Community 3,Connected
+RA261105600478,AIML,1st Year,Section D,Cloud Computing Society,Community 4,Connected
+RA261100300479,CSE Core,1st Year,Section C,Cyber Security Club,Community 5,Connected
+RA261102700480,Big Data Analytics,1st Year,Section B,AI & Robotics Club,Community 6,Connected
+RA261102800481,Cloud Computing,1st Year,Section A,Coding Club,Community 1,Connected
+RA261102900482,Cybersecurity,1st Year,Section D,None,Community 2,Connected
+RA261103000483,Information Technology,1st Year,Section C,ACM Student Chapter,Community 3,Connected
+RA261105400484,Data Science,1st Year,Section B,Web3 & Open Source,Community 4,Connected
+RA261105600485,AIML,1st Year,Section A,Big Data Analytics Club,Community 5,Connected
+RA261100300486,CSE Core,1st Year,Section D,Cloud Computing Society,Community 6,Connected
+RA261102700487,Big Data Analytics,1st Year,Section C,Cyber Security Club,Community 1,Connected
+RA261102800488,Cloud Computing,1st Year,Section B,AI & Robotics Club,Community 2,Connected
+RA261102900489,Cybersecurity,1st Year,Section A,Coding Club,Community 3,Connected
+RA261103000490,Information Technology,1st Year,Section D,None,Community 4,Connected
+RA261105400491,Data Science,1st Year,Section C,ACM Student Chapter,Isolated,Network-Isolated
+RA261105600492,AIML,1st Year,Section B,Web3 & Open Source,Community 6,Connected
+RA261100300493,CSE Core,1st Year,Section A,Big Data Analytics Club,Community 1,Connected
+RA261102700494,Big Data Analytics,1st Year,Section D,Cloud Computing Society,Community 2,Connected
+RA261102800495,Cloud Computing,1st Year,Section C,Cyber Security Club,Community 3,Connected
+RA261102900496,Cybersecurity,1st Year,Section B,AI & Robotics Club,Community 4,Connected
+RA261103000497,Information Technology,1st Year,Section A,Coding Club,Community 5,Connected
+RA261105400498,Data Science,1st Year,Section D,None,Community 6,Connected
+RA261105600499,AIML,1st Year,Section C,ACM Student Chapter,Community 1,Connected
+RA261100300500,CSE Core,1st Year,Section B,Web3 & Open Source,Community 2,Connected

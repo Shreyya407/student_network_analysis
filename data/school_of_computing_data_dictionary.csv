@@ -1,0 +1,15 @@
+dataset,column_name,data_type,description,example_value
+students,registration_number,string,Unique university registration number (RA23/RA24/RA25/RA26 + 110 + DeptCode + Serial),RA2311028010141
+students,department,string,School of Computing academic department program,Cloud Computing
+students,year,string,Academic cohort year (1st Year to 4th Year),4th Year
+students,section,string,Classroom academic section,Section B
+students,club,string,Extracurricular technical/social club affiliation,Coding Club
+students,synthetic_community,string,Synthetic baseline community tag for academic validation only,Community 2
+students,network_status,string,Graph connectivity state (Connected vs Network-Isolated),Connected
+interactions,edge_id,string,Unique undirected edge identifier,E00001
+interactions,registration_number_1,string,Registration number of student 1,RA2311003010001
+interactions,registration_number_2,string,Registration number of student 2,RA2411028010045
+interactions,interaction_count,integer,Cumulative weighted frequency of observed interactions,7
+interactions,interaction_type,string,Primary context of recorded peer interaction,Project Team
+events,event_id,string,Longitudinal event timestamp log identifier,EV00001
+events,period,string,Academic semester milestone observation window,Odd Sem 2025 - Midterm

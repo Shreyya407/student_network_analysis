@@ -1,0 +1,617 @@
+registration_number,department,year,section,club,network_status
+RA23110030000001,CSE Core,4th Year,A,Cyber Security Club,Connected
+RA23110030000002,CSE Core,4th Year,A,Open Source Club,Connected
+RA23110030000003,CSE Core,4th Year,A,Entrepreneurship Club,Connected
+RA23110030000004,CSE Core,4th Year,A,AI & ML Club,Connected
+RA23110030000005,CSE Core,4th Year,A,Data Science Club,Connected
+RA23110030000006,CSE Core,4th Year,A,Sports Club,Connected
+RA23110030000007,CSE Core,4th Year,A,None,Connected
+RA23110030000008,CSE Core,4th Year,A,Cloud Club,Connected
+RA23110030000009,CSE Core,4th Year,A,Robotics Club,Connected
+RA23110030000010,CSE Core,4th Year,A,Cultural Club,Connected
+RA23110030000011,CSE Core,4th Year,A,Coding Club,Connected
+RA23110030000012,CSE Core,4th Year,A,Cyber Security Club,Connected
+RA23110030000013,CSE Core,4th Year,A,Open Source Club,Connected
+RA23110030000014,CSE Core,4th Year,A,Entrepreneurship Club,Connected
+RA23110030000015,CSE Core,4th Year,A,AI & ML Club,Connected
+RA23110030000016,CSE Core,4th Year,A,Data Science Club,Connected
+RA23110030000017,CSE Core,4th Year,A,Sports Club,Connected
+RA23110030000018,CSE Core,4th Year,A,None,Connected
+RA23110030000019,CSE Core,4th Year,A,Cloud Club,Connected
+RA23110030000020,CSE Core,4th Year,A,Robotics Club,Connected
+RA23110030000021,CSE Core,4th Year,A,Cultural Club,Connected
+RA23110030000022,CSE Core,4th Year,A,Coding Club,Connected
+RA24110030000023,CSE Core,3rd Year,A,Cyber Security Club,Connected
+RA24110030000024,CSE Core,3rd Year,A,Open Source Club,Connected
+RA24110030000025,CSE Core,3rd Year,A,Entrepreneurship Club,Connected
+RA24110030000026,CSE Core,3rd Year,A,AI & ML Club,Connected
+RA24110030000027,CSE Core,3rd Year,A,Data Science Club,Connected
+RA24110030000028,CSE Core,3rd Year,A,Sports Club,Connected
+RA24110030000029,CSE Core,3rd Year,A,None,Connected
+RA24110030000030,CSE Core,3rd Year,A,Cloud Club,Connected
+RA24110030000031,CSE Core,3rd Year,A,Robotics Club,Connected
+RA24110030000032,CSE Core,3rd Year,A,Cultural Club,Connected
+RA24110030000033,CSE Core,3rd Year,A,Coding Club,Connected
+RA24110030000034,CSE Core,3rd Year,A,Cyber Security Club,Connected
+RA24110030000035,CSE Core,3rd Year,A,Open Source Club,Connected
+RA24110030000036,CSE Core,3rd Year,A,Entrepreneurship Club,Connected
+RA24110030000037,CSE Core,3rd Year,A,AI & ML Club,Connected
+RA24110030000038,CSE Core,3rd Year,A,Data Science Club,Connected
+RA24110030000039,CSE Core,3rd Year,A,Sports Club,Connected
+RA24110030000040,CSE Core,3rd Year,A,None,Connected
+RA24110030000041,CSE Core,3rd Year,A,Cloud Club,Connected
+RA24110030000042,CSE Core,3rd Year,A,Robotics Club,Connected
+RA24110030000043,CSE Core,3rd Year,A,Cultural Club,Connected
+RA24110030000044,CSE Core,3rd Year,A,Coding Club,Connected
+RA25110030000045,CSE Core,2nd Year,A,Cyber Security Club,Connected
+RA25110030000046,CSE Core,2nd Year,A,Open Source Club,Connected
+RA25110030000047,CSE Core,2nd Year,A,Entrepreneurship Club,Connected
+RA25110030000048,CSE Core,2nd Year,A,AI & ML Club,Connected
+RA25110030000049,CSE Core,2nd Year,A,Data Science Club,Connected
+RA25110030000050,CSE Core,2nd Year,A,Sports Club,Connected
+RA25110030000051,CSE Core,2nd Year,A,None,Connected
+RA25110030000052,CSE Core,2nd Year,A,Cloud Club,Connected
+RA25110030000053,CSE Core,2nd Year,A,Robotics Club,Connected
+RA25110030000054,CSE Core,2nd Year,A,Cultural Club,Connected
+RA25110030000055,CSE Core,2nd Year,A,Coding Club,Connected
+RA25110030000056,CSE Core,2nd Year,A,Cyber Security Club,Connected
+RA25110030000057,CSE Core,2nd Year,A,Open Source Club,Connected
+RA25110030000058,CSE Core,2nd Year,A,Entrepreneurship Club,Connected
+RA25110030000059,CSE Core,2nd Year,A,AI & ML Club,Connected
+RA25110030000060,CSE Core,2nd Year,A,Data Science Club,Connected
+RA25110030000061,CSE Core,2nd Year,A,Sports Club,Connected
+RA25110030000062,CSE Core,2nd Year,A,None,Connected
+RA25110030000063,CSE Core,2nd Year,A,Cloud Club,Connected
+RA25110030000064,CSE Core,2nd Year,A,Robotics Club,Connected
+RA25110030000065,CSE Core,2nd Year,A,Cultural Club,Connected
+RA25110030000066,CSE Core,2nd Year,A,Coding Club,Connected
+RA26110030000067,CSE Core,1st Year,A,Cyber Security Club,Connected
+RA26110030000068,CSE Core,1st Year,A,Open Source Club,Connected
+RA26110030000069,CSE Core,1st Year,A,Entrepreneurship Club,Connected
+RA26110030000070,CSE Core,1st Year,A,AI & ML Club,Connected
+RA26110030000071,CSE Core,1st Year,A,Data Science Club,Connected
+RA26110030000072,CSE Core,1st Year,A,Sports Club,Connected
+RA26110030000073,CSE Core,1st Year,A,None,Connected
+RA26110030000074,CSE Core,1st Year,A,Cloud Club,Connected
+RA26110030000075,CSE Core,1st Year,A,Robotics Club,Connected
+RA26110030000076,CSE Core,1st Year,A,Cultural Club,Connected
+RA26110030000077,CSE Core,1st Year,A,Coding Club,Connected
+RA26110030000078,CSE Core,1st Year,A,Cyber Security Club,Connected
+RA26110030000079,CSE Core,1st Year,A,Open Source Club,Connected
+RA26110030000080,CSE Core,1st Year,A,Entrepreneurship Club,Connected
+RA26110030000081,CSE Core,1st Year,A,AI & ML Club,Connected
+RA26110030000082,CSE Core,1st Year,A,Data Science Club,Connected
+RA26110030000083,CSE Core,1st Year,A,Sports Club,Connected
+RA26110030000084,CSE Core,1st Year,A,None,Connected
+RA26110030000085,CSE Core,1st Year,A,Cloud Club,Connected
+RA26110030000086,CSE Core,1st Year,A,Robotics Club,Connected
+RA26110030000087,CSE Core,1st Year,A,Cultural Club,Connected
+RA26110030000088,CSE Core,1st Year,A,Coding Club,Connected
+RA23110270000001,Big Data Analytics,4th Year,A,Robotics Club,Connected
+RA23110270000002,Big Data Analytics,4th Year,A,Cultural Club,Connected
+RA23110270000003,Big Data Analytics,4th Year,A,Coding Club,Connected
+RA23110270000004,Big Data Analytics,4th Year,A,Cyber Security Club,Connected
+RA23110270000005,Big Data Analytics,4th Year,A,Open Source Club,Connected
+RA23110270000006,Big Data Analytics,4th Year,A,Entrepreneurship Club,Connected
+RA23110270000007,Big Data Analytics,4th Year,A,AI & ML Club,Connected
+RA23110270000008,Big Data Analytics,4th Year,A,Data Science Club,Connected
+RA23110270000009,Big Data Analytics,4th Year,A,Sports Club,Connected
+RA23110270000010,Big Data Analytics,4th Year,A,None,Connected
+RA23110270000011,Big Data Analytics,4th Year,A,Cloud Club,Connected
+RA23110270000012,Big Data Analytics,4th Year,A,Robotics Club,Connected
+RA23110270000013,Big Data Analytics,4th Year,A,Cultural Club,Connected
+RA23110270000014,Big Data Analytics,4th Year,A,Coding Club,Connected
+RA23110270000015,Big Data Analytics,4th Year,A,Cyber Security Club,Connected
+RA23110270000016,Big Data Analytics,4th Year,A,Open Source Club,Connected
+RA23110270000017,Big Data Analytics,4th Year,A,Entrepreneurship Club,Connected
+RA23110270000018,Big Data Analytics,4th Year,A,AI & ML Club,Connected
+RA23110270000019,Big Data Analytics,4th Year,A,Data Science Club,Connected
+RA23110270000020,Big Data Analytics,4th Year,A,Sports Club,Connected
+RA23110270000021,Big Data Analytics,4th Year,A,None,Connected
+RA23110270000022,Big Data Analytics,4th Year,A,Cloud Club,Connected
+RA24110270000023,Big Data Analytics,3rd Year,A,Robotics Club,Connected
+RA24110270000024,Big Data Analytics,3rd Year,A,Cultural Club,Connected
+RA24110270000025,Big Data Analytics,3rd Year,A,Coding Club,Connected
+RA24110270000026,Big Data Analytics,3rd Year,A,Cyber Security Club,Connected
+RA24110270000027,Big Data Analytics,3rd Year,A,Open Source Club,Connected
+RA24110270000028,Big Data Analytics,3rd Year,A,Entrepreneurship Club,Connected
+RA24110270000029,Big Data Analytics,3rd Year,A,AI & ML Club,Connected
+RA24110270000030,Big Data Analytics,3rd Year,A,Data Science Club,Connected
+RA24110270000031,Big Data Analytics,3rd Year,A,Sports Club,Connected
+RA24110270000032,Big Data Analytics,3rd Year,A,None,Connected
+RA24110270000033,Big Data Analytics,3rd Year,A,Cloud Club,Connected
+RA24110270000034,Big Data Analytics,3rd Year,A,Robotics Club,Connected
+RA24110270000035,Big Data Analytics,3rd Year,A,Cultural Club,Connected
+RA24110270000036,Big Data Analytics,3rd Year,A,Coding Club,Connected
+RA24110270000037,Big Data Analytics,3rd Year,A,Cyber Security Club,Connected
+RA24110270000038,Big Data Analytics,3rd Year,A,Open Source Club,Connected
+RA24110270000039,Big Data Analytics,3rd Year,A,Entrepreneurship Club,Connected
+RA24110270000040,Big Data Analytics,3rd Year,A,AI & ML Club,Connected
+RA24110270000041,Big Data Analytics,3rd Year,A,Data Science Club,Connected
+RA24110270000042,Big Data Analytics,3rd Year,A,Sports Club,Connected
+RA24110270000043,Big Data Analytics,3rd Year,A,None,Connected
+RA24110270000044,Big Data Analytics,3rd Year,A,Cloud Club,Connected
+RA25110270000045,Big Data Analytics,2nd Year,A,Robotics Club,Connected
+RA25110270000046,Big Data Analytics,2nd Year,A,Cultural Club,Connected
+RA25110270000047,Big Data Analytics,2nd Year,A,Coding Club,Connected
+RA25110270000048,Big Data Analytics,2nd Year,A,Cyber Security Club,Connected
+RA25110270000049,Big Data Analytics,2nd Year,A,Open Source Club,Connected
+RA25110270000050,Big Data Analytics,2nd Year,A,Entrepreneurship Club,Connected
+RA25110270000051,Big Data Analytics,2nd Year,A,AI & ML Club,Connected
+RA25110270000052,Big Data Analytics,2nd Year,A,Data Science Club,Connected
+RA25110270000053,Big Data Analytics,2nd Year,A,Sports Club,Connected
+RA25110270000054,Big Data Analytics,2nd Year,A,None,Connected
+RA25110270000055,Big Data Analytics,2nd Year,A,Cloud Club,Connected
+RA25110270000056,Big Data Analytics,2nd Year,A,Robotics Club,Connected
+RA25110270000057,Big Data Analytics,2nd Year,A,Cultural Club,Connected
+RA25110270000058,Big Data Analytics,2nd Year,A,Coding Club,Connected
+RA25110270000059,Big Data Analytics,2nd Year,A,Cyber Security Club,Connected
+RA25110270000060,Big Data Analytics,2nd Year,A,Open Source Club,Connected
+RA25110270000061,Big Data Analytics,2nd Year,A,Entrepreneurship Club,Connected
+RA25110270000062,Big Data Analytics,2nd Year,A,AI & ML Club,Connected
+RA25110270000063,Big Data Analytics,2nd Year,A,Data Science Club,Connected
+RA25110270000064,Big Data Analytics,2nd Year,A,Sports Club,Connected
+RA25110270000065,Big Data Analytics,2nd Year,A,None,Connected
+RA25110270000066,Big Data Analytics,2nd Year,A,Cloud Club,Connected
+RA26110270000067,Big Data Analytics,1st Year,A,Robotics Club,Connected
+RA26110270000068,Big Data Analytics,1st Year,A,Cultural Club,Connected
+RA26110270000069,Big Data Analytics,1st Year,A,Coding Club,Connected
+RA26110270000070,Big Data Analytics,1st Year,A,Cyber Security Club,Connected
+RA26110270000071,Big Data Analytics,1st Year,A,Open Source Club,Connected
+RA26110270000072,Big Data Analytics,1st Year,A,Entrepreneurship Club,Connected
+RA26110270000073,Big Data Analytics,1st Year,A,AI & ML Club,Connected
+RA26110270000074,Big Data Analytics,1st Year,A,Data Science Club,Connected
+RA26110270000075,Big Data Analytics,1st Year,A,Sports Club,Connected
+RA26110270000076,Big Data Analytics,1st Year,A,None,Connected
+RA26110270000077,Big Data Analytics,1st Year,A,Cloud Club,Connected
+RA26110270000078,Big Data Analytics,1st Year,A,Robotics Club,Connected
+RA26110270000079,Big Data Analytics,1st Year,A,Cultural Club,Connected
+RA26110270000080,Big Data Analytics,1st Year,A,Coding Club,Connected
+RA26110270000081,Big Data Analytics,1st Year,A,Cyber Security Club,Connected
+RA26110270000082,Big Data Analytics,1st Year,A,Open Source Club,Connected
+RA26110270000083,Big Data Analytics,1st Year,A,Entrepreneurship Club,Connected
+RA26110270000084,Big Data Analytics,1st Year,A,AI & ML Club,Connected
+RA26110270000085,Big Data Analytics,1st Year,A,Data Science Club,Connected
+RA26110270000086,Big Data Analytics,1st Year,A,Sports Club,Connected
+RA26110270000087,Big Data Analytics,1st Year,A,None,Connected
+RA26110270000088,Big Data Analytics,1st Year,A,Cloud Club,Connected
+RA23110280000001,Cloud Computing,4th Year,A,Open Source Club,Connected
+RA23110280000002,Cloud Computing,4th Year,A,Entrepreneurship Club,Connected
+RA23110280000003,Cloud Computing,4th Year,A,AI & ML Club,Connected
+RA23110280000004,Cloud Computing,4th Year,A,Data Science Club,Connected
+RA23110280000005,Cloud Computing,4th Year,A,Sports Club,Connected
+RA23110280000006,Cloud Computing,4th Year,A,None,Connected
+RA23110280000007,Cloud Computing,4th Year,A,Cloud Club,Connected
+RA23110280000008,Cloud Computing,4th Year,A,Robotics Club,Connected
+RA23110280000009,Cloud Computing,4th Year,A,Cultural Club,Connected
+RA23110280000010,Cloud Computing,4th Year,A,Coding Club,Connected
+RA23110280000011,Cloud Computing,4th Year,A,Cyber Security Club,Connected
+RA23110280000012,Cloud Computing,4th Year,A,Open Source Club,Connected
+RA23110280000013,Cloud Computing,4th Year,A,Entrepreneurship Club,Connected
+RA23110280000014,Cloud Computing,4th Year,A,AI & ML Club,Connected
+RA23110280000015,Cloud Computing,4th Year,A,Data Science Club,Connected
+RA23110280000016,Cloud Computing,4th Year,A,Sports Club,Connected
+RA23110280000017,Cloud Computing,4th Year,A,None,Connected
+RA23110280000018,Cloud Computing,4th Year,A,Cloud Club,Connected
+RA23110280000019,Cloud Computing,4th Year,A,Robotics Club,Connected
+RA23110280000020,Cloud Computing,4th Year,A,Cultural Club,Connected
+RA23110280000021,Cloud Computing,4th Year,A,Coding Club,Connected
+RA23110280000022,Cloud Computing,4th Year,A,Cyber Security Club,Connected
+RA24110280000023,Cloud Computing,3rd Year,A,Open Source Club,Connected
+RA24110280000024,Cloud Computing,3rd Year,A,Entrepreneurship Club,Connected
+RA24110280000025,Cloud Computing,3rd Year,A,AI & ML Club,Connected
+RA24110280000026,Cloud Computing,3rd Year,A,Data Science Club,Connected
+RA24110280000027,Cloud Computing,3rd Year,A,Sports Club,Connected
+RA24110280000028,Cloud Computing,3rd Year,A,None,Connected
+RA24110280000029,Cloud Computing,3rd Year,A,Cloud Club,Connected
+RA24110280000030,Cloud Computing,3rd Year,A,Robotics Club,Connected
+RA24110280000031,Cloud Computing,3rd Year,A,Cultural Club,Connected
+RA24110280000032,Cloud Computing,3rd Year,A,Coding Club,Connected
+RA24110280000033,Cloud Computing,3rd Year,A,Cyber Security Club,Connected
+RA24110280000034,Cloud Computing,3rd Year,A,Open Source Club,Connected
+RA24110280000035,Cloud Computing,3rd Year,A,Entrepreneurship Club,Connected
+RA24110280000036,Cloud Computing,3rd Year,A,AI & ML Club,Connected
+RA24110280000037,Cloud Computing,3rd Year,A,Data Science Club,Connected
+RA24110280000038,Cloud Computing,3rd Year,A,Sports Club,Connected
+RA24110280000039,Cloud Computing,3rd Year,A,None,Connected
+RA24110280000040,Cloud Computing,3rd Year,A,Cloud Club,Connected
+RA24110280000041,Cloud Computing,3rd Year,A,Robotics Club,Connected
+RA24110280000042,Cloud Computing,3rd Year,A,Cultural Club,Connected
+RA24110280000043,Cloud Computing,3rd Year,A,Coding Club,Connected
+RA24110280000044,Cloud Computing,3rd Year,A,Cyber Security Club,Connected
+RA25110280000045,Cloud Computing,2nd Year,A,Open Source Club,Connected
+RA25110280000046,Cloud Computing,2nd Year,A,Entrepreneurship Club,Connected
+RA25110280000047,Cloud Computing,2nd Year,A,AI & ML Club,Connected
+RA25110280000048,Cloud Computing,2nd Year,A,Data Science Club,Connected
+RA25110280000049,Cloud Computing,2nd Year,A,Sports Club,Connected
+RA25110280000050,Cloud Computing,2nd Year,A,None,Connected
+RA25110280000051,Cloud Computing,2nd Year,A,Cloud Club,Connected
+RA25110280000052,Cloud Computing,2nd Year,A,Robotics Club,Connected
+RA25110280000053,Cloud Computing,2nd Year,A,Cultural Club,Connected
+RA25110280000054,Cloud Computing,2nd Year,A,Coding Club,Connected
+RA25110280000055,Cloud Computing,2nd Year,A,Cyber Security Club,Connected
+RA25110280000056,Cloud Computing,2nd Year,A,Open Source Club,Connected
+RA25110280000057,Cloud Computing,2nd Year,A,Entrepreneurship Club,Connected
+RA25110280000058,Cloud Computing,2nd Year,A,AI & ML Club,Connected
+RA25110280000059,Cloud Computing,2nd Year,A,Data Science Club,Connected
+RA25110280000060,Cloud Computing,2nd Year,A,Sports Club,Connected
+RA25110280000061,Cloud Computing,2nd Year,A,None,Connected
+RA25110280000062,Cloud Computing,2nd Year,A,Cloud Club,Connected
+RA25110280000063,Cloud Computing,2nd Year,A,Robotics Club,Connected
+RA25110280000064,Cloud Computing,2nd Year,A,Cultural Club,Connected
+RA25110280000065,Cloud Computing,2nd Year,A,Coding Club,Connected
+RA25110280000066,Cloud Computing,2nd Year,A,Cyber Security Club,Connected
+RA26110280000067,Cloud Computing,1st Year,A,Open Source Club,Connected
+RA26110280000068,Cloud Computing,1st Year,A,Entrepreneurship Club,Connected
+RA26110280000069,Cloud Computing,1st Year,A,AI & ML Club,Connected
+RA26110280000070,Cloud Computing,1st Year,A,Data Science Club,Connected
+RA26110280000071,Cloud Computing,1st Year,A,Sports Club,Connected
+RA26110280000072,Cloud Computing,1st Year,A,None,Connected
+RA26110280000073,Cloud Computing,1st Year,A,Cloud Club,Connected
+RA26110280000074,Cloud Computing,1st Year,A,Robotics Club,Connected
+RA26110280000075,Cloud Computing,1st Year,A,Cultural Club,Connected
+RA26110280000076,Cloud Computing,1st Year,A,Coding Club,Connected
+RA26110280000077,Cloud Computing,1st Year,A,Cyber Security Club,Connected
+RA26110280000078,Cloud Computing,1st Year,A,Open Source Club,Connected
+RA26110280000079,Cloud Computing,1st Year,A,Entrepreneurship Club,Connected
+RA26110280000080,Cloud Computing,1st Year,A,AI & ML Club,Connected
+RA26110280000081,Cloud Computing,1st Year,A,Data Science Club,Connected
+RA26110280000082,Cloud Computing,1st Year,A,Sports Club,Connected
+RA26110280000083,Cloud Computing,1st Year,A,None,Connected
+RA26110280000084,Cloud Computing,1st Year,A,Cloud Club,Connected
+RA26110280000085,Cloud Computing,1st Year,A,Robotics Club,Connected
+RA26110280000086,Cloud Computing,1st Year,A,Cultural Club,Connected
+RA26110280000087,Cloud Computing,1st Year,A,Coding Club,Connected
+RA26110280000088,Cloud Computing,1st Year,A,Cyber Security Club,Connected
+RA23110290000001,Cybersecurity,4th Year,A,Sports Club,Connected
+RA23110290000002,Cybersecurity,4th Year,A,None,Connected
+RA23110290000003,Cybersecurity,4th Year,A,Cloud Club,Connected
+RA23110290000004,Cybersecurity,4th Year,A,Robotics Club,Connected
+RA23110290000005,Cybersecurity,4th Year,A,Cultural Club,Connected
+RA23110290000006,Cybersecurity,4th Year,A,Coding Club,Connected
+RA23110290000007,Cybersecurity,4th Year,A,Cyber Security Club,Connected
+RA23110290000008,Cybersecurity,4th Year,A,Open Source Club,Connected
+RA23110290000009,Cybersecurity,4th Year,A,Entrepreneurship Club,Connected
+RA23110290000010,Cybersecurity,4th Year,A,AI & ML Club,Connected
+RA23110290000011,Cybersecurity,4th Year,A,Data Science Club,Connected
+RA23110290000012,Cybersecurity,4th Year,A,Sports Club,Connected
+RA23110290000013,Cybersecurity,4th Year,A,None,Connected
+RA23110290000014,Cybersecurity,4th Year,A,Cloud Club,Connected
+RA23110290000015,Cybersecurity,4th Year,A,Robotics Club,Connected
+RA23110290000016,Cybersecurity,4th Year,A,Cultural Club,Connected
+RA23110290000017,Cybersecurity,4th Year,A,Coding Club,Connected
+RA23110290000018,Cybersecurity,4th Year,A,Cyber Security Club,Connected
+RA23110290000019,Cybersecurity,4th Year,A,Open Source Club,Connected
+RA23110290000020,Cybersecurity,4th Year,A,Entrepreneurship Club,Connected
+RA23110290000021,Cybersecurity,4th Year,A,AI & ML Club,Connected
+RA23110290000022,Cybersecurity,4th Year,A,Data Science Club,Connected
+RA24110290000023,Cybersecurity,3rd Year,A,Sports Club,Connected
+RA24110290000024,Cybersecurity,3rd Year,A,None,Connected
+RA24110290000025,Cybersecurity,3rd Year,A,Cloud Club,Connected
+RA24110290000026,Cybersecurity,3rd Year,A,Robotics Club,Connected
+RA24110290000027,Cybersecurity,3rd Year,A,Cultural Club,Connected
+RA24110290000028,Cybersecurity,3rd Year,A,Coding Club,Connected
+RA24110290000029,Cybersecurity,3rd Year,A,Cyber Security Club,Connected
+RA24110290000030,Cybersecurity,3rd Year,A,Open Source Club,Connected
+RA24110290000031,Cybersecurity,3rd Year,A,Entrepreneurship Club,Connected
+RA24110290000032,Cybersecurity,3rd Year,A,AI & ML Club,Connected
+RA24110290000033,Cybersecurity,3rd Year,A,Data Science Club,Connected
+RA24110290000034,Cybersecurity,3rd Year,A,Sports Club,Connected
+RA24110290000035,Cybersecurity,3rd Year,A,None,Connected
+RA24110290000036,Cybersecurity,3rd Year,A,Cloud Club,Connected
+RA24110290000037,Cybersecurity,3rd Year,A,Robotics Club,Connected
+RA24110290000038,Cybersecurity,3rd Year,A,Cultural Club,Connected
+RA24110290000039,Cybersecurity,3rd Year,A,Coding Club,Connected
+RA24110290000040,Cybersecurity,3rd Year,A,Cyber Security Club,Connected
+RA24110290000041,Cybersecurity,3rd Year,A,Open Source Club,Connected
+RA24110290000042,Cybersecurity,3rd Year,A,Entrepreneurship Club,Connected
+RA24110290000043,Cybersecurity,3rd Year,A,AI & ML Club,Connected
+RA24110290000044,Cybersecurity,3rd Year,A,Data Science Club,Connected
+RA25110290000045,Cybersecurity,2nd Year,A,Sports Club,Connected
+RA25110290000046,Cybersecurity,2nd Year,A,None,Connected
+RA25110290000047,Cybersecurity,2nd Year,A,Cloud Club,Connected
+RA25110290000048,Cybersecurity,2nd Year,A,Robotics Club,Connected
+RA25110290000049,Cybersecurity,2nd Year,A,Cultural Club,Connected
+RA25110290000050,Cybersecurity,2nd Year,A,Coding Club,Connected
+RA25110290000051,Cybersecurity,2nd Year,A,Cyber Security Club,Connected
+RA25110290000052,Cybersecurity,2nd Year,A,Open Source Club,Connected
+RA25110290000053,Cybersecurity,2nd Year,A,Entrepreneurship Club,Connected
+RA25110290000054,Cybersecurity,2nd Year,A,AI & ML Club,Connected
+RA25110290000055,Cybersecurity,2nd Year,A,Data Science Club,Connected
+RA25110290000056,Cybersecurity,2nd Year,A,Sports Club,Connected
+RA25110290000057,Cybersecurity,2nd Year,A,None,Connected
+RA25110290000058,Cybersecurity,2nd Year,A,Cloud Club,Connected
+RA25110290000059,Cybersecurity,2nd Year,A,Robotics Club,Connected
+RA25110290000060,Cybersecurity,2nd Year,A,Cultural Club,Connected
+RA25110290000061,Cybersecurity,2nd Year,A,Coding Club,Connected
+RA25110290000062,Cybersecurity,2nd Year,A,Cyber Security Club,Connected
+RA25110290000063,Cybersecurity,2nd Year,A,Open Source Club,Connected
+RA25110290000064,Cybersecurity,2nd Year,A,Entrepreneurship Club,Connected
+RA25110290000065,Cybersecurity,2nd Year,A,AI & ML Club,Connected
+RA25110290000066,Cybersecurity,2nd Year,A,Data Science Club,Connected
+RA26110290000067,Cybersecurity,1st Year,A,Sports Club,Connected
+RA26110290000068,Cybersecurity,1st Year,A,None,Connected
+RA26110290000069,Cybersecurity,1st Year,A,Cloud Club,Connected
+RA26110290000070,Cybersecurity,1st Year,A,Robotics Club,Connected
+RA26110290000071,Cybersecurity,1st Year,A,Cultural Club,Connected
+RA26110290000072,Cybersecurity,1st Year,A,Coding Club,Connected
+RA26110290000073,Cybersecurity,1st Year,A,Cyber Security Club,Connected
+RA26110290000074,Cybersecurity,1st Year,A,Open Source Club,Connected
+RA26110290000075,Cybersecurity,1st Year,A,Entrepreneurship Club,Connected
+RA26110290000076,Cybersecurity,1st Year,A,AI & ML Club,Connected
+RA26110290000077,Cybersecurity,1st Year,A,Data Science Club,Connected
+RA26110290000078,Cybersecurity,1st Year,A,Sports Club,Connected
+RA26110290000079,Cybersecurity,1st Year,A,None,Connected
+RA26110290000080,Cybersecurity,1st Year,A,Cloud Club,Connected
+RA26110290000081,Cybersecurity,1st Year,A,Robotics Club,Connected
+RA26110290000082,Cybersecurity,1st Year,A,Cultural Club,Connected
+RA26110290000083,Cybersecurity,1st Year,A,Coding Club,Connected
+RA26110290000084,Cybersecurity,1st Year,A,Cyber Security Club,Connected
+RA26110290000085,Cybersecurity,1st Year,A,Open Source Club,Connected
+RA26110290000086,Cybersecurity,1st Year,A,Entrepreneurship Club,Connected
+RA26110290000087,Cybersecurity,1st Year,A,AI & ML Club,Connected
+RA26110290000088,Cybersecurity,1st Year,A,Data Science Club,Connected
+RA23110300000001,Information Technology,4th Year,A,Cultural Club,Connected
+RA23110300000002,Information Technology,4th Year,A,Coding Club,Connected
+RA23110300000003,Information Technology,4th Year,A,Cyber Security Club,Connected
+RA23110300000004,Information Technology,4th Year,A,Open Source Club,Connected
+RA23110300000005,Information Technology,4th Year,A,Entrepreneurship Club,Connected
+RA23110300000006,Information Technology,4th Year,A,AI & ML Club,Connected
+RA23110300000007,Information Technology,4th Year,A,Data Science Club,Connected
+RA23110300000008,Information Technology,4th Year,A,Sports Club,Connected
+RA23110300000009,Information Technology,4th Year,A,None,Connected
+RA23110300000010,Information Technology,4th Year,A,Cloud Club,Connected
+RA23110300000011,Information Technology,4th Year,A,Robotics Club,Connected
+RA23110300000012,Information Technology,4th Year,A,Cultural Club,Connected
+RA23110300000013,Information Technology,4th Year,A,Coding Club,Connected
+RA23110300000014,Information Technology,4th Year,A,Cyber Security Club,Connected
+RA23110300000015,Information Technology,4th Year,A,Open Source Club,Connected
+RA23110300000016,Information Technology,4th Year,A,Entrepreneurship Club,Connected
+RA23110300000017,Information Technology,4th Year,A,AI & ML Club,Connected
+RA23110300000018,Information Technology,4th Year,A,Data Science Club,Connected
+RA23110300000019,Information Technology,4th Year,A,Sports Club,Connected
+RA23110300000020,Information Technology,4th Year,A,None,Connected
+RA23110300000021,Information Technology,4th Year,A,Cloud Club,Connected
+RA23110300000022,Information Technology,4th Year,A,Robotics Club,Connected
+RA24110300000023,Information Technology,3rd Year,A,Cultural Club,Connected
+RA24110300000024,Information Technology,3rd Year,A,Coding Club,Connected
+RA24110300000025,Information Technology,3rd Year,A,Cyber Security Club,Connected
+RA24110300000026,Information Technology,3rd Year,A,Open Source Club,Connected
+RA24110300000027,Information Technology,3rd Year,A,Entrepreneurship Club,Connected
+RA24110300000028,Information Technology,3rd Year,A,AI & ML Club,Connected
+RA24110300000029,Information Technology,3rd Year,A,Data Science Club,Connected
+RA24110300000030,Information Technology,3rd Year,A,Sports Club,Connected
+RA24110300000031,Information Technology,3rd Year,A,None,Connected
+RA24110300000032,Information Technology,3rd Year,A,Cloud Club,Connected
+RA24110300000033,Information Technology,3rd Year,A,Robotics Club,Connected
+RA24110300000034,Information Technology,3rd Year,A,Cultural Club,Connected
+RA24110300000035,Information Technology,3rd Year,A,Coding Club,Connected
+RA24110300000036,Information Technology,3rd Year,A,Cyber Security Club,Connected
+RA24110300000037,Information Technology,3rd Year,A,Open Source Club,Connected
+RA24110300000038,Information Technology,3rd Year,A,Entrepreneurship Club,Connected
+RA24110300000039,Information Technology,3rd Year,A,AI & ML Club,Connected
+RA24110300000040,Information Technology,3rd Year,A,Data Science Club,Connected
+RA24110300000041,Information Technology,3rd Year,A,Sports Club,Connected
+RA24110300000042,Information Technology,3rd Year,A,None,Connected
+RA24110300000043,Information Technology,3rd Year,A,Cloud Club,Connected
+RA24110300000044,Information Technology,3rd Year,A,Robotics Club,Connected
+RA25110300000045,Information Technology,2nd Year,A,Cultural Club,Connected
+RA25110300000046,Information Technology,2nd Year,A,Coding Club,Connected
+RA25110300000047,Information Technology,2nd Year,A,Cyber Security Club,Connected
+RA25110300000048,Information Technology,2nd Year,A,Open Source Club,Connected
+RA25110300000049,Information Technology,2nd Year,A,Entrepreneurship Club,Connected
+RA25110300000050,Information Technology,2nd Year,A,AI & ML Club,Connected
+RA25110300000051,Information Technology,2nd Year,A,Data Science Club,Connected
+RA25110300000052,Information Technology,2nd Year,A,Sports Club,Connected
+RA25110300000053,Information Technology,2nd Year,A,None,Connected
+RA25110300000054,Information Technology,2nd Year,A,Cloud Club,Connected
+RA25110300000055,Information Technology,2nd Year,A,Robotics Club,Connected
+RA25110300000056,Information Technology,2nd Year,A,Cultural Club,Connected
+RA25110300000057,Information Technology,2nd Year,A,Coding Club,Connected
+RA25110300000058,Information Technology,2nd Year,A,Cyber Security Club,Connected
+RA25110300000059,Information Technology,2nd Year,A,Open Source Club,Connected
+RA25110300000060,Information Technology,2nd Year,A,Entrepreneurship Club,Connected
+RA25110300000061,Information Technology,2nd Year,A,AI & ML Club,Connected
+RA25110300000062,Information Technology,2nd Year,A,Data Science Club,Connected
+RA25110300000063,Information Technology,2nd Year,A,Sports Club,Connected
+RA25110300000064,Information Technology,2nd Year,A,None,Connected
+RA25110300000065,Information Technology,2nd Year,A,Cloud Club,Connected
+RA25110300000066,Information Technology,2nd Year,A,Robotics Club,Connected
+RA26110300000067,Information Technology,1st Year,A,Cultural Club,Connected
+RA26110300000068,Information Technology,1st Year,A,Coding Club,Connected
+RA26110300000069,Information Technology,1st Year,A,Cyber Security Club,Connected
+RA26110300000070,Information Technology,1st Year,A,Open Source Club,Connected
+RA26110300000071,Information Technology,1st Year,A,Entrepreneurship Club,Connected
+RA26110300000072,Information Technology,1st Year,A,AI & ML Club,Connected
+RA26110300000073,Information Technology,1st Year,A,Data Science Club,Connected
+RA26110300000074,Information Technology,1st Year,A,Sports Club,Connected
+RA26110300000075,Information Technology,1st Year,A,None,Connected
+RA26110300000076,Information Technology,1st Year,A,Cloud Club,Connected
+RA26110300000077,Information Technology,1st Year,A,Robotics Club,Connected
+RA26110300000078,Information Technology,1st Year,A,Cultural Club,Connected
+RA26110300000079,Information Technology,1st Year,A,Coding Club,Connected
+RA26110300000080,Information Technology,1st Year,A,Cyber Security Club,Connected
+RA26110300000081,Information Technology,1st Year,A,Open Source Club,Connected
+RA26110300000082,Information Technology,1st Year,A,Entrepreneurship Club,Connected
+RA26110300000083,Information Technology,1st Year,A,AI & ML Club,Connected
+RA26110300000084,Information Technology,1st Year,A,Data Science Club,Connected
+RA26110300000085,Information Technology,1st Year,A,Sports Club,Connected
+RA26110300000086,Information Technology,1st Year,A,None,Connected
+RA26110300000087,Information Technology,1st Year,A,Cloud Club,Connected
+RA26110300000088,Information Technology,1st Year,A,Robotics Club,Connected
+RA23110540000001,Data Science,4th Year,A,None,Connected
+RA23110540000002,Data Science,4th Year,A,Cloud Club,Connected
+RA23110540000003,Data Science,4th Year,A,Robotics Club,Connected
+RA23110540000004,Data Science,4th Year,A,Cultural Club,Connected
+RA23110540000005,Data Science,4th Year,A,Coding Club,Connected
+RA23110540000006,Data Science,4th Year,A,Cyber Security Club,Connected
+RA23110540000007,Data Science,4th Year,A,Open Source Club,Connected
+RA23110540000008,Data Science,4th Year,A,Entrepreneurship Club,Connected
+RA23110540000009,Data Science,4th Year,A,AI & ML Club,Connected
+RA23110540000010,Data Science,4th Year,A,Data Science Club,Connected
+RA23110540000011,Data Science,4th Year,A,Sports Club,Connected
+RA23110540000012,Data Science,4th Year,A,None,Connected
+RA23110540000013,Data Science,4th Year,A,Cloud Club,Connected
+RA23110540000014,Data Science,4th Year,A,Robotics Club,Connected
+RA23110540000015,Data Science,4th Year,A,Cultural Club,Connected
+RA23110540000016,Data Science,4th Year,A,Coding Club,Connected
+RA23110540000017,Data Science,4th Year,A,Cyber Security Club,Connected
+RA23110540000018,Data Science,4th Year,A,Open Source Club,Connected
+RA23110540000019,Data Science,4th Year,A,Entrepreneurship Club,Connected
+RA23110540000020,Data Science,4th Year,A,AI & ML Club,Connected
+RA23110540000021,Data Science,4th Year,A,Data Science Club,Connected
+RA23110540000022,Data Science,4th Year,A,Sports Club,Connected
+RA24110540000023,Data Science,3rd Year,A,None,Connected
+RA24110540000024,Data Science,3rd Year,A,Cloud Club,Connected
+RA24110540000025,Data Science,3rd Year,A,Robotics Club,Connected
+RA24110540000026,Data Science,3rd Year,A,Cultural Club,Connected
+RA24110540000027,Data Science,3rd Year,A,Coding Club,Connected
+RA24110540000028,Data Science,3rd Year,A,Cyber Security Club,Connected
+RA24110540000029,Data Science,3rd Year,A,Open Source Club,Connected
+RA24110540000030,Data Science,3rd Year,A,Entrepreneurship Club,Connected
+RA24110540000031,Data Science,3rd Year,A,AI & ML Club,Connected
+RA24110540000032,Data Science,3rd Year,A,Data Science Club,Connected
+RA24110540000033,Data Science,3rd Year,A,Sports Club,Connected
+RA24110540000034,Data Science,3rd Year,A,None,Connected
+RA24110540000035,Data Science,3rd Year,A,Cloud Club,Connected
+RA24110540000036,Data Science,3rd Year,A,Robotics Club,Connected
+RA24110540000037,Data Science,3rd Year,A,Cultural Club,Connected
+RA24110540000038,Data Science,3rd Year,A,Coding Club,Connected
+RA24110540000039,Data Science,3rd Year,A,Cyber Security Club,Connected
+RA24110540000040,Data Science,3rd Year,A,Open Source Club,Connected
+RA24110540000041,Data Science,3rd Year,A,Entrepreneurship Club,Connected
+RA24110540000042,Data Science,3rd Year,A,AI & ML Club,Connected
+RA24110540000043,Data Science,3rd Year,A,Data Science Club,Connected
+RA24110540000044,Data Science,3rd Year,A,Sports Club,Connected
+RA25110540000045,Data Science,2nd Year,A,None,Connected
+RA25110540000046,Data Science,2nd Year,A,Cloud Club,Connected
+RA25110540000047,Data Science,2nd Year,A,Robotics Club,Connected
+RA25110540000048,Data Science,2nd Year,A,Cultural Club,Connected
+RA25110540000049,Data Science,2nd Year,A,Coding Club,Connected
+RA25110540000050,Data Science,2nd Year,A,Cyber Security Club,Connected
+RA25110540000051,Data Science,2nd Year,A,Open Source Club,Connected
+RA25110540000052,Data Science,2nd Year,A,Entrepreneurship Club,Connected
+RA25110540000053,Data Science,2nd Year,A,AI & ML Club,Connected
+RA25110540000054,Data Science,2nd Year,A,Data Science Club,Connected
+RA25110540000055,Data Science,2nd Year,A,Sports Club,Connected
+RA25110540000056,Data Science,2nd Year,A,None,Connected
+RA25110540000057,Data Science,2nd Year,A,Cloud Club,Connected
+RA25110540000058,Data Science,2nd Year,A,Robotics Club,Connected
+RA25110540000059,Data Science,2nd Year,A,Cultural Club,Connected
+RA25110540000060,Data Science,2nd Year,A,Coding Club,Connected
+RA25110540000061,Data Science,2nd Year,A,Cyber Security Club,Connected
+RA25110540000062,Data Science,2nd Year,A,Open Source Club,Connected
+RA25110540000063,Data Science,2nd Year,A,Entrepreneurship Club,Connected
+RA25110540000064,Data Science,2nd Year,A,AI & ML Club,Connected
+RA25110540000065,Data Science,2nd Year,A,Data Science Club,Connected
+RA25110540000066,Data Science,2nd Year,A,Sports Club,Connected
+RA26110540000067,Data Science,1st Year,A,None,Connected
+RA26110540000068,Data Science,1st Year,A,Cloud Club,Connected
+RA26110540000069,Data Science,1st Year,A,Robotics Club,Connected
+RA26110540000070,Data Science,1st Year,A,Cultural Club,Connected
+RA26110540000071,Data Science,1st Year,A,Coding Club,Connected
+RA26110540000072,Data Science,1st Year,A,Cyber Security Club,Connected
+RA26110540000073,Data Science,1st Year,A,Open Source Club,Connected
+RA26110540000074,Data Science,1st Year,A,Entrepreneurship Club,Connected
+RA26110540000075,Data Science,1st Year,A,AI & ML Club,Connected
+RA26110540000076,Data Science,1st Year,A,Data Science Club,Connected
+RA26110540000077,Data Science,1st Year,A,Sports Club,Connected
+RA26110540000078,Data Science,1st Year,A,None,Connected
+RA26110540000079,Data Science,1st Year,A,Cloud Club,Connected
+RA26110540000080,Data Science,1st Year,A,Robotics Club,Connected
+RA26110540000081,Data Science,1st Year,A,Cultural Club,Connected
+RA26110540000082,Data Science,1st Year,A,Coding Club,Connected
+RA26110540000083,Data Science,1st Year,A,Cyber Security Club,Connected
+RA26110540000084,Data Science,1st Year,A,Open Source Club,Connected
+RA26110540000085,Data Science,1st Year,A,Entrepreneurship Club,Connected
+RA26110540000086,Data Science,1st Year,A,AI & ML Club,Connected
+RA26110540000087,Data Science,1st Year,A,Data Science Club,Connected
+RA26110540000088,Data Science,1st Year,A,Sports Club,Connected
+RA23110560000001,AIML,4th Year,A,AI & ML Club,Connected
+RA23110560000002,AIML,4th Year,A,Data Science Club,Connected
+RA23110560000003,AIML,4th Year,A,Sports Club,Connected
+RA23110560000004,AIML,4th Year,A,None,Connected
+RA23110560000005,AIML,4th Year,A,Cloud Club,Connected
+RA23110560000006,AIML,4th Year,A,Robotics Club,Connected
+RA23110560000007,AIML,4th Year,A,Cultural Club,Connected
+RA23110560000008,AIML,4th Year,A,Coding Club,Connected
+RA23110560000009,AIML,4th Year,A,Cyber Security Club,Connected
+RA23110560000010,AIML,4th Year,A,Open Source Club,Connected
+RA23110560000011,AIML,4th Year,A,Entrepreneurship Club,Connected
+RA23110560000012,AIML,4th Year,A,AI & ML Club,Connected
+RA23110560000013,AIML,4th Year,A,Data Science Club,Connected
+RA23110560000014,AIML,4th Year,A,Sports Club,Connected
+RA23110560000015,AIML,4th Year,A,None,Connected
+RA23110560000016,AIML,4th Year,A,Cloud Club,Connected
+RA23110560000017,AIML,4th Year,A,Robotics Club,Connected
+RA23110560000018,AIML,4th Year,A,Cultural Club,Connected
+RA23110560000019,AIML,4th Year,A,Coding Club,Connected
+RA23110560000020,AIML,4th Year,A,Cyber Security Club,Connected
+RA23110560000021,AIML,4th Year,A,Open Source Club,Connected
+RA23110560000022,AIML,4th Year,A,Entrepreneurship Club,Connected
+RA24110560000023,AIML,3rd Year,A,AI & ML Club,Connected
+RA24110560000024,AIML,3rd Year,A,Data Science Club,Connected
+RA24110560000025,AIML,3rd Year,A,Sports Club,Connected
+RA24110560000026,AIML,3rd Year,A,None,Connected
+RA24110560000027,AIML,3rd Year,A,Cloud Club,Connected
+RA24110560000028,AIML,3rd Year,A,Robotics Club,Connected
+RA24110560000029,AIML,3rd Year,A,Cultural Club,Connected
+RA24110560000030,AIML,3rd Year,A,Coding Club,Connected
+RA24110560000031,AIML,3rd Year,A,Cyber Security Club,Connected
+RA24110560000032,AIML,3rd Year,A,Open Source Club,Connected
+RA24110560000033,AIML,3rd Year,A,Entrepreneurship Club,Connected
+RA24110560000034,AIML,3rd Year,A,AI & ML Club,Connected
+RA24110560000035,AIML,3rd Year,A,Data Science Club,Connected
+RA24110560000036,AIML,3rd Year,A,Sports Club,Connected
+RA24110560000037,AIML,3rd Year,A,None,Connected
+RA24110560000038,AIML,3rd Year,A,Cloud Club,Connected
+RA24110560000039,AIML,3rd Year,A,Robotics Club,Connected
+RA24110560000040,AIML,3rd Year,A,Cultural Club,Connected
+RA24110560000041,AIML,3rd Year,A,Coding Club,Connected
+RA24110560000042,AIML,3rd Year,A,Cyber Security Club,Connected
+RA24110560000043,AIML,3rd Year,A,Open Source Club,Connected
+RA24110560000044,AIML,3rd Year,A,Entrepreneurship Club,Connected
+RA25110560000045,AIML,2nd Year,A,AI & ML Club,Connected
+RA25110560000046,AIML,2nd Year,A,Data Science Club,Connected
+RA25110560000047,AIML,2nd Year,A,Sports Club,Connected
+RA25110560000048,AIML,2nd Year,A,None,Connected
+RA25110560000049,AIML,2nd Year,A,Cloud Club,Connected
+RA25110560000050,AIML,2nd Year,A,Robotics Club,Connected
+RA25110560000051,AIML,2nd Year,A,Cultural Club,Connected
+RA25110560000052,AIML,2nd Year,A,Coding Club,Connected
+RA25110560000053,AIML,2nd Year,A,Cyber Security Club,Connected
+RA25110560000054,AIML,2nd Year,A,Open Source Club,Connected
+RA25110560000055,AIML,2nd Year,A,Entrepreneurship Club,Connected
+RA25110560000056,AIML,2nd Year,A,AI & ML Club,Connected
+RA25110560000057,AIML,2nd Year,A,Data Science Club,Connected
+RA25110560000058,AIML,2nd Year,A,Sports Club,Connected
+RA25110560000059,AIML,2nd Year,A,None,Connected
+RA25110560000060,AIML,2nd Year,A,Cloud Club,Connected
+RA25110560000061,AIML,2nd Year,A,Robotics Club,Connected
+RA25110560000062,AIML,2nd Year,A,Cultural Club,Connected
+RA25110560000063,AIML,2nd Year,A,Coding Club,Connected
+RA25110560000064,AIML,2nd Year,A,Cyber Security Club,Connected
+RA25110560000065,AIML,2nd Year,A,Open Source Club,Connected
+RA25110560000066,AIML,2nd Year,A,Entrepreneurship Club,Connected
+RA26110560000067,AIML,1st Year,A,AI & ML Club,Connected
+RA26110560000068,AIML,1st Year,A,Data Science Club,Connected
+RA26110560000069,AIML,1st Year,A,Sports Club,Connected
+RA26110560000070,AIML,1st Year,A,None,Connected
+RA26110560000071,AIML,1st Year,A,Cloud Club,Connected
+RA26110560000072,AIML,1st Year,A,Robotics Club,Connected
+RA26110560000073,AIML,1st Year,A,Cultural Club,Connected
+RA26110560000074,AIML,1st Year,A,Coding Club,Connected
+RA26110560000075,AIML,1st Year,A,Cyber Security Club,Connected
+RA26110560000076,AIML,1st Year,A,Open Source Club,Connected
+RA26110560000077,AIML,1st Year,A,Entrepreneurship Club,Connected
+RA26110560000078,AIML,1st Year,A,AI & ML Club,Connected
+RA26110560000079,AIML,1st Year,A,Data Science Club,Connected
+RA26110560000080,AIML,1st Year,A,Sports Club,Connected
+RA26110560000081,AIML,1st Year,A,None,Connected
+RA26110560000082,AIML,1st Year,A,Cloud Club,Connected
+RA26110560000083,AIML,1st Year,A,Robotics Club,Connected
+RA26110560000084,AIML,1st Year,A,Cultural Club,Connected
+RA26110560000085,AIML,1st Year,A,Coding Club,Connected
+RA26110560000086,AIML,1st Year,A,Cyber Security Club,Connected
+RA26110560000087,AIML,1st Year,A,Open Source Club,Connected
+RA26110560000088,AIML,1st Year,A,Entrepreneurship Club,Connected

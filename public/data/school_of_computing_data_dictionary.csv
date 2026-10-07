@@ -1,0 +1,14 @@
+column_name,dataset,description,example
+registration_number,Students,Synthetic academic registration number and sole student identifier,RA2311028000001
+department,Students,School of Computing department,Cloud Computing
+year,Students,Academic year,4th Year
+section,Students,Class section; one primary section per department-year,A
+club,Students,Synthetic student club/activity,Cloud Club
+network_status,Students,Graph-derived status based on degree,Connected
+edge_id,Interactions,Unique interaction identifier,E00001
+registration_number_1,Interactions,First student's registration number,RA2311028000001
+registration_number_2,Interactions,Second student's registration number,RA2311028000002
+interaction_count,Interactions,Weighted interaction frequency,7
+interaction_type,Interactions,Interaction category,Academic
+event_id,Events,Unique longitudinal event identifier,EV000001
+period,Events,Synthetic observation period,2026-Sem2

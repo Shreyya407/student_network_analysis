@@ -1,0 +1,501 @@
+registration_number,department,year,section,club,degree,degree_centrality,betweenness_centrality,closeness_centrality,pagerank,influence_score,influence_rank,community,role,network_status
+RA231100300029,CSE Core,4th Year,Section A,Big Data Analytics Club,46,0.0922,0.0322,0.4486,0.0095,0.9899,1,Community 3,Bridge Student,Connected
+RA231100300015,CSE Core,4th Year,Section C,Cyber Security Club,45,0.0902,0.0306,0.4545,0.0095,0.9718,2,Community 4,Bridge Student,Connected
+RA261105600457,AIML,1st Year,Section A,Coding Club,43,0.0862,0.0311,0.4519,0.0085,0.9418,3,Community 5,Bridge Student,Connected
+RA231100300078,CSE Core,4th Year,Section D,Cloud Computing Society,42,0.0842,0.0305,0.4441,0.0092,0.941,4,Community 6,Bridge Student,Connected
+RA251102700316,Big Data Analytics,2nd Year,Section B,Web3 & Open Source,43,0.0862,0.0281,0.4449,0.0098,0.9379,5,Community 1,Bridge Student,Connected
+RA241105400184,Data Science,3rd Year,Section B,AI & Robotics Club,42,0.0842,0.0298,0.4528,0.009,0.9344,6,Community 1,Bridge Student,Connected
+RA241102800202,Cloud Computing,3rd Year,Section D,None,42,0.0842,0.029,0.4554,0.0089,0.9256,7,Community 1,Bridge Student,Connected
+RA261103000441,Information Technology,1st Year,Section A,Coding Club,42,0.0842,0.0291,0.4473,0.0088,0.9216,8,Community 4,Bridge Student,Connected
+RA261102800446,Cloud Computing,1st Year,Section D,Cloud Computing Society,42,0.0842,0.0282,0.4469,0.0089,0.9154,9,Community 2,Bridge Student,Connected
+RA261105400400,Data Science,1st Year,Section B,AI & Robotics Club,43,0.0862,0.026,0.4482,0.0091,0.9048,10,Community 1,Bridge Student,Connected
+RA241105400205,Data Science,3rd Year,Section A,Big Data Analytics Club,41,0.0822,0.0288,0.4329,0.0086,0.9006,11,Community 5,Bridge Student,Connected
+RA241102800230,Cloud Computing,3rd Year,Section D,Cloud Computing Society,41,0.0822,0.0256,0.4478,0.0081,0.8675,12,Community 2,Bridge Student,Connected
+RA261102700382,Big Data Analytics,1st Year,Section D,Cloud Computing Society,40,0.0802,0.0252,0.4478,0.008,0.8553,13,Community 1,Bridge Student,Connected
+RA261100300388,CSE Core,1st Year,Section B,Web3 & Open Source,39,0.0782,0.0234,0.4486,0.0087,0.8459,14,Community 1,Bridge Student,Connected
+RA231102900074,Cybersecurity,4th Year,Section D,None,38,0.0762,0.0228,0.4457,0.0073,0.8036,15,Community 2,Bridge Student,Connected
+RA251105600356,AIML,2nd Year,Section B,Web3 & Open Source,36,0.0721,0.0211,0.4302,0.0082,0.788,16,Community 2,Bridge,Connected
+RA261100300423,CSE Core,1st Year,Section C,Cyber Security Club,34,0.0681,0.022,0.4321,0.0077,0.7715,17,Community 4,Bridge,Connected
+RA241102900154,Cybersecurity,3rd Year,Section D,None,37,0.0741,0.0202,0.4494,0.0071,0.7698,18,Community 1,Bridge,Connected
+RA251105400292,Data Science,2nd Year,Section B,Web3 & Open Source,36,0.0721,0.0206,0.4279,0.0074,0.764,19,Community 2,Bridge,Connected
+RA231102700100,Big Data Analytics,4th Year,Section B,Web3 & Open Source,35,0.0701,0.0202,0.4325,0.0073,0.7552,20,Community 1,Bridge,Connected
+RA261100300437,CSE Core,1st Year,Section A,Big Data Analytics Club,35,0.0701,0.0191,0.4329,0.0072,0.741,21,Community 3,Bridge,Connected
+RA231105600119,AIML,4th Year,Section C,Cyber Security Club,34,0.0681,0.0178,0.4249,0.0075,0.7271,22,Community 3,Bridge,Connected
+RA251102900325,Cybersecurity,2nd Year,Section A,Big Data Analytics Club,33,0.0661,0.0169,0.4161,0.0074,0.705,23,Community 5,Bridge,Connected
+RA251102800254,Cloud Computing,2nd Year,Section D,Cloud Computing Society,28,0.0561,0.0146,0.4272,0.0061,0.6278,24,Community 2,Bridge,Connected
+RA261100300395,CSE Core,1st Year,Section C,ACM Student Chapter,25,0.0501,0.0108,0.4067,0.0055,0.551,25,Community 3,Highly Connected,Connected
+RA241102700208,Big Data Analytics,3rd Year,Section B,AI & Robotics Club,22,0.0441,0.0066,0.3957,0.0027,0.4286,26,Community 1,Highly Connected,Connected
+RA261105600471,AIML,1st Year,Section C,Cyber Security Club,21,0.0421,0.0073,0.3967,0.0025,0.4257,27,Community 4,Highly Connected,Connected
+RA261102900377,Cybersecurity,1st Year,Section A,Coding Club,22,0.0441,0.0061,0.3856,0.0027,0.4195,28,Community 3,Highly Connected,Connected
+RA261105400456,Data Science,1st Year,Section B,AI & Robotics Club,20,0.0401,0.0068,0.3918,0.0028,0.4192,29,Community 6,Highly Connected,Connected
+RA231105600077,AIML,4th Year,Section A,Big Data Analytics Club,23,0.0461,0.0045,0.3853,0.003,0.4188,30,Community 3,Highly Connected,Connected
+RA261100300409,CSE Core,1st Year,Section A,Coding Club,22,0.0441,0.0061,0.3902,0.0022,0.4131,31,Community 5,Highly Connected,Connected
+RA251105600258,AIML,2nd Year,Section D,None,21,0.0421,0.0068,0.376,0.0024,0.4088,32,Community 6,Highly Connected,Connected
+RA231105400020,Data Science,4th Year,Section B,Web3 & Open Source,20,0.0401,0.006,0.4016,0.0024,0.4076,33,Community 2,Highly Connected,Connected
+RA261102700445,Big Data Analytics,1st Year,Section A,Big Data Analytics Club,22,0.0441,0.0056,0.3896,0.0022,0.4056,34,Community 5,Highly Connected,Connected
+RA251100300329,CSE Core,2nd Year,Section A,Coding Club,22,0.0441,0.0055,0.3909,0.0021,0.4051,35,Community 3,Highly Connected,Connected
+RA251102800345,Cloud Computing,2nd Year,Section A,Coding Club,21,0.0421,0.0051,0.3783,0.0028,0.4029,36,Community 4,Highly Connected,Connected
+RA261105600464,AIML,1st Year,Section B,AI & Robotics Club,21,0.0421,0.0053,0.3884,0.0024,0.4013,37,Community 2,Highly Connected,Connected
+RA231105400027,Data Science,4th Year,Section C,ACM Student Chapter,21,0.0421,0.0053,0.3877,0.0024,0.4009,38,Community 4,Highly Connected,Connected
+RA261105600387,AIML,1st Year,Section C,ACM Student Chapter,20,0.0401,0.005,0.397,0.0026,0.4007,39,Community 4,Highly Connected,Connected
+RA241102900217,Cybersecurity,3rd Year,Section A,Coding Club,22,0.0441,0.0042,0.381,0.0027,0.3999,40,Community 5,Highly Connected,Connected
+RA261105400393,Data Science,1st Year,Section A,Coding Club,19,0.0381,0.006,0.4003,0.0024,0.3996,41,Community 4,Peer Member,Connected
+RA241105600129,AIML,3rd Year,Section A,Coding Club,22,0.0441,0.0048,0.3844,0.0022,0.3972,42,Community 4,Highly Connected,Connected
+RA261105600492,AIML,1st Year,Section B,Web3 & Open Source,20,0.0401,0.0057,0.3871,0.0023,0.3965,43,Community 6,Highly Connected,Connected
+RA251102700372,Big Data Analytics,2nd Year,Section B,Web3 & Open Source,19,0.0381,0.0053,0.3967,0.0026,0.3957,44,Community 6,Peer Member,Connected
+RA261102900433,Cybersecurity,1st Year,Section A,Coding Club,22,0.0441,0.0031,0.3682,0.0031,0.3933,45,Community 5,Highly Connected,Connected
+RA251100300315,CSE Core,2nd Year,Section C,ACM Student Chapter,21,0.0421,0.0053,0.3825,0.0021,0.3916,46,Community 4,Highly Connected,Connected
+RA261105400428,Data Science,1st Year,Section B,Web3 & Open Source,20,0.0401,0.0045,0.389,0.0026,0.391,47,Community 2,Highly Connected,Connected
+RA231102700121,Big Data Analytics,4th Year,Section A,Coding Club,20,0.0401,0.0052,0.3899,0.0022,0.3906,48,Community 5,Highly Connected,Connected
+RA251102900346,Cybersecurity,2nd Year,Section D,None,21,0.0421,0.0033,0.3847,0.0029,0.3906,49,Community 1,Highly Connected,Connected
+RA261102800495,Cloud Computing,1st Year,Section C,Cyber Security Club,21,0.0421,0.0051,0.3831,0.0021,0.3898,50,Community 4,Highly Connected,Connected
+RA241103000148,Information Technology,3rd Year,Section B,Web3 & Open Source,20,0.0401,0.003,0.3915,0.0029,0.3861,51,Community 1,Highly Connected,Connected
+RA241105400135,Data Science,3rd Year,Section C,Cyber Security Club,20,0.0401,0.0048,0.378,0.0024,0.3848,52,Community 4,Highly Connected,Connected
+RA261102900391,Cybersecurity,1st Year,Section C,Cyber Security Club,18,0.0361,0.0051,0.4003,0.0024,0.3845,53,Community 5,Peer Member,Connected
+RA231102700072,Big Data Analytics,4th Year,Section B,AI & Robotics Club,20,0.0401,0.0047,0.3856,0.0022,0.3842,54,Community 6,Highly Connected,Connected
+RA241100300186,CSE Core,3rd Year,Section D,None,19,0.0381,0.0044,0.3844,0.0025,0.381,55,Community 6,Peer Member,Connected
+RA251102800296,Cloud Computing,2nd Year,Section B,AI & Robotics Club,19,0.0381,0.005,0.3874,0.0022,0.3802,56,Community 2,Peer Member,Connected
+RA231102700079,Big Data Analytics,4th Year,Section C,Cyber Security Club,18,0.0361,0.005,0.3925,0.0024,0.3796,57,Community 5,Peer Member,Connected
+RA231102700107,Big Data Analytics,4th Year,Section C,ACM Student Chapter,20,0.0401,0.0038,0.3828,0.0023,0.3771,58,Community 3,Highly Connected,Connected
+RA241102700166,Big Data Analytics,3rd Year,Section D,Cloud Computing Society,20,0.0401,0.0036,0.3947,0.0022,0.3769,59,Community 1,Highly Connected,Connected
+RA231105600070,AIML,4th Year,Section D,Cloud Computing Society,20,0.0401,0.0035,0.3877,0.0023,0.3765,60,Community 1,Highly Connected,Connected
+RA251102800331,Cloud Computing,2nd Year,Section C,ACM Student Chapter,18,0.0361,0.0044,0.3925,0.0024,0.3751,61,Community 5,Peer Member,Connected
+RA251105400362,Data Science,2nd Year,Section D,None,17,0.0341,0.0049,0.3912,0.0025,0.3749,62,Community 2,Peer Member,Connected
+RA241105600192,AIML,3rd Year,Section B,AI & Robotics Club,19,0.0381,0.0054,0.3792,0.0019,0.374,63,Community 6,Peer Member,Connected
+RA251105400257,Data Science,2nd Year,Section A,Coding Club,20,0.0401,0.004,0.3825,0.002,0.3722,64,Community 3,Highly Connected,Connected
+RA251102900353,Cybersecurity,2nd Year,Section A,Coding Club,17,0.0341,0.0051,0.395,0.0022,0.3713,65,Community 3,Peer Member,Connected
+RA251105600251,AIML,2nd Year,Section C,ACM Student Chapter,20,0.0401,0.0038,0.3694,0.0024,0.3712,66,Community 3,Highly Connected,Connected
+RA261102700438,Big Data Analytics,1st Year,Section D,Cloud Computing Society,18,0.0361,0.0045,0.3931,0.0021,0.3693,67,Community 6,Peer Member,Connected
+RA231103000096,Information Technology,4th Year,Section B,AI & Robotics Club,18,0.0361,0.0047,0.3912,0.002,0.369,68,Community 6,Peer Member,Connected
+RA231105400034,Data Science,4th Year,Section D,None,18,0.0361,0.0039,0.3947,0.0022,0.3674,69,Community 1,Peer Member,Connected
+RA261102800439,Cloud Computing,1st Year,Section C,Cyber Security Club,17,0.0341,0.0049,0.3941,0.0021,0.367,70,Community 5,Peer Member,Connected
+RA231100300113,CSE Core,4th Year,Section A,Coding Club,17,0.0341,0.0048,0.3865,0.0023,0.3668,71,Community 3,Peer Member,Connected
+RA251103000298,Information Technology,2nd Year,Section D,None,19,0.0381,0.0034,0.3909,0.002,0.364,72,Community 1,Peer Member,Connected
+RA261105600415,AIML,1st Year,Section C,Cyber Security Club,20,0.0401,0.0035,0.3734,0.002,0.3629,73,Community 5,Highly Connected,Connected
+RA241105600143,AIML,3rd Year,Section C,Cyber Security Club,17,0.0341,0.004,0.3884,0.0023,0.3622,74,Community 3,Peer Member,Connected
+RA251102900367,Cybersecurity,2nd Year,Section C,Cyber Security Club,18,0.0361,0.004,0.3748,0.0023,0.3615,75,Community 5,Peer Member,Connected
+RA231103000103,Information Technology,4th Year,Section C,Cyber Security Club,18,0.0361,0.0044,0.3789,0.002,0.3604,76,Community 5,Peer Member,Connected
+RA261102800404,Cloud Computing,1st Year,Section B,Web3 & Open Source,19,0.0381,0.0031,0.3831,0.0022,0.3604,77,Community 2,Peer Member,Connected
+RA261105400463,Data Science,1st Year,Section C,Cyber Security Club,17,0.0341,0.0041,0.3771,0.0024,0.3597,78,Community 5,Peer Member,Connected
+RA251102800310,Cloud Computing,2nd Year,Section D,Cloud Computing Society,19,0.0381,0.0027,0.3853,0.0022,0.3595,79,Community 1,Peer Member,Connected
+RA241102900210,Cybersecurity,3rd Year,Section D,None,22,0.0441,0.0019,0.3576,0.0022,0.3583,80,Community 6,Highly Connected,Connected
+RA261102800488,Cloud Computing,1st Year,Section B,AI & Robotics Club,19,0.0381,0.0034,0.3691,0.0021,0.3561,81,Community 2,Peer Member,Connected
+RA231102800024,Cloud Computing,4th Year,Section B,AI & Robotics Club,17,0.0341,0.004,0.3792,0.0022,0.3559,82,Community 6,Peer Member,Connected
+RA241102700138,Big Data Analytics,3rd Year,Section D,None,19,0.0381,0.0031,0.3699,0.0022,0.3549,83,Community 6,Peer Member,Connected
+RA251102900262,Cybersecurity,2nd Year,Section D,Cloud Computing Society,17,0.0341,0.0034,0.3865,0.0023,0.354,84,Community 1,Peer Member,Connected
+RA241103000155,Information Technology,3rd Year,Section C,ACM Student Chapter,17,0.0341,0.0031,0.3947,0.0022,0.3536,85,Community 3,Peer Member,Connected
+RA241100300179,CSE Core,3rd Year,Section C,ACM Student Chapter,16,0.0321,0.0039,0.3884,0.0023,0.3532,86,Community 3,Peer Member,Connected
+RA231102900025,Cybersecurity,4th Year,Section A,Coding Club,18,0.0361,0.004,0.3694,0.002,0.3528,87,Community 5,Peer Member,Connected
+RA231105400083,Data Science,4th Year,Section C,ACM Student Chapter,19,0.0381,0.0026,0.3748,0.0022,0.3521,88,Community 3,Peer Member,Connected
+RA261102700487,Big Data Analytics,1st Year,Section C,Cyber Security Club,16,0.0321,0.0037,0.3825,0.0024,0.3508,89,Community 5,Peer Member,Connected
+RA261105600436,AIML,1st Year,Section B,Web3 & Open Source,18,0.0361,0.0035,0.3804,0.0019,0.3507,90,Community 1,Peer Member,Connected
+RA231102800059,Cloud Computing,4th Year,Section C,ACM Student Chapter,17,0.0341,0.0038,0.3874,0.0019,0.3501,91,Community 3,Peer Member,Connected
+RA241102700194,Big Data Analytics,3rd Year,Section D,None,18,0.0361,0.0026,0.3751,0.0023,0.3492,92,Community 2,Peer Member,Connected
+RA241105400142,Data Science,3rd Year,Section D,Cloud Computing Society,17,0.0341,0.0032,0.3816,0.0022,0.3488,93,Community 1,Peer Member,Connected
+RA241103000246,Information Technology,3rd Year,Section D,Cloud Computing Society,19,0.0381,0.0032,0.3668,0.0019,0.3482,94,Community 6,Peer Member,Connected
+RA231105600007,AIML,4th Year,Section C,Cyber Security Club,17,0.0341,0.0038,0.3736,0.0021,0.3476,95,Community 5,Peer Member,Connected
+RA231102700086,Big Data Analytics,4th Year,Section D,Cloud Computing Society,18,0.0361,0.0033,0.3748,0.0019,0.347,96,Community 2,Peer Member,Connected
+RA241102700250,Big Data Analytics,3rd Year,Section D,None,19,0.0381,0.0023,0.3657,0.0022,0.346,97,Community 1,Peer Member,Connected
+RA261102700396,Big Data Analytics,1st Year,Section B,Web3 & Open Source,17,0.0341,0.0036,0.3844,0.0018,0.346,98,Community 6,Peer Member,Connected
+RA251103000263,Information Technology,2nd Year,Section C,Cyber Security Club,19,0.0381,0.0027,0.3691,0.0019,0.3458,99,Community 3,Peer Member,Connected
+RA241103000204,Information Technology,3rd Year,Section B,Web3 & Open Source,17,0.0341,0.0036,0.3688,0.0021,0.344,100,Community 6,Peer Member,Connected
+RA231103000026,Information Technology,4th Year,Section D,None,17,0.0341,0.0031,0.3853,0.0019,0.3436,101,Community 2,Peer Member,Connected
+RA231100300057,CSE Core,4th Year,Section A,Coding Club,18,0.0361,0.0031,0.3702,0.0019,0.3422,102,Community 4,Peer Member,Connected
+RA231102800010,Cloud Computing,4th Year,Section D,None,17,0.0341,0.0033,0.3754,0.002,0.3418,103,Community 1,Peer Member,Connected
+RA261102700494,Big Data Analytics,1st Year,Section D,Cloud Computing Society,15,0.0301,0.0036,0.3816,0.0023,0.3418,104,Community 2,Peer Member,Connected
+RA241105600199,AIML,3rd Year,Section C,Cyber Security Club,16,0.0321,0.0033,0.3789,0.0022,0.3417,105,Community 5,Peer Member,Connected
+RA251100300322,CSE Core,2nd Year,Section D,None,17,0.0341,0.0031,0.3754,0.0021,0.3413,106,Community 1,Peer Member,Connected
+RA241103000225,Information Technology,3rd Year,Section A,Coding Club,17,0.0341,0.0032,0.3728,0.002,0.341,107,Community 4,Peer Member,Connected
+RA231103000033,Information Technology,4th Year,Section A,Coding Club,18,0.0361,0.0034,0.3685,0.0017,0.3404,108,Community 4,Peer Member,Connected
+RA231102700058,Big Data Analytics,4th Year,Section D,None,17,0.0341,0.0026,0.3734,0.0022,0.3401,109,Community 1,Peer Member,Connected
+RA241103000169,Information Technology,3rd Year,Section A,Coding Club,16,0.0321,0.0035,0.378,0.002,0.3399,110,Community 5,Peer Member,Connected
+RA231102800080,Cloud Computing,4th Year,Section B,AI & Robotics Club,17,0.0341,0.0029,0.378,0.002,0.3394,111,Community 2,Peer Member,Connected
+RA241100300144,CSE Core,3rd Year,Section B,AI & Robotics Club,17,0.0341,0.003,0.3816,0.0018,0.3393,112,Community 6,Peer Member,Connected
+RA261105400442,Data Science,1st Year,Section D,None,15,0.0301,0.0041,0.378,0.002,0.3382,113,Community 1,Peer Member,Connected
+RA231100300099,CSE Core,4th Year,Section C,ACM Student Chapter,18,0.0361,0.0026,0.3696,0.0019,0.3381,114,Community 4,Peer Member,Connected
+RA241100300172,CSE Core,3rd Year,Section B,Web3 & Open Source,17,0.0341,0.0022,0.3844,0.0021,0.3381,115,Community 1,Peer Member,Connected
+RA241100300200,CSE Core,3rd Year,Section B,AI & Robotics Club,15,0.0301,0.0033,0.3837,0.0022,0.3377,116,Community 2,Peer Member,Connected
+RA261102900398,Cybersecurity,1st Year,Section D,Cloud Computing Society,16,0.0321,0.0029,0.3774,0.0022,0.3377,117,Community 2,Peer Member,Connected
+RA231102700051,Big Data Analytics,4th Year,Section C,ACM Student Chapter,17,0.0341,0.0028,0.3716,0.0021,0.3373,118,Community 4,Peer Member,Connected
+RA231100300071,CSE Core,4th Year,Section C,Cyber Security Club,16,0.0321,0.0041,0.3798,0.0016,0.3371,119,Community 3,Peer Member,Connected
+RA241105600234,AIML,3rd Year,Section D,None,15,0.0301,0.0035,0.3798,0.0022,0.3366,120,Community 6,Peer Member,Connected
+RA231100300106,CSE Core,4th Year,Section D,None,16,0.0321,0.0025,0.3795,0.0022,0.3354,121,Community 1,Peer Member,Connected
+RA251100300350,CSE Core,2nd Year,Section D,Cloud Computing Society,17,0.0341,0.0029,0.376,0.0018,0.3353,122,Community 2,Peer Member,Connected
+RA251105600314,AIML,2nd Year,Section D,None,16,0.0321,0.0026,0.3877,0.002,0.3352,123,Community 2,Peer Member,Connected
+RA261102800376,Cloud Computing,1st Year,Section B,AI & Robotics Club,16,0.0321,0.0031,0.3801,0.002,0.3346,124,Community 1,Peer Member,Connected
+RA261100300472,CSE Core,1st Year,Section B,AI & Robotics Club,16,0.0321,0.0034,0.3816,0.0018,0.3346,125,Community 1,Peer Member,Connected
+RA231102700093,Big Data Analytics,4th Year,Section A,Big Data Analytics Club,19,0.0381,0.0024,0.3644,0.0016,0.3345,126,Community 4,Peer Member,Connected
+RA251102700330,Big Data Analytics,2nd Year,Section D,None,17,0.0341,0.0031,0.3702,0.0018,0.3342,127,Community 6,Peer Member,Connected
+RA261103000406,Information Technology,1st Year,Section D,Cloud Computing Society,15,0.0301,0.0028,0.3963,0.002,0.3342,128,Community 1,Peer Member,Connected
+RA231102900060,Cybersecurity,4th Year,Section B,Web3 & Open Source,15,0.0301,0.0031,0.3725,0.0024,0.3339,129,Community 6,Peer Member,Connected
+RA261105600485,AIML,1st Year,Section A,Big Data Analytics Club,17,0.0341,0.0028,0.3757,0.0018,0.3329,130,Community 3,Peer Member,Connected
+RA231105400041,Data Science,4th Year,Section A,Coding Club,16,0.0321,0.0034,0.3783,0.0018,0.3327,131,Community 3,Peer Member,Connected
+RA231102700114,Big Data Analytics,4th Year,Section D,None,14,0.0281,0.0031,0.389,0.0023,0.3325,132,Community 6,Peer Member,Connected
+RA241102700236,Big Data Analytics,3rd Year,Section B,Web3 & Open Source,16,0.0321,0.0023,0.3813,0.0022,0.3325,133,Community 2,Peer Member,Connected
+RA231102700023,Big Data Analytics,4th Year,Section C,Cyber Security Club,16,0.0321,0.0027,0.3801,0.0019,0.3313,134,Community 3,Peer Member,Connected
+RA231102900102,Cybersecurity,4th Year,Section D,Cloud Computing Society,15,0.0301,0.003,0.3804,0.0021,0.3312,135,Community 6,Peer Member,Connected
+RA251105600272,AIML,2nd Year,Section B,AI & Robotics Club,16,0.0321,0.0032,0.3728,0.0019,0.3311,136,Community 2,Peer Member,Connected
+RA261102800425,Cloud Computing,1st Year,Section A,Coding Club,17,0.0341,0.003,0.3702,0.0017,0.3308,137,Community 3,Peer Member,Connected
+RA231103000068,Information Technology,4th Year,Section B,Web3 & Open Source,16,0.0321,0.0024,0.3736,0.0022,0.3307,138,Community 2,Peer Member,Connected
+RA261102700452,Big Data Analytics,1st Year,Section B,Web3 & Open Source,15,0.0301,0.0027,0.3792,0.0022,0.3303,139,Community 2,Peer Member,Connected
+RA251100300252,CSE Core,2nd Year,Section B,Web3 & Open Source,15,0.0301,0.0033,0.3822,0.0019,0.3302,140,Community 6,Peer Member,Connected
+RA261102900496,Cybersecurity,1st Year,Section B,AI & Robotics Club,16,0.0321,0.0025,0.3734,0.0021,0.3301,141,Community 1,Peer Member,Connected
+RA241105400247,Data Science,3rd Year,Section C,Cyber Security Club,17,0.0341,0.0029,0.3763,0.0016,0.3295,142,Community 5,Peer Member,Connected
+RA231105600035,AIML,4th Year,Section C,ACM Student Chapter,16,0.0321,0.0025,0.3807,0.0019,0.3293,143,Community 3,Peer Member,Connected
+RA251100300259,CSE Core,2nd Year,Section C,ACM Student Chapter,15,0.0301,0.0033,0.3754,0.002,0.3291,144,Community 5,Peer Member,Connected
+RA261102900489,Cybersecurity,1st Year,Section A,Coding Club,15,0.0301,0.0031,0.3792,0.002,0.329,145,Community 4,Peer Member,Connected
+RA231102900095,Cybersecurity,4th Year,Section C,Cyber Security Club,18,0.0361,0.0021,0.3563,0.002,0.3289,146,Community 3,Peer Member,Connected
+RA231105600021,AIML,4th Year,Section A,Big Data Analytics Club,15,0.0301,0.0024,0.3819,0.0023,0.3288,147,Community 4,Peer Member,Connected
+RA231105600063,AIML,4th Year,Section C,Cyber Security Club,15,0.0301,0.0029,0.3771,0.0021,0.3287,148,Community 4,Peer Member,Connected
+RA231105600105,AIML,4th Year,Section A,Coding Club,15,0.0301,0.0029,0.3766,0.0021,0.3286,149,Community 4,Peer Member,Connected
+RA241102800188,Cloud Computing,3rd Year,Section B,Web3 & Open Source,16,0.0321,0.0031,0.3801,0.0017,0.3286,150,Community 2,Peer Member,Connected
+RA261105400407,Data Science,1st Year,Section C,Cyber Security Club,15,0.0301,0.0036,0.3825,0.0017,0.328,151,Community 3,Peer Member,Connected
+RA241100300193,CSE Core,3rd Year,Section A,Coding Club,14,0.0281,0.0034,0.3918,0.0019,0.3279,152,Community 5,Peer Member,Connected
+RA241105600157,AIML,3rd Year,Section A,Big Data Analytics Club,16,0.0321,0.0039,0.3685,0.0015,0.3271,153,Community 5,Peer Member,Connected
+RA261100300416,CSE Core,1st Year,Section B,AI & Robotics Club,17,0.0341,0.0017,0.3714,0.0021,0.3271,154,Community 2,Peer Member,Connected
+RA241100300249,CSE Core,3rd Year,Section A,Coding Club,15,0.0301,0.0028,0.3837,0.0019,0.327,155,Community 4,Peer Member,Connected
+RA241105600185,AIML,3rd Year,Section A,Coding Club,15,0.0301,0.0029,0.3813,0.0019,0.3267,156,Community 3,Peer Member,Connected
+RA241102900231,Cybersecurity,3rd Year,Section C,Cyber Security Club,16,0.0321,0.0024,0.3834,0.0018,0.3267,157,Community 4,Peer Member,Connected
+RA241105400191,Data Science,3rd Year,Section C,Cyber Security Club,15,0.0301,0.0025,0.3804,0.0021,0.3266,158,Community 3,Peer Member,Connected
+RA251102800268,Cloud Computing,2nd Year,Section B,Web3 & Open Source,16,0.0321,0.0027,0.3837,0.0016,0.3265,159,Community 1,Peer Member,Connected
+RA251102700281,Big Data Analytics,2nd Year,Section A,Coding Club,16,0.0321,0.0034,0.3757,0.0015,0.3264,160,Community 3,Peer Member,Connected
+RA241105400128,Data Science,3rd Year,Section B,AI & Robotics Club,17,0.0341,0.0022,0.3677,0.0019,0.3261,161,Community 2,Peer Member,Connected
+RA231105600084,AIML,4th Year,Section B,Web3 & Open Source,14,0.0281,0.0032,0.3862,0.002,0.3257,162,Community 6,Peer Member,Connected
+RA241102700159,Big Data Analytics,3rd Year,Section C,Cyber Security Club,17,0.0341,0.0026,0.368,0.0017,0.3253,163,Community 4,Peer Member,Connected
+RA241102800139,Cloud Computing,3rd Year,Section C,ACM Student Chapter,16,0.0321,0.0024,0.3655,0.0021,0.3247,164,Community 5,Peer Member,Connected
+RA261105600422,AIML,1st Year,Section D,Cloud Computing Society,15,0.0301,0.0034,0.3807,0.0016,0.3245,165,Community 2,Peer Member,Connected
+RA261100300486,CSE Core,1st Year,Section D,Cloud Computing Society,14,0.0281,0.0037,0.3716,0.002,0.3238,166,Community 6,Peer Member,Connected
+RA261102900482,Cybersecurity,1st Year,Section D,None,15,0.0301,0.003,0.3847,0.0016,0.3233,167,Community 2,Peer Member,Connected
+RA251105600321,AIML,2nd Year,Section A,Coding Club,17,0.0341,0.0017,0.3763,0.0018,0.3229,168,Community 4,Peer Member,Connected
+RA231102900032,Cybersecurity,4th Year,Section B,AI & Robotics Club,14,0.0281,0.0029,0.3856,0.002,0.3225,169,Community 1,Peer Member,Connected
+RA251102800366,Cloud Computing,2nd Year,Section D,Cloud Computing Society,15,0.0301,0.0031,0.3789,0.0017,0.3224,170,Community 6,Peer Member,Connected
+RA261102800453,Cloud Computing,1st Year,Section A,Big Data Analytics Club,17,0.0341,0.0027,0.3638,0.0015,0.322,171,Community 4,Peer Member,Connected
+RA231100300064,CSE Core,4th Year,Section B,AI & Robotics Club,15,0.0301,0.0025,0.3844,0.0018,0.3211,172,Community 1,Peer Member,Connected
+RA241102900175,Cybersecurity,3rd Year,Section C,Cyber Security Club,16,0.0321,0.0028,0.3668,0.0017,0.3211,173,Community 5,Peer Member,Connected
+RA241100300214,CSE Core,3rd Year,Section D,Cloud Computing Society,17,0.0341,0.0014,0.3719,0.0019,0.3208,174,Community 1,Peer Member,Connected
+RA251103000375,Information Technology,2nd Year,Section C,Cyber Security Club,15,0.0301,0.0028,0.378,0.0018,0.3206,175,Community 4,Peer Member,Connected
+RA261103000385,Information Technology,1st Year,Section A,Coding Club,15,0.0301,0.0026,0.3671,0.0021,0.3205,176,Community 5,Peer Member,Connected
+RA261102800390,Cloud Computing,1st Year,Section D,Cloud Computing Society,16,0.0321,0.0027,0.3592,0.0018,0.32,177,Community 6,Peer Member,Connected
+RA261105600499,AIML,1st Year,Section C,ACM Student Chapter,16,0.0321,0.0027,0.3696,0.0016,0.3196,178,Community 5,Peer Member,Connected
+RA241103000232,Information Technology,3rd Year,Section B,AI & Robotics Club,15,0.0301,0.0024,0.3792,0.0018,0.3195,179,Community 1,Peer Member,Connected
+RA231100300120,CSE Core,4th Year,Section B,AI & Robotics Club,15,0.0301,0.0029,0.3674,0.0019,0.3191,180,Community 6,Peer Member,Connected
+RA231105400069,Data Science,4th Year,Section A,Big Data Analytics Club,15,0.0301,0.0023,0.3783,0.0019,0.3189,181,Community 4,Peer Member,Connected
+RA241102800174,Cloud Computing,3rd Year,Section D,Cloud Computing Society,15,0.0301,0.0029,0.368,0.0018,0.3183,182,Community 6,Peer Member,Connected
+RA231102800038,Cloud Computing,4th Year,Section D,Cloud Computing Society,15,0.0301,0.0028,0.3751,0.0017,0.3182,183,Community 2,Peer Member,Connected
+RA261105600394,AIML,1st Year,Section D,None,14,0.0281,0.0014,0.3902,0.0023,0.3182,184,Community 1,Peer Member,Connected
+RA261102800411,Cloud Computing,1st Year,Section C,ACM Student Chapter,16,0.0321,0.0027,0.366,0.0016,0.3175,185,Community 4,Peer Member,Connected
+RA261103000476,Information Technology,1st Year,Section B,Web3 & Open Source,17,0.0341,0.0021,0.366,0.0015,0.3167,186,Community 2,Peer Member,Connected
+RA241102700180,Big Data Analytics,3rd Year,Section B,Web3 & Open Source,16,0.0321,0.0021,0.3579,0.0019,0.316,187,Community 6,Peer Member,Connected
+RA231102700065,Big Data Analytics,4th Year,Section A,Coding Club,15,0.0301,0.0023,0.3708,0.0019,0.3155,188,Community 3,Peer Member,Connected
+RA241102800209,Cloud Computing,3rd Year,Section A,Coding Club,16,0.0321,0.0013,0.3685,0.002,0.3153,189,Community 3,Peer Member,Connected
+RA251105400299,Data Science,2nd Year,Section C,ACM Student Chapter,16,0.0321,0.0026,0.3716,0.0014,0.3151,190,Community 3,Peer Member,Connected
+RA241103000197,Information Technology,3rd Year,Section A,Big Data Analytics Club,14,0.0281,0.0022,0.3822,0.002,0.3148,191,Community 3,Peer Member,Connected
+RA241105400226,Data Science,3rd Year,Section D,None,15,0.0301,0.0024,0.3751,0.0017,0.3146,192,Community 1,Peer Member,Connected
+RA241102900238,Cybersecurity,3rd Year,Section D,Cloud Computing Society,16,0.0321,0.0021,0.3668,0.0017,0.3146,193,Community 1,Peer Member,Connected
+RA241105600220,AIML,3rd Year,Section B,Web3 & Open Source,14,0.0281,0.0022,0.3887,0.0018,0.3143,194,Community 1,Peer Member,Connected
+RA241102700243,Big Data Analytics,3rd Year,Section C,ACM Student Chapter,16,0.0321,0.002,0.36,0.0018,0.3135,195,Community 4,Peer Member,Connected
+RA231105600098,AIML,4th Year,Section D,None,14,0.0281,0.0022,0.3745,0.0021,0.3134,196,Community 2,Peer Member,Connected
+RA251103000270,Information Technology,2nd Year,Section D,Cloud Computing Society,15,0.0301,0.0024,0.3624,0.0019,0.3133,197,Community 6,Peer Member,Connected
+RA251105400369,Data Science,2nd Year,Section A,Coding Club,15,0.0301,0.0024,0.3584,0.002,0.3133,198,Community 4,Peer Member,Connected
+RA251102900283,Cybersecurity,2nd Year,Section C,ACM Student Chapter,16,0.0321,0.0021,0.3563,0.0019,0.3131,199,Community 5,Peer Member,Connected
+RA241100300242,CSE Core,3rd Year,Section D,None,15,0.0301,0.0027,0.3725,0.0016,0.313,200,Community 2,Peer Member,Connected
+RA251102800303,Cloud Computing,2nd Year,Section C,Cyber Security Club,14,0.0281,0.0031,0.3742,0.0016,0.3129,201,Community 4,Peer Member,Connected
+RA231103000019,Information Technology,4th Year,Section C,ACM Student Chapter,14,0.0281,0.0026,0.3742,0.0019,0.3127,202,Community 5,Peer Member,Connected
+RA231102900011,Cybersecurity,4th Year,Section C,ACM Student Chapter,16,0.0321,0.0016,0.3616,0.0019,0.3126,203,Community 3,Peer Member,Connected
+RA231102800087,Cloud Computing,4th Year,Section C,Cyber Security Club,14,0.0281,0.0032,0.3731,0.0016,0.3124,204,Community 4,Peer Member,Connected
+RA261102800432,Cloud Computing,1st Year,Section B,AI & Robotics Club,16,0.0321,0.0022,0.3619,0.0017,0.3124,205,Community 6,Peer Member,Connected
+RA261105400470,Data Science,1st Year,Section D,Cloud Computing Society,14,0.0281,0.0023,0.366,0.0021,0.3119,206,Community 2,Peer Member,Connected
+RA251102900297,Cybersecurity,2nd Year,Section A,Coding Club,16,0.0321,0.0023,0.3592,0.0016,0.3116,207,Community 4,Peer Member,Connected
+RA241105400240,Data Science,3rd Year,Section B,AI & Robotics Club,15,0.0301,0.0019,0.363,0.002,0.3114,208,Community 6,Peer Member,Connected
+RA261102900412,Cybersecurity,1st Year,Section B,Web3 & Open Source,15,0.0301,0.002,0.3742,0.0017,0.3107,209,Community 1,Peer Member,Connected
+RA251102800324,Cloud Computing,2nd Year,Section B,Web3 & Open Source,15,0.0301,0.0025,0.3714,0.0015,0.3106,210,Community 6,Peer Member,Connected
+RA241102900224,Cybersecurity,3rd Year,Section B,AI & Robotics Club,15,0.0301,0.0025,0.3702,0.0015,0.3092,211,Community 2,Peer Member,Connected
+RA241105600213,AIML,3rd Year,Section A,Big Data Analytics Club,16,0.0321,0.0016,0.3573,0.0018,0.3087,212,Community 4,Peer Member,Connected
+RA251102700365,Big Data Analytics,2nd Year,Section A,Big Data Analytics Club,14,0.0281,0.0022,0.381,0.0017,0.3086,213,Community 3,Peer Member,Connected
+RA231100300008,CSE Core,4th Year,Section B,AI & Robotics Club,15,0.0301,0.0022,0.366,0.0017,0.3084,214,Community 2,Peer Member,Connected
+RA261100300444,CSE Core,1st Year,Section B,Web3 & Open Source,13,0.0261,0.0031,0.378,0.0017,0.3084,215,Community 6,Peer Member,Connected
+RA261105400484,Data Science,1st Year,Section B,Web3 & Open Source,14,0.0281,0.0024,0.3853,0.0015,0.3084,216,Community 1,Peer Member,Connected
+RA231105600042,AIML,4th Year,Section D,None,14,0.0281,0.0029,0.3691,0.0016,0.3083,217,Community 6,Peer Member,Connected
+RA231102800031,Cloud Computing,4th Year,Section C,Cyber Security Club,15,0.0301,0.002,0.3696,0.0017,0.3078,218,Community 5,Peer Member,Connected
+RA241103000127,Information Technology,3rd Year,Section C,Cyber Security Club,15,0.0301,0.0016,0.3589,0.0021,0.3073,219,Community 5,Peer Member,Connected
+RA241102700187,Big Data Analytics,3rd Year,Section C,ACM Student Chapter,13,0.0261,0.0029,0.3763,0.0017,0.3073,220,Community 5,Peer Member,Connected
+RA241102700131,Big Data Analytics,3rd Year,Section C,ACM Student Chapter,14,0.0281,0.002,0.3801,0.0017,0.3071,221,Community 3,Peer Member,Connected
+RA231103000012,Information Technology,4th Year,Section B,Web3 & Open Source,15,0.0301,0.0031,0.3524,0.0015,0.307,222,Community 6,Peer Member,Connected
+RA251105600265,AIML,2nd Year,Section A,Coding Club,15,0.0301,0.0026,0.3696,0.0014,0.307,223,Community 5,Peer Member,Connected
+RA231102900039,Cybersecurity,4th Year,Section C,Cyber Security Club,14,0.0281,0.0019,0.3774,0.0018,0.3069,224,Community 4,Peer Member,Connected
+RA251105400348,Data Science,2nd Year,Section B,Web3 & Open Source,13,0.0261,0.0036,0.3742,0.0015,0.3069,225,Community 6,Peer Member,Connected
+RA261102700466,Big Data Analytics,1st Year,Section D,None,13,0.0261,0.0022,0.3884,0.0018,0.3069,226,Community 1,Peer Member,Connected
+RA251103000305,Information Technology,2nd Year,Section A,Coding Club,14,0.0281,0.003,0.3657,0.0016,0.3066,227,Community 3,Peer Member,Connected
+RA251105600370,AIML,2nd Year,Section D,None,14,0.0281,0.0012,0.3783,0.0021,0.3064,228,Community 1,Peer Member,Connected
+RA241105400198,Data Science,3rd Year,Section D,Cloud Computing Society,15,0.0301,0.0023,0.368,0.0015,0.3061,229,Community 6,Peer Member,Connected
+RA231102800101,Cloud Computing,4th Year,Section A,Big Data Analytics Club,15,0.0301,0.0018,0.3682,0.0017,0.306,230,Community 3,Peer Member,Connected
+RA241100300165,CSE Core,3rd Year,Section A,Big Data Analytics Club,15,0.0301,0.0017,0.3699,0.0017,0.3059,231,Community 4,Peer Member,Connected
+RA231102900123,Cybersecurity,4th Year,Section C,ACM Student Chapter,13,0.0261,0.0023,0.3739,0.002,0.3057,232,Community 4,Peer Member,Connected
+RA231105400097,Data Science,4th Year,Section A,Coding Club,16,0.0321,0.0017,0.3545,0.0017,0.305,233,Community 5,Peer Member,Connected
+RA231102900067,Cybersecurity,4th Year,Section C,ACM Student Chapter,14,0.0281,0.0024,0.3716,0.0016,0.3048,234,Community 5,Peer Member,Connected
+RA241105400149,Data Science,3rd Year,Section A,Big Data Analytics Club,14,0.0281,0.0023,0.3649,0.0018,0.3048,235,Community 3,Peer Member,Connected
+RA251103000340,Information Technology,2nd Year,Section B,Web3 & Open Source,15,0.0301,0.0021,0.3702,0.0015,0.3048,236,Community 1,Peer Member,Connected
+RA261105400414,Data Science,1st Year,Section D,Cloud Computing Society,14,0.0281,0.0022,0.3576,0.002,0.3045,237,Community 6,Peer Member,Connected
+RA251102800338,Cloud Computing,2nd Year,Section D,None,15,0.0301,0.0015,0.3622,0.0019,0.3043,238,Community 2,Peer Member,Connected
+RA241105400163,Data Science,3rd Year,Section C,ACM Student Chapter,14,0.0281,0.0028,0.3699,0.0015,0.304,239,Community 5,Peer Member,Connected
+RA241102800132,Cloud Computing,3rd Year,Section B,Web3 & Open Source,14,0.0281,0.0022,0.3605,0.0019,0.3039,240,Community 6,Peer Member,Connected
+RA261105600408,AIML,1st Year,Section B,AI & Robotics Club,15,0.0301,0.002,0.3597,0.0017,0.3039,241,Community 6,Peer Member,Connected
+RA251103000333,Information Technology,2nd Year,Section A,Big Data Analytics Club,14,0.0281,0.0022,0.3682,0.0017,0.3037,242,Community 4,Peer Member,Connected
+RA251100300280,CSE Core,2nd Year,Section B,AI & Robotics Club,14,0.0281,0.0021,0.3722,0.0017,0.3034,243,Community 1,Peer Member,Connected
+RA261102700403,Big Data Analytics,1st Year,Section C,ACM Student Chapter,13,0.0261,0.0026,0.3691,0.0018,0.3032,244,Community 5,Peer Member,Connected
+RA251102800317,Cloud Computing,2nd Year,Section A,Big Data Analytics Club,13,0.0261,0.0024,0.3807,0.0017,0.3029,245,Community 3,Peer Member,Connected
+RA241100300130,CSE Core,3rd Year,Section D,None,15,0.0301,0.0016,0.3671,0.0017,0.3024,246,Community 1,Peer Member,Connected
+RA241102700215,Big Data Analytics,3rd Year,Section C,Cyber Security Club,14,0.0281,0.0028,0.363,0.0015,0.3021,247,Community 3,Peer Member,Connected
+RA241102700201,Big Data Analytics,3rd Year,Section A,Coding Club,13,0.0261,0.0023,0.3739,0.0018,0.3018,248,Community 4,Peer Member,Connected
+RA231102700009,Big Data Analytics,4th Year,Section A,Coding Club,14,0.0281,0.0019,0.3702,0.0017,0.3017,249,Community 4,Peer Member,Connected
+RA231102800115,Cloud Computing,4th Year,Section C,ACM Student Chapter,14,0.0281,0.002,0.3641,0.0018,0.3009,250,Community 5,Peer Member,Connected
+RA231103000124,Information Technology,4th Year,Section B,Web3 & Open Source,14,0.0281,0.0019,0.3739,0.0016,0.3008,251,Community 1,Peer Member,Connected
+RA261102700417,Big Data Analytics,1st Year,Section A,Coding Club,13,0.0261,0.0029,0.3691,0.0015,0.3,252,Community 4,Peer Member,Connected
+RA231102700030,Big Data Analytics,4th Year,Section D,Cloud Computing Society,13,0.0261,0.002,0.3584,0.0021,0.2997,253,Community 6,Peer Member,Connected
+RA251102700351,Big Data Analytics,2nd Year,Section C,Cyber Security Club,13,0.0261,0.0017,0.3682,0.0021,0.2997,254,Community 4,Peer Member,Connected
+RA261103000483,Information Technology,1st Year,Section C,ACM Student Chapter,14,0.0281,0.002,0.3595,0.0018,0.2993,255,Community 4,Peer Member,Connected
+RA231102900109,Cybersecurity,4th Year,Section A,Big Data Analytics Club,14,0.0281,0.0014,0.3627,0.002,0.2987,256,Community 5,Peer Member,Connected
+RA261100300402,CSE Core,1st Year,Section D,None,13,0.0261,0.0025,0.3685,0.0017,0.2986,257,Community 6,Peer Member,Connected
+RA251103000354,Information Technology,2nd Year,Section D,None,12,0.024,0.0025,0.3881,0.0015,0.2976,258,Community 1,Peer Member,Connected
+RA241103000239,Information Technology,3rd Year,Section C,Cyber Security Club,13,0.0261,0.002,0.3711,0.0018,0.2975,259,Community 3,Peer Member,Connected
+RA251102900276,Cybersecurity,2nd Year,Section B,Web3 & Open Source,14,0.0281,0.0014,0.3526,0.0021,0.2975,260,Community 6,Peer Member,Connected
+RA241103000183,Information Technology,3rd Year,Section C,Cyber Security Club,13,0.0261,0.0022,0.3736,0.0016,0.2974,261,Community 4,Peer Member,Connected
+RA261103000420,Information Technology,1st Year,Section B,Web3 & Open Source,14,0.0281,0.0018,0.3682,0.0016,0.2973,262,Community 6,Peer Member,Connected
+RA241102700152,Big Data Analytics,3rd Year,Section B,AI & Robotics Club,13,0.0261,0.002,0.3688,0.0018,0.2972,263,Community 2,Peer Member,Connected
+RA261105600429,AIML,1st Year,Section A,Big Data Analytics Club,15,0.0301,0.0018,0.3587,0.0015,0.2972,264,Community 4,Peer Member,Connected
+RA251105600307,AIML,2nd Year,Section C,ACM Student Chapter,13,0.0261,0.0018,0.3671,0.0019,0.297,265,Community 5,Peer Member,Connected
+RA261102900440,Cybersecurity,1st Year,Section B,AI & Robotics Club,12,0.024,0.002,0.3804,0.0018,0.2969,266,Community 2,Peer Member,Connected
+RA241100300221,CSE Core,3rd Year,Section A,Big Data Analytics Club,15,0.0301,0.0013,0.3589,0.0017,0.2966,267,Community 3,Peer Member,Connected
+RA251103000326,Information Technology,2nd Year,Section D,Cloud Computing Society,14,0.0281,0.0025,0.363,0.0014,0.2966,268,Community 2,Peer Member,Connected
+RA241105600248,AIML,3rd Year,Section B,AI & Robotics Club,13,0.0261,0.0019,0.3691,0.0018,0.2964,269,Community 2,Peer Member,Connected
+RA231103000089,Information Technology,4th Year,Section A,Coding Club,14,0.0281,0.0018,0.3573,0.0018,0.2963,270,Community 3,Peer Member,Connected
+RA261102800467,Cloud Computing,1st Year,Section C,ACM Student Chapter,13,0.0261,0.0029,0.3663,0.0014,0.2963,271,Community 3,Peer Member,Connected
+RA241102700145,Big Data Analytics,3rd Year,Section A,Coding Club,14,0.0281,0.0021,0.3699,0.0013,0.2955,272,Community 5,Peer Member,Connected
+RA251102700253,Big Data Analytics,2nd Year,Section A,Big Data Analytics Club,15,0.0301,0.002,0.3592,0.0013,0.2953,273,Community 5,Peer Member,Connected
+RA231102800003,Cloud Computing,4th Year,Section C,ACM Student Chapter,13,0.0261,0.0016,0.3668,0.0019,0.2952,274,Community 4,Peer Member,Connected
+RA231100300092,CSE Core,4th Year,Section B,Web3 & Open Source,13,0.0261,0.0014,0.3716,0.0019,0.2949,275,Community 2,Peer Member,Connected
+RA261105600443,AIML,1st Year,Section C,ACM Student Chapter,13,0.0261,0.0018,0.3624,0.0019,0.2945,276,Community 3,Peer Member,Connected
+RA251100300343,CSE Core,2nd Year,Section C,Cyber Security Club,13,0.0261,0.0022,0.3619,0.0017,0.2938,277,Community 5,Peer Member,Connected
+RA251100300364,CSE Core,2nd Year,Section B,Web3 & Open Source,15,0.0301,0.0009,0.3571,0.0018,0.2937,278,Community 1,Peer Member,Connected
+RA251102700267,Big Data Analytics,2nd Year,Section C,ACM Student Chapter,14,0.0281,0.0021,0.3571,0.0015,0.2935,279,Community 4,Peer Member,Connected
+RA251103000312,Information Technology,2nd Year,Section B,AI & Robotics Club,13,0.0261,0.0023,0.3587,0.0017,0.293,280,Community 6,Peer Member,Connected
+RA251105400334,Data Science,2nd Year,Section D,Cloud Computing Society,12,0.024,0.0012,0.3804,0.002,0.2929,281,Community 1,Peer Member,Connected
+RA231103000054,Information Technology,4th Year,Section D,Cloud Computing Society,14,0.0281,0.0022,0.3488,0.0016,0.2927,282,Community 6,Peer Member,Connected
+RA251102700274,Big Data Analytics,2nd Year,Section D,None,13,0.0261,0.0015,0.3795,0.0016,0.2924,283,Community 1,Peer Member,Connected
+RA251105400285,Data Science,2nd Year,Section A,Big Data Analytics Club,14,0.0281,0.0018,0.3584,0.0016,0.2922,284,Community 4,Peer Member,Connected
+RA231102900053,Cybersecurity,4th Year,Section A,Big Data Analytics Club,13,0.0261,0.0016,0.3766,0.0016,0.2921,285,Community 3,Peer Member,Connected
+RA231102900088,Cybersecurity,4th Year,Section B,AI & Robotics Club,14,0.0281,0.0018,0.3627,0.0015,0.2921,286,Community 1,Peer Member,Connected
+RA241102900189,Cybersecurity,3rd Year,Section A,Big Data Analytics Club,12,0.024,0.0021,0.381,0.0016,0.2921,287,Community 4,Peer Member,Connected
+RA241102800195,Cloud Computing,3rd Year,Section C,ACM Student Chapter,13,0.0261,0.0021,0.3644,0.0016,0.292,288,Community 4,Peer Member,Connected
+RA241102900203,Cybersecurity,3rd Year,Section C,ACM Student Chapter,14,0.0281,0.0013,0.3641,0.0016,0.292,289,Community 3,Peer Member,Connected
+RA231102900018,Cybersecurity,4th Year,Section D,None,12,0.024,0.003,0.3597,0.0016,0.2915,290,Community 6,Peer Member,Connected
+RA231100300050,CSE Core,4th Year,Section D,None,14,0.0281,0.0022,0.3595,0.0013,0.2912,291,Community 2,Peer Member,Connected
+RA261102900468,Cybersecurity,1st Year,Section B,Web3 & Open Source,14,0.0281,0.0018,0.3431,0.0018,0.291,292,Community 6,Peer Member,Connected
+RA231102900081,Cybersecurity,4th Year,Section A,Coding Club,13,0.0261,0.0017,0.3646,0.0017,0.2907,293,Community 4,Peer Member,Connected
+RA251102700260,Big Data Analytics,2nd Year,Section B,Web3 & Open Source,13,0.0261,0.0014,0.3614,0.0019,0.2901,294,Community 2,Peer Member,Connected
+RA251100300266,CSE Core,2nd Year,Section D,None,14,0.0281,0.0015,0.3666,0.0014,0.2898,295,Community 2,Peer Member,Connected
+RA231105600056,AIML,4th Year,Section B,AI & Robotics Club,14,0.0281,0.0021,0.3605,0.0013,0.2897,296,Community 1,Peer Member,Connected
+RA251102900255,Cybersecurity,2nd Year,Section C,Cyber Security Club,12,0.024,0.0014,0.3742,0.0019,0.2887,297,Community 4,Peer Member,Connected
+RA261103000448,Information Technology,1st Year,Section B,AI & Robotics Club,12,0.024,0.0012,0.3819,0.0018,0.2884,298,Community 1,Peer Member,Connected
+RA241102800244,Cloud Computing,3rd Year,Section B,Web3 & Open Source,14,0.0281,0.0015,0.3603,0.0015,0.2881,299,Community 1,Peer Member,Connected
+RA241102800237,Cloud Computing,3rd Year,Section A,Big Data Analytics Club,12,0.024,0.0021,0.3674,0.0017,0.2877,300,Community 4,Peer Member,Connected
+RA241103000162,Information Technology,3rd Year,Section D,None,14,0.0281,0.0016,0.3597,0.0014,0.2874,301,Community 6,Peer Member,Connected
+RA231105400055,Data Science,4th Year,Section C,Cyber Security Club,12,0.024,0.002,0.3742,0.0015,0.287,302,Community 5,Peer Member,Connected
+RA231105400076,Data Science,4th Year,Section B,Web3 & Open Source,13,0.0261,0.0017,0.3649,0.0015,0.2868,303,Community 1,Peer Member,Connected
+RA231105400090,Data Science,4th Year,Section D,None,13,0.0261,0.0015,0.3529,0.0018,0.2866,304,Community 6,Peer Member,Connected
+RA241102800181,Cloud Computing,3rd Year,Section A,Big Data Analytics Club,13,0.0261,0.0017,0.3563,0.0017,0.2862,305,Community 5,Peer Member,Connected
+RA231103000110,Information Technology,4th Year,Section D,Cloud Computing Society,12,0.024,0.0024,0.3728,0.0013,0.286,306,Community 2,Peer Member,Connected
+RA261100300493,CSE Core,1st Year,Section A,Big Data Analytics Club,12,0.024,0.002,0.3696,0.0016,0.286,307,Community 5,Peer Member,Connected
+RA241102700173,Big Data Analytics,3rd Year,Section A,Big Data Analytics Club,12,0.024,0.0015,0.378,0.0016,0.2859,308,Community 3,Peer Member,Connected
+RA251102700309,Big Data Analytics,2nd Year,Section A,Big Data Analytics Club,13,0.0261,0.0014,0.3587,0.0018,0.2858,309,Community 4,Peer Member,Connected
+RA251102900304,Cybersecurity,2nd Year,Section B,AI & Robotics Club,13,0.0261,0.0017,0.36,0.0016,0.2855,310,Community 1,Peer Member,Connected
+RA231103000117,Information Technology,4th Year,Section A,Big Data Analytics Club,13,0.0261,0.002,0.3619,0.0014,0.2847,311,Community 4,Peer Member,Connected
+RA251103000368,Information Technology,2nd Year,Section B,AI & Robotics Club,13,0.0261,0.0021,0.3635,0.0013,0.2846,312,Community 2,Peer Member,Connected
+RA241103000134,Information Technology,3rd Year,Section D,Cloud Computing Society,13,0.0261,0.0018,0.3619,0.0014,0.2845,313,Community 2,Peer Member,Connected
+RA251105400355,Data Science,2nd Year,Section C,ACM Student Chapter,11,0.022,0.0017,0.3801,0.0017,0.2843,314,Community 5,Peer Member,Connected
+RA261103000497,Information Technology,1st Year,Section A,Coding Club,13,0.0261,0.0013,0.3608,0.0017,0.2842,315,Community 3,Peer Member,Connected
+RA261102900384,Cybersecurity,1st Year,Section B,AI & Robotics Club,14,0.0281,0.0016,0.3471,0.0015,0.284,316,Community 6,Peer Member,Connected
+RA241105400170,Data Science,3rd Year,Section D,None,13,0.0261,0.0019,0.3592,0.0014,0.2836,317,Community 2,Peer Member,Connected
+RA241100300235,CSE Core,3rd Year,Section C,ACM Student Chapter,13,0.0261,0.0016,0.3547,0.0016,0.2834,318,Community 5,Peer Member,Connected
+RA231105400104,Data Science,4th Year,Section B,AI & Robotics Club,12,0.024,0.0018,0.3674,0.0016,0.283,319,Community 2,Peer Member,Connected
+RA251105400320,Data Science,2nd Year,Section B,AI & Robotics Club,13,0.0261,0.0018,0.3627,0.0014,0.283,320,Community 2,Peer Member,Connected
+RA251102700295,Big Data Analytics,2nd Year,Section C,Cyber Security Club,13,0.0261,0.0016,0.3496,0.0017,0.2825,321,Community 5,Peer Member,Connected
+RA261103000469,Information Technology,1st Year,Section A,Big Data Analytics Club,13,0.0261,0.0012,0.3608,0.0016,0.2825,322,Community 5,Peer Member,Connected
+RA261103000490,Information Technology,1st Year,Section D,None,12,0.024,0.0011,0.3774,0.0016,0.2818,323,Community 1,Peer Member,Connected
+RA241105600150,AIML,3rd Year,Section D,Cloud Computing Society,12,0.024,0.0022,0.36,0.0014,0.2813,324,Community 2,Peer Member,Connected
+RA241103000190,Information Technology,3rd Year,Section D,Cloud Computing Society,11,0.022,0.001,0.3771,0.0019,0.2812,325,Community 1,Peer Member,Connected
+RA261100300458,CSE Core,1st Year,Section D,None,13,0.0261,0.0013,0.3587,0.0015,0.2808,326,Community 2,Peer Member,Connected
+RA241102800167,Cloud Computing,3rd Year,Section C,Cyber Security Club,11,0.022,0.0015,0.3627,0.002,0.2807,327,Community 3,Peer Member,Connected
+RA251105600363,AIML,2nd Year,Section C,ACM Student Chapter,12,0.024,0.0012,0.3652,0.0018,0.2806,328,Community 4,Peer Member,Connected
+RA231105600112,AIML,4th Year,Section B,AI & Robotics Club,12,0.024,0.0014,0.3671,0.0016,0.2803,329,Community 1,Peer Member,Connected
+RA241100300151,CSE Core,3rd Year,Section C,Cyber Security Club,13,0.0261,0.0012,0.3644,0.0014,0.2803,330,Community 5,Peer Member,Connected
+RA241105400233,Data Science,3rd Year,Section A,Coding Club,13,0.0261,0.0013,0.355,0.0016,0.28,331,Community 3,Peer Member,Connected
+RA231105600049,AIML,4th Year,Section A,Coding Club,13,0.0261,0.002,0.3603,0.0012,0.2798,332,Community 5,Peer Member,Connected
+RA241100300207,CSE Core,3rd Year,Section C,Cyber Security Club,12,0.024,0.0015,0.3668,0.0015,0.279,333,Community 4,Peer Member,Connected
+RA231100300036,CSE Core,4th Year,Section B,Web3 & Open Source,11,0.022,0.0019,0.36,0.0018,0.2787,334,Community 6,Peer Member,Connected
+RA261103000378,Information Technology,1st Year,Section D,None,12,0.024,0.0016,0.3589,0.0016,0.2787,335,Community 6,Peer Member,Connected
+RA241105600136,AIML,3rd Year,Section B,AI & Robotics Club,12,0.024,0.0012,0.3714,0.0015,0.2785,336,Community 1,Peer Member,Connected
+RA261102800460,Cloud Computing,1st Year,Section B,Web3 & Open Source,13,0.0261,0.0011,0.3587,0.0015,0.2785,337,Community 1,Peer Member,Connected
+RA231102900116,Cybersecurity,4th Year,Section B,Web3 & Open Source,13,0.0261,0.0013,0.3519,0.0016,0.2783,338,Community 2,Peer Member,Connected
+RA241100300158,CSE Core,3rd Year,Section D,Cloud Computing Society,11,0.022,0.0015,0.3668,0.0018,0.2778,339,Community 2,Peer Member,Connected
+RA251100300294,CSE Core,2nd Year,Section D,Cloud Computing Society,13,0.0261,0.0017,0.3431,0.0016,0.2778,340,Community 6,Peer Member,Connected
+RA261102900454,Cybersecurity,1st Year,Section D,Cloud Computing Society,11,0.022,0.0011,0.3708,0.0019,0.2778,341,Community 1,Peer Member,Connected
+RA241102700222,Big Data Analytics,3rd Year,Section D,Cloud Computing Society,13,0.0261,0.0018,0.3498,0.0014,0.2776,342,Community 6,Peer Member,Connected
+RA251102800289,Cloud Computing,2nd Year,Section A,Coding Club,12,0.024,0.0018,0.3644,0.0014,0.2775,343,Community 5,Peer Member,Connected
+RA251100300336,CSE Core,2nd Year,Section B,AI & Robotics Club,12,0.024,0.0022,0.3552,0.0014,0.2774,344,Community 6,Peer Member,Connected
+RA251102700337,Big Data Analytics,2nd Year,Section A,Coding Club,14,0.0281,0.0012,0.3471,0.0014,0.2774,345,Community 5,Peer Member,Connected
+RA261102700410,Big Data Analytics,1st Year,Section D,None,13,0.0261,0.0015,0.3503,0.0015,0.2774,346,Community 2,Peer Member,Connected
+RA241102900161,Cybersecurity,3rd Year,Section A,Coding Club,13,0.0261,0.0015,0.3558,0.0013,0.2766,347,Community 3,Peer Member,Connected
+RA251102700344,Big Data Analytics,2nd Year,Section B,AI & Robotics Club,11,0.022,0.002,0.3734,0.0013,0.2765,348,Community 2,Peer Member,Connected
+RA231100300001,CSE Core,4th Year,Section A,Coding Club,12,0.024,0.0017,0.3646,0.0013,0.2763,349,Community 5,Peer Member,Connected
+RA251105600293,AIML,2nd Year,Section A,Big Data Analytics Club,13,0.0261,0.0011,0.3592,0.0014,0.2763,350,Community 3,Peer Member,Connected
+RA251103000277,Information Technology,2nd Year,Section A,Big Data Analytics Club,12,0.024,0.0012,0.3597,0.0017,0.276,351,Community 5,Peer Member,Connected
+RA231100300022,CSE Core,4th Year,Section D,Cloud Computing Society,11,0.022,0.0011,0.3688,0.0018,0.2759,352,Community 1,Peer Member,Connected
+RA241102800160,Cloud Computing,3rd Year,Section B,AI & Robotics Club,12,0.024,0.0013,0.3657,0.0015,0.2757,353,Community 1,Peer Member,Connected
+RA261103000455,Information Technology,1st Year,Section C,Cyber Security Club,13,0.0261,0.0016,0.3466,0.0014,0.2756,354,Community 3,Peer Member,Connected
+RA261103000427,Information Technology,1st Year,Section C,ACM Student Chapter,13,0.0261,0.0013,0.3448,0.0016,0.2755,355,Community 5,Peer Member,Connected
+RA261102700389,Big Data Analytics,1st Year,Section A,Big Data Analytics Club,12,0.024,0.0017,0.3558,0.0015,0.2753,356,Community 3,Peer Member,Connected
+RA231100300085,CSE Core,4th Year,Section A,Big Data Analytics Club,13,0.0261,0.0012,0.3555,0.0014,0.2744,357,Community 5,Peer Member,Connected
+RA241102800223,Cloud Computing,3rd Year,Section C,Cyber Security Club,13,0.0261,0.0015,0.3509,0.0013,0.2743,358,Community 5,Peer Member,Connected
+RA261100300479,CSE Core,1st Year,Section C,Cyber Security Club,12,0.024,0.0014,0.363,0.0014,0.2743,359,Community 3,Peer Member,Connected
+RA241102900245,Cybersecurity,3rd Year,Section A,Big Data Analytics Club,13,0.0261,0.0014,0.3498,0.0014,0.2739,360,Community 3,Peer Member,Connected
+RA261102900475,Cybersecurity,1st Year,Section C,ACM Student Chapter,12,0.024,0.0013,0.3566,0.0016,0.2739,361,Community 5,Peer Member,Connected
+RA251102900318,Cybersecurity,2nd Year,Section D,Cloud Computing Society,11,0.022,0.0013,0.3668,0.0016,0.2737,362,Community 6,Peer Member,Connected
+RA251102900332,Cybersecurity,2nd Year,Section B,Web3 & Open Source,12,0.024,0.0015,0.3441,0.0017,0.2733,363,Community 2,Peer Member,Connected
+RA261102800397,Cloud Computing,1st Year,Section A,Big Data Analytics Club,13,0.0261,0.0012,0.3436,0.0015,0.2726,364,Community 5,Peer Member,Connected
+RA251102800352,Cloud Computing,2nd Year,Section B,AI & Robotics Club,11,0.022,0.0012,0.3635,0.0017,0.2724,365,Community 1,Peer Member,Connected
+RA241105400177,Data Science,3rd Year,Section A,Coding Club,13,0.0261,0.0007,0.3558,0.0015,0.2721,366,Community 4,Peer Member,Connected
+RA261105400379,Data Science,1st Year,Section C,ACM Student Chapter,12,0.024,0.0012,0.3579,0.0015,0.2719,367,Community 5,Peer Member,Connected
+RA241102800216,Cloud Computing,3rd Year,Section B,AI & Robotics Club,13,0.0261,0.0008,0.3412,0.0017,0.2718,368,Community 6,Peer Member,Connected
+RA241105600164,AIML,3rd Year,Section B,Web3 & Open Source,11,0.022,0.0013,0.363,0.0016,0.2714,369,Community 2,Peer Member,Connected
+RA251105600328,AIML,2nd Year,Section B,AI & Robotics Club,13,0.0261,0.0009,0.3509,0.0014,0.271,370,Community 1,Peer Member,Connected
+RA251102700358,Big Data Analytics,2nd Year,Section D,Cloud Computing Society,12,0.024,0.0009,0.3589,0.0015,0.2706,371,Community 1,Peer Member,Connected
+RA251102700323,Big Data Analytics,2nd Year,Section C,ACM Student Chapter,11,0.022,0.0013,0.3714,0.0014,0.2704,372,Community 3,Peer Member,Connected
+RA251105400306,Data Science,2nd Year,Section D,None,11,0.022,0.0014,0.3568,0.0017,0.2702,373,Community 6,Peer Member,Connected
+RA251105600286,AIML,2nd Year,Section D,Cloud Computing Society,12,0.024,0.001,0.3644,0.0014,0.2699,374,Community 1,Peer Member,Connected
+RA241105600171,AIML,3rd Year,Section C,ACM Student Chapter,13,0.0261,0.0008,0.339,0.0016,0.2697,375,Community 4,Peer Member,Connected
+RA251105400278,Data Science,2nd Year,Section D,Cloud Computing Society,11,0.022,0.0016,0.3685,0.0013,0.2693,376,Community 2,Peer Member,Connected
+RA261102900447,Cybersecurity,1st Year,Section C,Cyber Security Club,10,0.02,0.0018,0.3739,0.0014,0.2687,377,Community 4,Peer Member,Connected
+RA231102800045,Cloud Computing,4th Year,Section A,Big Data Analytics Club,12,0.024,0.001,0.3566,0.0015,0.2685,378,Community 4,Peer Member,Connected
+RA241102900126,Cybersecurity,3rd Year,Section D,Cloud Computing Society,11,0.022,0.0018,0.3611,0.0013,0.2682,379,Community 6,Peer Member,Connected
+RA231102700037,Big Data Analytics,4th Year,Section A,Big Data Analytics Club,11,0.022,0.0011,0.3624,0.0016,0.2679,380,Community 5,Peer Member,Connected
+RA261102700424,Big Data Analytics,1st Year,Section B,AI & Robotics Club,12,0.024,0.0012,0.3603,0.0013,0.2679,381,Community 1,Peer Member,Connected
+RA261105400449,Data Science,1st Year,Section A,Coding Club,12,0.024,0.0014,0.3558,0.0013,0.2677,382,Community 3,Peer Member,Connected
+RA251103000256,Information Technology,2nd Year,Section B,AI & Robotics Club,13,0.0261,0.001,0.3493,0.0012,0.2673,383,Community 1,Peer Member,Connected
+RA241103000176,Information Technology,3rd Year,Section B,AI & Robotics Club,11,0.022,0.0014,0.3597,0.0014,0.2668,384,Community 2,Peer Member,Connected
+RA231103000061,Information Technology,4th Year,Section A,Big Data Analytics Club,11,0.022,0.0017,0.3592,0.0013,0.2661,385,Community 2,Peer Member,Connected
+RA251102800275,Cloud Computing,2nd Year,Section C,ACM Student Chapter,10,0.02,0.0012,0.3716,0.0015,0.2659,386,Community 3,Peer Member,Connected
+RA251102700302,Big Data Analytics,2nd Year,Section D,Cloud Computing Society,12,0.024,0.001,0.3521,0.0014,0.265,387,Community 2,Peer Member,Connected
+RA251102800282,Cloud Computing,2nd Year,Section D,None,11,0.022,0.0012,0.3458,0.0017,0.2642,388,Community 6,Peer Member,Connected
+RA241103000218,Information Technology,3rd Year,Section D,None,11,0.022,0.0013,0.3563,0.0014,0.2641,389,Community 2,Peer Member,Connected
+RA261105600380,AIML,1st Year,Section B,Web3 & Open Source,11,0.022,0.0012,0.3595,0.0014,0.2641,390,Community 2,Peer Member,Connected
+RA261105600401,AIML,1st Year,Section A,Coding Club,11,0.022,0.0017,0.356,0.0012,0.2641,391,Community 3,Peer Member,Connected
+RA251103000319,Information Technology,2nd Year,Section C,Cyber Security Club,13,0.0261,0.0009,0.3491,0.0011,0.264,392,Community 5,Peer Member,Connected
+RA251100300371,CSE Core,2nd Year,Section C,ACM Student Chapter,11,0.022,0.0012,0.3627,0.0013,0.2638,393,Community 3,Peer Member,Connected
+RA251103000347,Information Technology,2nd Year,Section C,ACM Student Chapter,11,0.022,0.0014,0.3579,0.0014,0.2637,394,Community 3,Peer Member,Connected
+RA231102800094,Cloud Computing,4th Year,Section D,Cloud Computing Society,12,0.024,0.0009,0.3571,0.0013,0.2633,395,Community 1,Peer Member,Connected
+RA261105600450,AIML,1st Year,Section D,None,11,0.022,0.0012,0.3608,0.0013,0.2632,396,Community 6,Peer Member,Connected
+RA261102900405,Cybersecurity,1st Year,Section A,Big Data Analytics Club,12,0.024,0.0006,0.3414,0.0017,0.263,397,Community 4,Peer Member,Connected
+RA251102900290,Cybersecurity,2nd Year,Section D,None,12,0.024,0.0011,0.3468,0.0013,0.2629,398,Community 2,Peer Member,Connected
+RA241105600178,AIML,3rd Year,Section D,None,10,0.02,0.0009,0.3705,0.0016,0.2627,399,Community 1,Peer Member,Connected
+RA251102800373,Cloud Computing,2nd Year,Section A,Big Data Analytics Club,12,0.024,0.0009,0.3506,0.0013,0.2626,400,Community 5,Peer Member,Connected
+RA261100300381,CSE Core,1st Year,Section A,Big Data Analytics Club,10,0.02,0.0013,0.3614,0.0015,0.2625,401,Community 4,Peer Member,Connected
+RA241102900168,Cybersecurity,3rd Year,Section B,AI & Robotics Club,12,0.024,0.001,0.3453,0.0014,0.2624,402,Community 6,Peer Member,Connected
+RA251100300287,CSE Core,2nd Year,Section C,Cyber Security Club,11,0.022,0.001,0.3539,0.0015,0.2616,403,Community 3,Peer Member,Connected
+RA231102700016,Big Data Analytics,4th Year,Section B,AI & Robotics Club,10,0.02,0.0011,0.3633,0.0016,0.2615,404,Community 1,Peer Member,Connected
+RA231105600091,AIML,4th Year,Section C,ACM Student Chapter,10,0.02,0.0012,0.3573,0.0016,0.2613,405,Community 5,Peer Member,Connected
+RA241102900140,Cybersecurity,3rd Year,Section B,Web3 & Open Source,10,0.02,0.0013,0.3716,0.0013,0.2613,406,Community 2,Peer Member,Connected
+RA231102700002,Big Data Analytics,4th Year,Section D,None,11,0.022,0.0009,0.3506,0.0016,0.2606,407,Community 2,Peer Member,Connected
+RA231105400111,Data Science,4th Year,Section C,Cyber Security Club,11,0.022,0.0013,0.3579,0.0012,0.2606,408,Community 4,Peer Member,Connected
+RA241102800153,Cloud Computing,3rd Year,Section A,Coding Club,11,0.022,0.0011,0.3547,0.0014,0.2605,409,Community 4,Peer Member,Connected
+RA251105600335,AIML,2nd Year,Section C,Cyber Security Club,10,0.02,0.0017,0.3611,0.0013,0.2601,410,Community 3,Peer Member,Connected
+RA261100300430,CSE Core,1st Year,Section D,Cloud Computing Society,10,0.02,0.0009,0.3619,0.0016,0.2593,411,Community 1,Peer Member,Connected
+RA231102800122,Cloud Computing,4th Year,Section D,None,10,0.02,0.0014,0.3685,0.0012,0.2579,412,Community 2,Peer Member,Connected
+RA231102800017,Cloud Computing,4th Year,Section A,Coding Club,12,0.024,0.0011,0.3439,0.0012,0.2573,413,Community 3,Peer Member,Connected
+RA231103000040,Information Technology,4th Year,Section B,AI & Robotics Club,12,0.024,0.0005,0.3506,0.0012,0.257,414,Community 1,Peer Member,Connected
+RA241105600241,AIML,3rd Year,Section A,Coding Club,11,0.022,0.0007,0.3496,0.0015,0.257,415,Community 5,Peer Member,Connected
+RA241100300137,CSE Core,3rd Year,Section A,Coding Club,10,0.02,0.0011,0.3619,0.0013,0.2568,416,Community 3,Peer Member,Connected
+RA241102900133,Cybersecurity,3rd Year,Section A,Big Data Analytics Club,11,0.022,0.0014,0.3552,0.0011,0.2564,417,Community 5,Peer Member,Connected
+RA251102800261,Cloud Computing,2nd Year,Section A,Big Data Analytics Club,10,0.02,0.0008,0.3622,0.0015,0.2557,418,Community 4,Peer Member,Connected
+RA251105400264,Data Science,2nd Year,Section B,AI & Robotics Club,11,0.022,0.0011,0.3509,0.0012,0.2557,419,Community 6,Peer Member,Connected
+RA231102900046,Cybersecurity,4th Year,Section D,Cloud Computing Society,10,0.02,0.0007,0.3584,0.0015,0.2547,420,Community 1,Peer Member,Connected
+RA241105600227,AIML,3rd Year,Section C,ACM Student Chapter,10,0.02,0.0016,0.3568,0.0011,0.2546,421,Community 3,Peer Member,Connected
+RA261102900419,Cybersecurity,1st Year,Section C,ACM Student Chapter,11,0.022,0.001,0.3379,0.0015,0.2546,422,Community 3,Peer Member,Connected
+RA231103000075,Information Technology,4th Year,Section C,ACM Student Chapter,11,0.022,0.0011,0.3471,0.0012,0.2543,423,Community 4,Peer Member,Connected
+RA241102900182,Cybersecurity,3rd Year,Section D,Cloud Computing Society,12,0.024,0.0005,0.3353,0.0014,0.2533,424,Community 2,Peer Member,Connected
+RA231102900004,Cybersecurity,4th Year,Section B,Web3 & Open Source,9,0.018,0.0007,0.3657,0.0016,0.2532,425,Community 1,Peer Member,Connected
+RA241100300228,CSE Core,3rd Year,Section B,Web3 & Open Source,9,0.018,0.0012,0.3547,0.0016,0.2525,426,Community 6,Peer Member,Connected
+RA261102800418,Cloud Computing,1st Year,Section D,None,10,0.02,0.0007,0.3568,0.0014,0.2523,427,Community 1,Peer Member,Connected
+RA261103000462,Information Technology,1st Year,Section D,Cloud Computing Society,11,0.022,0.0011,0.3393,0.0013,0.2521,428,Community 6,Peer Member,Connected
+RA261102800383,Cloud Computing,1st Year,Section C,Cyber Security Club,11,0.022,0.001,0.3521,0.001,0.2516,429,Community 3,Peer Member,Connected
+RA261103000434,Information Technology,1st Year,Section D,None,10,0.02,0.0011,0.3501,0.0013,0.2514,430,Community 2,Peer Member,Connected
+RA251105400327,Data Science,2nd Year,Section C,Cyber Security Club,11,0.022,0.0007,0.3466,0.0013,0.2511,431,Community 4,Peer Member,Connected
+RA261100300500,CSE Core,1st Year,Section B,Web3 & Open Source,10,0.02,0.0013,0.3444,0.0013,0.2499,432,Community 2,Peer Member,Connected
+RA261103000413,Information Technology,1st Year,Section A,Big Data Analytics Club,11,0.022,0.001,0.3424,0.0011,0.2497,433,Community 3,Peer Member,Connected
+RA261103000392,Information Technology,1st Year,Section B,AI & Robotics Club,9,0.018,0.0007,0.3511,0.0017,0.2483,434,Community 2,Peer Member,Connected
+RA231103000047,Information Technology,4th Year,Section C,Cyber Security Club,10,0.02,0.0009,0.3516,0.0012,0.2482,435,Community 3,Peer Member,Connected
+RA231105400118,Data Science,4th Year,Section D,Cloud Computing Society,10,0.02,0.0008,0.3524,0.0013,0.2477,436,Community 1,Peer Member,Connected
+RA241102900196,Cybersecurity,3rd Year,Section B,Web3 & Open Source,9,0.018,0.0008,0.3619,0.0013,0.2454,437,Community 1,Peer Member,Connected
+RA261102700431,Big Data Analytics,1st Year,Section C,Cyber Security Club,9,0.018,0.0012,0.3558,0.0012,0.2454,438,Community 3,Peer Member,Connected
+RA251105600300,AIML,2nd Year,Section B,Web3 & Open Source,11,0.022,0.0006,0.332,0.0013,0.2453,439,Community 6,Peer Member,Connected
+RA231105600014,AIML,4th Year,Section D,Cloud Computing Society,10,0.02,0.0007,0.3448,0.0013,0.2451,440,Community 2,Peer Member,Connected
+RA231105400006,Data Science,4th Year,Section D,Cloud Computing Society,11,0.022,0.0008,0.3383,0.0011,0.2446,441,Community 6,Peer Member,Connected
+RA241102900147,Cybersecurity,3rd Year,Section C,ACM Student Chapter,10,0.02,0.0007,0.3395,0.0014,0.2445,442,Community 4,Peer Member,Connected
+RA261102800481,Cloud Computing,1st Year,Section A,Coding Club,9,0.018,0.0009,0.3552,0.0013,0.2444,443,Community 5,Peer Member,Connected
+RA231102800052,Cloud Computing,4th Year,Section B,Web3 & Open Source,9,0.018,0.0007,0.3566,0.0013,0.2424,444,Community 1,Peer Member,Connected
+RA231105400062,Data Science,4th Year,Section D,Cloud Computing Society,10,0.02,0.0005,0.3506,0.0012,0.2418,445,Community 2,Peer Member,Connected
+RA231105400125,Data Science,4th Year,Section A,Big Data Analytics Club,9,0.018,0.0011,0.3589,0.001,0.2418,446,Community 3,Peer Member,Connected
+RA251100300273,CSE Core,2nd Year,Section A,Coding Club,9,0.018,0.001,0.3511,0.0012,0.2417,447,Community 4,Peer Member,Connected
+RA251102900311,Cybersecurity,2nd Year,Section C,Cyber Security Club,10,0.02,0.0009,0.3414,0.0011,0.2399,448,Community 3,Peer Member,Connected
+RA251105600349,AIML,2nd Year,Section A,Big Data Analytics Club,9,0.018,0.0006,0.3519,0.0013,0.2399,449,Community 5,Peer Member,Connected
+RA231102800108,Cloud Computing,4th Year,Section B,Web3 & Open Source,9,0.018,0.0008,0.355,0.0011,0.2392,450,Community 6,Peer Member,Connected
+RA231105600028,AIML,4th Year,Section B,Web3 & Open Source,10,0.02,0.0007,0.3509,0.0009,0.239,451,Community 1,Peer Member,Connected
+RA241102800146,Cloud Computing,3rd Year,Section D,None,11,0.022,0.0006,0.3275,0.0011,0.2387,452,Community 2,Peer Member,Connected
+RA261105400435,Data Science,1st Year,Section C,ACM Student Chapter,9,0.018,0.0006,0.3542,0.0012,0.2384,453,Community 4,Peer Member,Connected
+RA251102900360,Cybersecurity,2nd Year,Section B,AI & Robotics Club,9,0.018,0.0009,0.3501,0.0011,0.2383,454,Community 6,Peer Member,Connected
+RA241105400156,Data Science,3rd Year,Section B,Web3 & Open Source,11,0.022,0.0007,0.33,0.001,0.2381,455,Community 6,Peer Member,Connected
+RA241105400212,Data Science,3rd Year,Section B,Web3 & Open Source,9,0.018,0.0008,0.3481,0.0012,0.2379,456,Community 2,Peer Member,Connected
+RA241105400219,Data Science,3rd Year,Section C,ACM Student Chapter,10,0.02,0.0008,0.3314,0.0013,0.2379,457,Community 4,Peer Member,Connected
+RA261105400477,Data Science,1st Year,Section A,Big Data Analytics Club,10,0.02,0.0007,0.3436,0.001,0.2379,458,Community 4,Peer Member,Connected
+RA251100300308,CSE Core,2nd Year,Section B,Web3 & Open Source,9,0.018,0.0007,0.3473,0.0013,0.2375,459,Community 2,Peer Member,Connected
+RA251102700288,Big Data Analytics,2nd Year,Section B,AI & Robotics Club,9,0.018,0.0013,0.3258,0.0014,0.2373,460,Community 6,Peer Member,Connected
+RA251105400271,Data Science,2nd Year,Section C,Cyber Security Club,10,0.02,0.0005,0.3371,0.0012,0.2369,461,Community 5,Peer Member,Connected
+RA241105600206,AIML,3rd Year,Section D,Cloud Computing Society,9,0.018,0.0006,0.3327,0.0015,0.2361,462,Community 2,Peer Member,Connected
+RA261103000399,Information Technology,1st Year,Section C,Cyber Security Club,9,0.018,0.0009,0.3524,0.0009,0.2353,463,Community 4,Peer Member,Connected
+RA261102700473,Big Data Analytics,1st Year,Section A,Coding Club,10,0.02,0.0008,0.3325,0.0011,0.2351,464,Community 3,Peer Member,Connected
+RA231103000005,Information Technology,4th Year,Section A,Big Data Analytics Club,8,0.016,0.0006,0.3595,0.0011,0.2317,465,Community 3,Peer Member,Connected
+RA251105400341,Data Science,2nd Year,Section A,Big Data Analytics Club,9,0.018,0.0006,0.3355,0.0012,0.2312,466,Community 3,Peer Member,Connected
+RA231100300043,CSE Core,4th Year,Section C,ACM Student Chapter,9,0.018,0.0004,0.3355,0.0013,0.2308,467,Community 5,Peer Member,Connected
+RA261100300465,CSE Core,1st Year,Section A,Coding Club,10,0.02,0.0005,0.3318,0.001,0.2303,468,Community 4,Peer Member,Connected
+RA231105400048,Data Science,4th Year,Section B,AI & Robotics Club,9,0.018,0.0003,0.3323,0.0014,0.2302,469,Community 6,Peer Member,Connected
+RA251100300301,CSE Core,2nd Year,Section A,Big Data Analytics Club,8,0.016,0.0005,0.3348,0.0015,0.2297,470,Community 5,Peer Member,Connected
+RA251102900339,Cybersecurity,2nd Year,Section C,ACM Student Chapter,10,0.02,0.0004,0.3357,0.0009,0.2291,471,Community 4,Peer Member,Connected
+RA251100300357,CSE Core,2nd Year,Section A,Big Data Analytics Club,8,0.016,0.0005,0.3511,0.0011,0.2272,472,Community 4,Peer Member,Connected
+RA261105400421,Data Science,1st Year,Section A,Big Data Analytics Club,8,0.016,0.0006,0.3405,0.0012,0.2272,473,Community 5,Peer Member,Connected
+RA231102800073,Cloud Computing,4th Year,Section A,Coding Club,10,0.02,0.0004,0.3289,0.0009,0.2268,474,Community 5,Peer Member,Connected
+RA261105600478,AIML,1st Year,Section D,Cloud Computing Society,8,0.016,0.0005,0.3488,0.0011,0.2259,475,Community 1,Peer Member,Connected
+RA261105400386,Data Science,1st Year,Section D,None,8,0.016,0.0007,0.3426,0.001,0.2243,476,Community 2,Peer Member,Connected
+RA251105600342,AIML,2nd Year,Section D,Cloud Computing Society,9,0.018,0.0003,0.3348,0.001,0.2237,477,Community 6,Peer Member,Connected
+RA261102900461,Cybersecurity,1st Year,Section A,Big Data Analytics Club,8,0.016,0.0003,0.34,0.0012,0.2237,478,Community 3,Peer Member,Connected
+RA251105400313,Data Science,2nd Year,Section A,Coding Club,9,0.018,0.0006,0.3305,0.0009,0.2217,479,Community 5,Peer Member,Connected
+RA251102900269,Cybersecurity,2nd Year,Section A,Big Data Analytics Club,8,0.016,0.0005,0.3398,0.0008,0.2169,480,Community 3,Peer Member,Connected
+RA251105600279,AIML,2nd Year,Section C,Cyber Security Club,7,0.014,0.0002,0.3383,0.0013,0.2165,481,Community 4,Peer Member,Connected
+RA261100300451,CSE Core,1st Year,Section C,ACM Student Chapter,7,0.014,0.0002,0.3424,0.001,0.2133,482,Community 5,Peer Member,Connected
+RA241102700229,Big Data Analytics,3rd Year,Section A,Big Data Analytics Club,8,0.016,0.0006,0.3284,0.0008,0.2122,483,Community 5,Peer Member,Connected
+RA251102900374,Cybersecurity,2nd Year,Section D,Cloud Computing Society,7,0.014,0.0004,0.3419,0.0009,0.2121,484,Community 1,Peer Member,Connected
+RA251103000284,Information Technology,2nd Year,Section B,Web3 & Open Source,8,0.016,0.0006,0.3189,0.0009,0.2117,485,Community 2,Peer Member,Connected
+RA251102800359,Cloud Computing,2nd Year,Section C,Cyber Security Club,8,0.016,0.0002,0.3251,0.0009,0.2087,486,Community 3,Peer Member,Connected
+RA261105400498,Data Science,1st Year,Section D,None,7,0.014,0.0006,0.3269,0.0009,0.2072,487,Community 6,Peer Member,Connected
+RA261102800474,Cloud Computing,1st Year,Section D,None,7,0.014,0.0003,0.3133,0.0012,0.2045,488,Community 6,Peer Member,Connected
+RA261102700459,Big Data Analytics,1st Year,Section C,ACM Student Chapter,7,0.014,0.0002,0.326,0.001,0.2044,489,Community 4,Peer Member,Connected
+RA231103000082,Information Technology,4th Year,Section D,None,7,0.014,0.0002,0.3258,0.0009,0.2025,490,Community 1,Peer Member,Connected
+RA261102700480,Big Data Analytics,1st Year,Section B,AI & Robotics Club,6,0.012,0.0002,0.3073,0.0008,0.186,491,Community 6,Peer Member,Connected
+RA231102700044,Big Data Analytics,4th Year,Section B,Web3 & Open Source,6,0.012,0.0001,0.3048,0.0007,0.1816,492,Community 2,Peer Member,Connected
+RA231105400013,Data Science,4th Year,Section A,Big Data Analytics Club,0,0.0,0.0,0.0,0.0003,0.0,493,Isolated,Network-Isolated,Network-Isolated
+RA231102800066,Cloud Computing,4th Year,Section D,None,0,0.0,0.0,0.0,0.0003,0.0,494,Isolated,Network-Isolated,Network-Isolated
+RA241103000141,Information Technology,3rd Year,Section A,Big Data Analytics Club,0,0.0,0.0,0.0,0.0003,0.0,495,Isolated,Network-Isolated,Network-Isolated
+RA241103000211,Information Technology,3rd Year,Section C,ACM Student Chapter,0,0.0,0.0,0.0,0.0003,0.0,496,Isolated,Network-Isolated,Network-Isolated
+RA251103000291,Information Technology,2nd Year,Section C,ACM Student Chapter,0,0.0,0.0,0.0,0.0003,0.0,497,Isolated,Network-Isolated,Network-Isolated
+RA251103000361,Information Technology,2nd Year,Section A,Coding Club,0,0.0,0.0,0.0,0.0003,0.0,498,Isolated,Network-Isolated,Network-Isolated
+RA261102900426,Cybersecurity,1st Year,Section D,None,0,0.0,0.0,0.0,0.0003,0.0,499,Isolated,Network-Isolated,Network-Isolated
+RA261105400491,Data Science,1st Year,Section C,ACM Student Chapter,0,0.0,0.0,0.0,0.0003,0.0,500,Isolated,Network-Isolated,Network-Isolated
