@@ -34,32 +34,42 @@ export const OverviewPage: React.FC = () => {
           label="Students"
           value={formatNumber(metadata.total_students)}
           subtext="4 Academic Cohorts"
+          color="blue"
           icon={<Users className="w-4 h-4" />}
+          badge="Registry"
         />
         <StatCard
           label="Connections"
           value={formatNumber(metadata.total_connections)}
-          subtext="Unique Ties"
+          subtext="Unique Weighted Ties"
+          color="rose"
           icon={<Network className="w-4 h-4" />}
+          badge="Interactive"
         />
         <StatCard
           label="Departments"
           value={metadata.total_departments}
           subtext="Computing Programs"
+          color="purple"
           icon={<Building2 className="w-4 h-4" />}
+          badge="7 Fields"
         />
         <StatCard
           label="Network-Isolated"
           value={metadata.isolated_students_count}
-          subtext="Degree = 0"
+          subtext="Degree = 0 (Unconnected)"
+          color="rose"
           highlight="danger"
           icon={<UserX className="w-4 h-4" />}
+          badge="Actionable"
         />
         <StatCard
           label="Communities"
           value={metadata.communities_count}
           subtext={`Modularity Q = ${metadata.modularity.toFixed(3)}`}
+          color="emerald"
           icon={<Layers className="w-4 h-4" />}
+          badge="Louvain"
         />
       </div>
 
