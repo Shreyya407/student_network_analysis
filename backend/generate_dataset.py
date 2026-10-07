@@ -8,9 +8,16 @@ from collections import defaultdict, deque
 # Fixed random seed for reproducibility
 random.seed(42)
 
-def generate_dataset():
-    os.makedirs('data', exist_ok=True)
-    os.makedirs('public/data', exist_ok=True)
+def generate_dataset(output_dirs=None):
+    if output_dirs is None:
+        output_dirs = [
+            os.path.join(os.path.dirname(__file__), 'data'),
+            os.path.join(os.path.dirname(__file__), '..', 'public', 'data'),
+            os.path.join(os.path.dirname(__file__), '..', 'data')
+        ]
+    
+    for d in output_dirs:
+        os.makedirs(d, exist_ok=True)
 
     # 1. 7 Departments
     dept_list = [
@@ -46,7 +53,6 @@ def generate_dataset():
     print(f"Total students configured: {total_stud_count}")
 
     # Generate Students (15-digit Registration Number: RA + YY + 110 + DD + 6-digit serial = 15 chars)
-    # Example: RA2311028010141 -> RA (2) + 23 (2) + 110 (3) + 28 (2) + 010141 (6) = 15 digits/chars
     students = []
     student_by_reg = {}
     group_to_students = defaultdict(list)
@@ -62,8 +68,8 @@ def generate_dataset():
             y_prefix = yr["prefix"]
             count = group_sizes[d_name][y_name]
             
-            for i in range(1, count + 1):
-                serial_str = f"{serial_counter:06d}" # 6-digit serial
+            for _ in range(1, count + 1):
+                serial_str = f"{serial_counter:06d}"
                 reg_no = f"RA{y_prefix}110{d_code}{serial_str}"
                 assert len(reg_no) == 15, f"Registration number {reg_no} must be 15 chars, got {len(reg_no)}"
                 serial_counter += 1
@@ -81,7 +87,6 @@ def generate_dataset():
                 year_to_students[y_name].append(s_obj)
 
     # Pick EXACTLY 27 isolated students RANDOMLY from the entire student population
-    # This creates a naturally uneven distribution across departments and years
     isolated_students = random.sample(students, 27)
     for s in isolated_students:
         s["is_isolated"] = True
@@ -124,7 +129,7 @@ def generate_dataset():
         n = len(active)
         for i in range(n):
             for j in range(i + 1, n):
-                if random.random() < 0.62: # 62% internal group density
+                if random.random() < 0.62:
                     add_edge(active[i], active[j], i_type=random.choice(["Academic", "Project", "Social", "Event"]))
 
     # 2. Within-Department Cross-Year interactions
@@ -186,7 +191,6 @@ def generate_dataset():
     # Verify isolated nodes strictly
     deg_dict = {s["registration_number"]: len(adj[s["registration_number"]]) for s in students}
     iso_nodes = [node for node, deg in deg_dict.items() if deg == 0]
-    print(f"Isolated nodes count in generated graph: {len(iso_nodes)}")
     assert len(iso_nodes) == 27, f"ERROR: Found {len(iso_nodes)} isolated nodes, expected exactly 27!"
     assert set(iso_nodes) == isolated_reg_set
 
@@ -200,10 +204,10 @@ def generate_dataset():
     N = len(students)
     all_regs = [s["registration_number"] for s in students]
 
-    # 1. Degree Centrality: deg / (N - 1)
+    # 1. Degree Centrality
     degree_centrality = {reg: deg_dict[reg] / (N - 1) for reg in all_regs}
 
-    # 2. Closeness Centrality (BFS distance)
+    # 2. Closeness Centrality
     closeness_centrality = {}
     for src in all_regs:
         if deg_dict[src] == 0:
@@ -254,12 +258,11 @@ def generate_dataset():
             if w != s_reg:
                 betweenness_centrality[w] += delta[w]
 
-    # Normalize betweenness
     bet_norm_factor = ((N - 1) * (N - 2)) if N > 2 else 1
     for reg in all_regs:
         betweenness_centrality[reg] = round(betweenness_centrality[reg] / bet_norm_factor, 6)
 
-    # 4. PageRank (Power Iteration, damping = 0.85)
+    # 4. PageRank
     damp = 0.85
     N_conn = len(connected_students)
     pr = {s["registration_number"]: 1.0 / N_conn for s in connected_students}
@@ -308,9 +311,8 @@ def generate_dataset():
             modularity_q += (w / m_total) - (node_strengths[u] * node_strengths[v]) / ((2 * m_total) ** 2)
 
     modularity_q = max(round(modularity_q, 4), 0.4650)
-    print(f"Computed Louvain Modularity Q = {modularity_q}")
 
-    # Min-Max Normalization
+    # Normalization
     def min_max(d):
         vals = [v for k, v in d.items() if deg_dict[k] > 0]
         if not vals:
@@ -325,7 +327,6 @@ def generate_dataset():
     close_norm = min_max(closeness_centrality)
     pr_norm = min_max(pagerank_scores)
 
-    # Student Records
     student_records = []
     for s in students:
         reg = s["registration_number"]
@@ -359,7 +360,6 @@ def generate_dataset():
             "network_status": "Structurally Isolated" if is_iso else "Connected"
         })
 
-    # Sort & Rank
     sorted_by_inf = sorted(student_records, key=lambda x: x["influence_score"], reverse=True)
     all_bet_vals = [s["betweenness_centrality"] for s in student_records if not s["is_isolated"]]
     all_deg_vals = [s["degree"] for s in student_records if not s["is_isolated"]]
@@ -382,7 +382,6 @@ def generate_dataset():
         else:
             s["role"] = "Member"
 
-    # Edge records
     interaction_records = []
     edge_idx = 1
     for (u, v), data in edge_dict.items():
@@ -395,7 +394,6 @@ def generate_dataset():
         })
         edge_idx += 1
 
-    # Event records
     event_records = []
     ev_idx = 1
     for edge in interaction_records:
@@ -418,7 +416,6 @@ def generate_dataset():
             ev_idx += 1
             rem -= c
 
-    # 28 Department-Year Group Stats
     class_stats = []
     for (d_name, y_name), grp_studs in sorted(group_to_students.items(), key=lambda x: (x[0][0], x[0][1])):
         reg_set = set(s["registration_number"] for s in grp_studs)
@@ -451,7 +448,6 @@ def generate_dataset():
             "internal_edges": internal_e
         })
 
-    # Department x Year Balance Matrix
     dept_year_matrix = []
     for dept in dept_list:
         d_name = dept["name"]
@@ -464,7 +460,6 @@ def generate_dataset():
             "total": sum(group_sizes[d_name].values())
         })
 
-    # Department stats
     department_stats = []
     for dept in dept_list:
         d_name = dept["name"]
@@ -485,7 +480,6 @@ def generate_dataset():
             "interaction_volume": vol
         })
 
-    # 7x7 Department Interaction Matrix
     dept_names = [d["name"] for d in dept_list]
     dept_matrix = {d1: {d2: 0 for d2 in dept_names} for d1 in dept_names}
     for e in interaction_records:
@@ -496,7 +490,6 @@ def generate_dataset():
         if u_dept != v_dept:
             dept_matrix[v_dept][u_dept] += w
 
-    # Community Stats
     comm_groups = defaultdict(list)
     for s in student_records:
         if not s["is_isolated"]:
@@ -522,11 +515,9 @@ def generate_dataset():
             "dominant_department": dom_dept
         })
 
-    # Density of overall graph
     total_possible_edges = (N * (N - 1)) / 2
     overall_density = round(len(interaction_records) / total_possible_edges, 4)
 
-    # Metadata Bundle
     metadata = {
         "title": "School of Computing • Student Network Analytics",
         "total_students": len(students),
@@ -555,16 +546,12 @@ def generate_dataset():
         "low_connected_students": [s for s in sorted_by_inf if not s["is_isolated"] and s["degree"] <= 2]
     }
 
-    # Save Bundle
-    with open("public/data/soc_network_bundle.json", "w") as f:
-        json.dump(bundle, f, indent=2)
+    for folder in output_dirs:
+        with open(os.path.join(folder, "soc_network_bundle.json"), "w") as f:
+            json.dump(bundle, f, indent=2)
 
-    print("Saved public/data/soc_network_bundle.json")
-
-    # Save CSVs (NO SECTION FIELD)
-    for folder in ["public/data", "data"]:
         # students
-        with open(f"{folder}/school_of_computing_students.csv", "w", newline="") as f:
+        with open(os.path.join(folder, "school_of_computing_students.csv"), "w", newline="") as f:
             w = csv.writer(f)
             w.writerow(["registration_number", "department", "year", "network_status"])
             for s in students:
@@ -572,21 +559,21 @@ def generate_dataset():
                 w.writerow([s["registration_number"], s["department"], s["year"], status])
 
         # interactions
-        with open(f"{folder}/school_of_computing_interactions.csv", "w", newline="") as f:
+        with open(os.path.join(folder, "school_of_computing_interactions.csv"), "w", newline="") as f:
             w = csv.writer(f)
             w.writerow(["edge_id", "registration_number_1", "registration_number_2", "interaction_count", "interaction_type"])
             for e in interaction_records:
                 w.writerow([e["edge_id"], e["registration_number_1"], e["registration_number_2"], e["interaction_count"], e["interaction_type"]])
 
         # events
-        with open(f"{folder}/school_of_computing_events.csv", "w", newline="") as f:
+        with open(os.path.join(folder, "school_of_computing_events.csv"), "w", newline="") as f:
             w = csv.writer(f)
             w.writerow(["event_id", "registration_number_1", "registration_number_2", "interaction_type", "interaction_count", "period"])
             for ev in event_records:
                 w.writerow([ev["event_id"], ev["registration_number_1"], ev["registration_number_2"], ev["interaction_type"], ev["interaction_count"], ev["period"]])
 
         # sna_results
-        with open(f"{folder}/school_of_computing_sna_results.csv", "w", newline="") as f:
+        with open(os.path.join(folder, "school_of_computing_sna_results.csv"), "w", newline="") as f:
             w = csv.writer(f)
             w.writerow(["registration_number", "department", "year", "degree", "degree_centrality", "betweenness_centrality", "closeness_centrality", "pagerank", "influence_score", "influence_rank", "community_id", "role", "network_status"])
             for s in sorted_by_inf:
@@ -597,7 +584,7 @@ def generate_dataset():
                     s["role"], s["network_status"]
                 ])
 
-    print("Successfully generated all dataset files!")
+    print("Successfully generated all dataset files across backend and frontend directories!")
 
 if __name__ == "__main__":
     generate_dataset()

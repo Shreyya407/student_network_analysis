@@ -1,0 +1,2 @@
+# Python Dependencies for SNA Data Generation and Graph Analytics
+# Pure Python 3.8+ compatible (no binary dependencies required)
