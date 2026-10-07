@@ -2,6 +2,7 @@ import React, { useRef, useEffect, useState, useMemo } from 'react';
 import { Student, InteractionEdge } from '../../types';
 import { DEPARTMENT_COLORS, COMMUNITY_COLORS } from '../../utils/formatting';
 import { ZoomIn, ZoomOut, RotateCcw, Maximize2 } from 'lucide-react';
+import { useNetwork } from '../../context/NetworkContext';
 
 interface StudentNetworkGraphProps {
   students: Student[];
@@ -32,6 +33,7 @@ export const StudentNetworkGraph: React.FC<StudentNetworkGraphProps> = ({
 }) => {
   const canvasRef = useRef<HTMLCanvasElement | null>(null);
   const containerRef = useRef<HTMLDivElement | null>(null);
+  const { theme } = useNetwork();
 
   const [transform, setTransform] = useState({ x: 0, y: 0, k: 1 });
   const [isDragging, setIsDragging] = useState(false);
@@ -145,6 +147,8 @@ export const StudentNetworkGraph: React.FC<StudentNetworkGraphProps> = ({
     const activeReg = hoveredNode?.registration_number || selectedStudent?.registration_number;
     const activeNeighbors = activeReg ? neighborMap.get(activeReg) : null;
 
+    const isDark = theme === 'dark';
+
     // 1. Draw Edges
     edges.forEach(e => {
       const u = nodePositions.get(e.registration_number_1);
@@ -161,17 +165,17 @@ export const StudentNetworkGraph: React.FC<StudentNetworkGraphProps> = ({
       ctx.lineTo(v.x, v.y);
 
       if (isConnectedToActive) {
-        ctx.strokeStyle = '#2563EB';
-        ctx.lineWidth = Math.min(3, 1 + e.interaction_count * 0.3);
-        ctx.globalAlpha = 0.85;
+        ctx.strokeStyle = isDark ? '#FB7185' : '#E11D48';
+        ctx.lineWidth = Math.min(3.5, 1.2 + e.interaction_count * 0.35);
+        ctx.globalAlpha = 0.95;
       } else if (activeReg) {
-        ctx.strokeStyle = '#E2E8F0';
+        ctx.strokeStyle = isDark ? '#1E293B' : '#E2E8F0';
         ctx.lineWidth = 0.5;
         ctx.globalAlpha = 0.15;
       } else {
-        ctx.strokeStyle = '#CBD5E1';
+        ctx.strokeStyle = isDark ? '#334155' : '#CBD5E1';
         ctx.lineWidth = Math.min(2, 0.4 + e.interaction_count * 0.15);
-        ctx.globalAlpha = 0.35;
+        ctx.globalAlpha = isDark ? 0.35 : 0.4;
       }
       ctx.stroke();
     });
@@ -196,8 +200,8 @@ export const StudentNetworkGraph: React.FC<StudentNetworkGraphProps> = ({
       ctx.arc(node.x, node.y, node.radius, 0, 2 * Math.PI);
 
       if (activeReg && !isSelected && !isHovered && !isNeighbor) {
-        ctx.fillStyle = '#CBD5E1';
-        ctx.globalAlpha = 0.35;
+        ctx.fillStyle = isDark ? '#334155' : '#CBD5E1';
+        ctx.globalAlpha = 0.25;
       } else {
         ctx.fillStyle = color;
         ctx.globalAlpha = 0.95;
@@ -207,7 +211,7 @@ export const StudentNetworkGraph: React.FC<StudentNetworkGraphProps> = ({
       // Border highlight
       if (isSelected || isHovered) {
         ctx.lineWidth = 2.5;
-        ctx.strokeStyle = '#0F172A';
+        ctx.strokeStyle = isDark ? '#FFFFFF' : '#0F172A';
         ctx.globalAlpha = 1;
         ctx.stroke();
       } else if (s.influence_rank <= 15) {
@@ -217,14 +221,14 @@ export const StudentNetworkGraph: React.FC<StudentNetworkGraphProps> = ({
         ctx.stroke();
       } else {
         ctx.lineWidth = 1;
-        ctx.strokeStyle = '#FFFFFF';
+        ctx.strokeStyle = isDark ? '#1E293B' : '#FFFFFF';
         ctx.globalAlpha = 0.7;
         ctx.stroke();
       }
     });
 
     ctx.restore();
-  }, [nodePositions, edges, transform, hoveredNode, selectedStudent, colorBy, height, neighborMap]);
+  }, [nodePositions, edges, transform, hoveredNode, selectedStudent, colorBy, height, neighborMap, theme]);
 
   // Mouse Interaction Handlers
   const handleMouseDown = (e: React.MouseEvent<HTMLCanvasElement>) => {
@@ -305,37 +309,37 @@ export const StudentNetworkGraph: React.FC<StudentNetworkGraphProps> = ({
   return (
     <div ref={containerRef} className="relative w-full rounded-xl bg-slate-50/70 border border-slate-200/90 overflow-hidden select-none">
       {/* Zoom Controls */}
-      <div className="absolute bottom-4 right-4 z-10 flex flex-col gap-1 bg-white border border-slate-200 rounded-lg p-1 shadow-sm">
+      <div className="absolute bottom-4 right-4 z-10 flex flex-col gap-1 bg-white/90 dark:bg-slate-900/90 backdrop-blur-sm border border-slate-200/90 dark:border-slate-700/90 rounded-xl p-1 shadow-sm">
         <button
           onClick={zoomIn}
           title="Zoom In"
-          className="p-1.5 hover:bg-slate-100 rounded text-slate-600 hover:text-slate-900 transition-colors"
+          className="p-1.5 hover:bg-slate-100 dark:hover:bg-slate-800 rounded-lg text-slate-600 dark:text-slate-300 hover:text-rose-600 dark:hover:text-rose-400 transition-colors"
         >
           <ZoomIn className="w-4 h-4" />
         </button>
         <button
           onClick={zoomOut}
           title="Zoom Out"
-          className="p-1.5 hover:bg-slate-100 rounded text-slate-600 hover:text-slate-900 transition-colors"
+          className="p-1.5 hover:bg-slate-100 dark:hover:bg-slate-800 rounded-lg text-slate-600 dark:text-slate-300 hover:text-rose-600 dark:hover:text-rose-400 transition-colors"
         >
           <ZoomOut className="w-4 h-4" />
         </button>
         <button
           onClick={resetView}
           title="Reset View"
-          className="p-1.5 hover:bg-slate-100 rounded text-slate-600 hover:text-slate-900 transition-colors border-t border-slate-100"
+          className="p-1.5 hover:bg-slate-100 dark:hover:bg-slate-800 rounded-lg text-slate-600 dark:text-slate-300 hover:text-rose-600 dark:hover:text-rose-400 transition-colors border-t border-slate-100 dark:border-slate-800"
         >
           <RotateCcw className="w-4 h-4" />
         </button>
       </div>
 
       {/* Legend Badge */}
-      <div className="absolute top-4 left-4 z-10 bg-white/90 backdrop-blur-sm border border-slate-200/80 rounded-lg px-3 py-1.5 text-xs shadow-sm flex items-center gap-3">
-        <span className="text-slate-500 font-medium">Nodes: <strong>{students.length}</strong></span>
-        <span className="text-slate-300">•</span>
-        <span className="text-slate-500 font-medium">Ties: <strong>{edges.length}</strong></span>
-        <span className="text-slate-300">•</span>
-        <span className="text-slate-400 text-[11px]">Click node for details</span>
+      <div className="absolute top-4 left-4 z-10 bg-white/90 dark:bg-slate-900/90 backdrop-blur-sm border border-slate-200/80 dark:border-slate-700/80 rounded-xl px-3.5 py-1.5 text-xs shadow-sm flex items-center gap-3">
+        <span className="text-slate-600 dark:text-slate-300 font-medium">Nodes: <strong className="text-slate-900 dark:text-white font-mono">{students.length}</strong></span>
+        <span className="text-slate-300 dark:text-slate-700">•</span>
+        <span className="text-slate-600 dark:text-slate-300 font-medium">Ties: <strong className="text-slate-900 dark:text-white font-mono">{edges.length}</strong></span>
+        <span className="text-slate-300 dark:text-slate-700">•</span>
+        <span className="text-slate-400 dark:text-slate-500 text-[11px]">Click node for details</span>
       </div>
 
       {/* Canvas Element */}

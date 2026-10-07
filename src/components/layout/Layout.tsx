@@ -13,37 +13,32 @@ export const Layout: React.FC<LayoutProps> = ({ children }) => {
 
   if (loading) {
     return (
-      <div className="min-h-screen flex items-center justify-center bg-slate-50 text-slate-600">
+      <div className="min-h-screen flex items-center justify-center bg-slate-50 dark:bg-[#0B0F17] text-slate-600 dark:text-slate-300">
         <div className="flex flex-col items-center gap-3">
-          <div className="w-8 h-8 border-3 border-blue-600 border-t-transparent rounded-full animate-spin"></div>
-          <span className="text-xs font-semibold text-slate-500">Loading School of Computing Network...</span>
+          <div className="w-9 h-9 border-3 border-rose-600 border-t-transparent rounded-full animate-spin"></div>
+          <span className="text-xs font-semibold text-slate-500 dark:text-slate-400">Loading School of Computing Network...</span>
         </div>
       </div>
     );
   }
 
   return (
-    <div className="flex min-h-screen bg-[#F8FAFC]">
-      {/* Left Sidebar */}
+    <div className="flex min-h-screen bg-slate-50 dark:bg-[#0B0F17] text-slate-900 dark:text-slate-100 transition-colors duration-200">
+      {/* Left Collapsible Sidebar (In/Out) */}
       <Sidebar />
 
       {/* Main Column */}
-      <div className="flex-1 flex flex-col min-w-0">
-        {/* Top Header */}
+      <div className="flex-1 flex flex-col min-w-0 transition-all duration-300">
+        {/* Top Header with Dark/Light & Sidebar Toggles */}
         <Header />
 
         {/* Main Content Area */}
-        <main className="flex-1 p-6 lg:p-8 max-w-7xl w-full mx-auto">
+        <main className="flex-1 p-5 lg:p-7 max-w-7xl w-full mx-auto">
           {children}
         </main>
-
-        {/* Global Footer */}
-        <footer className="border-t border-slate-200/80 py-4 text-center text-xs text-slate-400">
-          Synthetic dataset • Academic demonstration • No real student information
-        </footer>
       </div>
 
-      {/* Student Detail Panel */}
+      {/* Student Detail Slide-Over Panel */}
       <StudentDetailPanel />
     </div>
   );

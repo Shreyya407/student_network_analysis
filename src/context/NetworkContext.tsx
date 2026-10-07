@@ -14,6 +14,11 @@ interface NetworkContextType {
   setFilters: React.Dispatch<React.SetStateAction<NetworkFilters>>;
   resetFilters: () => void;
   selectStudentByReg: (regNum: string) => void;
+  theme: 'light' | 'dark';
+  toggleTheme: () => void;
+  sidebarCollapsed: boolean;
+  setSidebarCollapsed: React.Dispatch<React.SetStateAction<boolean>>;
+  toggleSidebar: () => void;
 }
 
 const initialFilters: NetworkFilters = {
@@ -31,6 +36,34 @@ export const NetworkProvider: React.FC<{ children: React.ReactNode }> = ({ child
   const [selectedStudent, setSelectedStudent] = useState<Student | null>(null);
   const [searchQuery, setSearchQuery] = useState<string>('');
   const [filters, setFilters] = useState<NetworkFilters>(initialFilters);
+  
+  // Theme state with localStorage persistence
+  const [theme, setTheme] = useState<'light' | 'dark'>(() => {
+    const saved = localStorage.getItem('soc_theme');
+    if (saved === 'dark' || saved === 'light') return saved;
+    return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+  });
+
+  // Collapsible sidebar state
+  const [sidebarCollapsed, setSidebarCollapsed] = useState<boolean>(false);
+
+  useEffect(() => {
+    const root = document.documentElement;
+    if (theme === 'dark') {
+      root.classList.add('dark');
+    } else {
+      root.classList.remove('dark');
+    }
+    localStorage.setItem('soc_theme', theme);
+  }, [theme]);
+
+  const toggleTheme = () => {
+    setTheme(prev => (prev === 'light' ? 'dark' : 'light'));
+  };
+
+  const toggleSidebar = () => {
+    setSidebarCollapsed(prev => !prev);
+  };
 
   useEffect(() => {
     fetch('/data/soc_network_bundle.json')
@@ -76,7 +109,12 @@ export const NetworkProvider: React.FC<{ children: React.ReactNode }> = ({ child
         filters,
         setFilters,
         resetFilters,
-        selectStudentByReg
+        selectStudentByReg,
+        theme,
+        toggleTheme,
+        sidebarCollapsed,
+        setSidebarCollapsed,
+        toggleSidebar
       }}
     >
       {children}

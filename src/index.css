@@ -4,8 +4,12 @@
 
 @layer base {
   body {
-    @apply bg-[#F8FAFC] text-slate-800 antialiased;
+    @apply bg-slate-50 text-slate-900 antialiased transition-colors duration-200;
     font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  }
+
+  .dark body {
+    @apply bg-[#0B0F17] text-slate-100;
   }
 }
 
@@ -21,19 +25,18 @@
   background: #CBD5E1;
   border-radius: 9999px;
 }
+.dark ::-webkit-scrollbar-thumb {
+  background: #334155;
+}
 ::-webkit-scrollbar-thumb:hover {
-  background: #94A3B8;
+  background: #E11D48;
 }
 
-/* Clean Card Utility */
-.card-clean {
-  @apply bg-white border border-slate-200/80 rounded-xl shadow-sm transition-all duration-200;
-}
-.card-clean:hover {
-  @apply border-slate-300 shadow-md;
+/* Card hover with aesthetic red glow */
+.card-hover {
+  @apply transition-all duration-200 hover:-translate-y-0.5 hover:shadow-md;
 }
 
-/* Subtle badge styles */
-.badge-role {
-  @apply inline-flex items-center px-2 py-0.5 rounded-md text-xs font-semibold;
+.card-glow-red {
+  @apply transition-all duration-200 hover:border-red-500/50 hover:shadow-glow-sm;
 }
