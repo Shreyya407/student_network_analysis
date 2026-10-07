@@ -81,7 +81,7 @@ export const Header: React.FC = () => {
         <button
           onClick={toggleTheme}
           title={theme === 'dark' ? "Switch to Light Mode" : "Switch to Dark Mode"}
-          className="flex items-center gap-1.5 p-2 rounded-xl border border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-900/80 text-slate-600 dark:text-slate-300 hover:text-rose-600 dark:hover:text-rose-400 hover:border-rose-300 dark:hover:border-rose-700 hover:bg-rose-50/50 dark:hover:bg-rose-950/40 transition-all duration-200 shadow-2xs"
+          className="flex items-center gap-1.5 p-2 rounded-xl border border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-900/80 text-slate-600 dark:text-slate-300 hover:text-rose-600 dark:hover:text-rose-400 hover:border-rose-300 dark:hover:border-rose-700 hover:bg-rose-50/50 dark:hover:bg-rose-950/40 transition-all duration-200 shadow-2xs cursor-pointer"
         >
           {theme === 'dark' ? (
             <Sun className="w-4 h-4 text-amber-400 animate-in spin-in-180 duration-200" />
@@ -89,12 +89,6 @@ export const Header: React.FC = () => {
             <Moon className="w-4 h-4 text-slate-600 animate-in spin-in-180 duration-200" />
           )}
         </button>
-
-        {/* Live Active Status Indicator */}
-        <div className="hidden sm:flex items-center gap-1.5 px-3 py-1 bg-rose-50 dark:bg-rose-950/40 border border-rose-200/90 dark:border-rose-900/60 rounded-full">
-          <span className="w-2 h-2 rounded-full bg-rose-600 animate-pulse"></span>
-          <span className="text-xs font-semibold text-rose-700 dark:text-rose-400">Live Network</span>
-        </div>
       </div>
     </header>
   );
