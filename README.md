@@ -57,7 +57,7 @@ student_network_analysis/
 - **Computing Departments**: `7 Programs` (`CSE Core`, `AIML`, `Data Science`, `Cloud Computing`, `Cybersecurity`, `Information Technology`, `Big Data Analytics`)
 - **Department-Year Cohort Groups**: `28 Groups` (All groups contain $\ge 22$ students)
 - **Registration Number Scheme**: `15-digit alphanumeric` format (e.g. `RA2311028010141`)
-- **Structurally Isolated Students ($k=0$)**: `Exactly 27 Students` randomly and naturally distributed across departments
+- **Structurally Isolated Students ($k=0$)**: `27 Students` randomly and naturally distributed across departments
 - **Unique Interaction Ties ($E$)**: `5,285`
 - **Total Longitudinal Events**: `10,400+`
 
