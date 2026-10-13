@@ -100,9 +100,6 @@ export const Header: React.FC<HeaderProps> = ({ onOpenReanalyzeModal }) => {
               {currentTabInfo.title}
             </h2>
           </div>
-          <p className="text-[11px] text-slate-500 dark:text-slate-400 truncate">
-            {currentTabInfo.subtitle}
-          </p>
         </div>
       </div>
 

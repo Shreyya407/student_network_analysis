@@ -70,13 +70,6 @@ export const OverviewPage: React.FC = () => {
               <Network className="w-4 h-4" />
               <span>Explore Interactive Graph</span>
             </button>
-            <button
-              onClick={() => setActiveTab('communities')}
-              className="flex items-center gap-2 px-4 py-2.5 rounded-xl text-xs font-bold bg-white/10 hover:bg-white/15 text-white border border-white/10 transition-all cursor-pointer"
-            >
-              <Users className="w-4 h-4" />
-              <span>Inspect 4 Louvain Communities</span>
-            </button>
           </div>
         </div>
       </div>
