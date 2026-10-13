@@ -2,6 +2,7 @@ import React, { useState, useRef, useEffect } from 'react';
 import {
   Sun,
   Moon,
+  Laptop,
   Search,
   RotateCw,
   Sliders,
@@ -37,6 +38,8 @@ const TAB_TITLES: Record<TabId, { title: string; subtitle: string }> = {
 export const Header: React.FC<HeaderProps> = ({ onOpenReanalyzeModal }) => {
   const {
     theme,
+    themeMode,
+    cycleTheme,
     toggleTheme,
     activeTab,
     sidebarCollapsed,
@@ -204,16 +207,27 @@ export const Header: React.FC<HeaderProps> = ({ onOpenReanalyzeModal }) => {
           <RotateCw className={`w-3.5 h-3.5 ${isLoading ? 'animate-spin text-indigo-500' : ''}`} />
         </button>
 
-        {/* Dark / Light Theme Toggle */}
+        {/* System / Dark / Light Theme Toggle */}
         <button
-          onClick={toggleTheme}
-          title={theme === 'dark' ? "Switch to Light Mode" : "Switch to Dark Mode"}
-          className="flex items-center p-2 rounded-xl border border-slate-200 dark:border-slate-700/80 bg-slate-100 dark:bg-slate-900 text-slate-600 dark:text-slate-300 hover:text-indigo-600 dark:hover:text-cyan-400 transition-colors cursor-pointer"
+          onClick={cycleTheme}
+          title={`Theme: ${themeMode === 'system' ? 'System Theme (Auto)' : themeMode === 'dark' ? 'Dark Mode' : 'Light Mode'} (Click to cycle)`}
+          className="flex items-center gap-1.5 px-2.5 py-1.5 rounded-xl border border-slate-200 dark:border-slate-700/80 bg-slate-100 dark:bg-slate-900 text-slate-600 dark:text-slate-300 hover:text-indigo-600 dark:hover:text-cyan-400 transition-colors cursor-pointer text-xs font-semibold"
         >
-          {theme === 'dark' ? (
-            <Sun className="w-4 h-4 text-amber-400 transition-transform duration-200 rotate-0 hover:rotate-90" />
+          {themeMode === 'system' ? (
+            <>
+              <Laptop className="w-3.5 h-3.5 text-indigo-500" />
+              <span className="hidden sm:inline text-[11px]">System</span>
+            </>
+          ) : theme === 'dark' ? (
+            <>
+              <Moon className="w-3.5 h-3.5 text-indigo-400" />
+              <span className="hidden sm:inline text-[11px]">Dark</span>
+            </>
           ) : (
-            <Moon className="w-4 h-4 text-slate-700 transition-transform duration-200 rotate-0 hover:-rotate-45" />
+            <>
+              <Sun className="w-3.5 h-3.5 text-amber-500" />
+              <span className="hidden sm:inline text-[11px]">Light</span>
+            </>
           )}
         </button>
       </div>

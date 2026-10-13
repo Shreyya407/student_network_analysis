@@ -12,6 +12,7 @@ import {
 } from 'recharts';
 import { useNetwork } from '../../context/NetworkContext';
 import { DepartmentData } from '../../types';
+import { fetchApi } from '../../utils/api';
 
 export const DepartmentsPage: React.FC = () => {
   const [departments, setDepartments] = useState<DepartmentData[]>([]);
@@ -20,8 +21,7 @@ export const DepartmentsPage: React.FC = () => {
   const [loading, setLoading] = useState<boolean>(true);
 
   useEffect(() => {
-    fetch('/api/departments')
-      .then((res) => res.json())
+    fetchApi('/api/departments')
       .then((data) => {
         setDepartments(data.departments || []);
         setMatrix(data.matrix || {});

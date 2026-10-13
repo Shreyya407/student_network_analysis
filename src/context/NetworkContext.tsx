@@ -1,13 +1,21 @@
 import React, { createContext, useContext, useState, useEffect, ReactNode } from 'react';
 import { TabId, Student, DashboardData, ValidationReport } from '../types';
+import { fetchApi } from '../utils/api';
+
+export type ThemeMode = 'system' | 'dark' | 'light';
 
 interface NetworkContextType {
   theme: 'dark' | 'light';
+  themeMode: ThemeMode;
+  setThemeMode: (mode: ThemeMode) => void;
+  cycleTheme: () => void;
   toggleTheme: () => void;
   activeTab: TabId;
   setActiveTab: (tab: TabId) => void;
   sidebarCollapsed: boolean;
+  setSidebarCollapsed: React.Dispatch<React.SetStateAction<boolean>>;
   toggleSidebar: () => void;
+  isMobile: boolean;
   globalSearch: string;
   setGlobalSearch: (q: string) => void;
   selectedStudent: Student | null;
@@ -26,10 +34,85 @@ interface NetworkContextType {
 const NetworkContext = createContext<NetworkContextType | undefined>(undefined);
 
 export const NetworkProvider: React.FC<{ children: ReactNode }> = ({ children }) => {
-  const [theme, setTheme] = useState<'dark' | 'light'>(() => {
-    const saved = localStorage.getItem('campusconnect_theme');
-    return (saved === 'light' || saved === 'dark') ? saved : 'dark';
+  const getSystemTheme = (): 'dark' | 'light' => {
+    if (typeof window !== 'undefined' && window.matchMedia) {
+      return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+    }
+    return 'dark';
+  };
+
+  const [themeMode, setThemeModeState] = useState<ThemeMode>(() => {
+    const saved = localStorage.getItem('campusconnect_theme_mode');
+    if (saved === 'system' || saved === 'dark' || saved === 'light') {
+      return saved as ThemeMode;
+    }
+    const legacy = localStorage.getItem('campusconnect_theme');
+    if (legacy === 'dark' || legacy === 'light') {
+      return legacy as ThemeMode;
+    }
+    return 'system';
   });
+
+  const [theme, setTheme] = useState<'dark' | 'light'>(() => {
+    const savedMode = localStorage.getItem('campusconnect_theme_mode') || 'system';
+    if (savedMode === 'dark') return 'dark';
+    if (savedMode === 'light') return 'light';
+    return getSystemTheme();
+  });
+
+  // Listen to OS system theme changes and adapt in real time
+  useEffect(() => {
+    if (typeof window === 'undefined' || !window.matchMedia) return;
+    const mediaQuery = window.matchMedia('(prefers-color-scheme: dark)');
+
+    const handleSystemChange = (e: MediaQueryListEvent) => {
+      if (themeMode === 'system') {
+        setTheme(e.matches ? 'dark' : 'light');
+      }
+    };
+
+    mediaQuery.addEventListener('change', handleSystemChange);
+    return () => mediaQuery.removeEventListener('change', handleSystemChange);
+  }, [themeMode]);
+
+  // Sync theme mode changes
+  const setThemeMode = (mode: ThemeMode) => {
+    setThemeModeState(mode);
+    localStorage.setItem('campusconnect_theme_mode', mode);
+    if (mode === 'system') {
+      setTheme(getSystemTheme());
+    } else {
+      setTheme(mode);
+    }
+  };
+
+  const cycleTheme = () => {
+    if (themeMode === 'system') {
+      setThemeMode('dark');
+    } else if (themeMode === 'dark') {
+      setThemeMode('light');
+    } else {
+      setThemeMode('system');
+    }
+  };
+
+  const toggleTheme = () => {
+    if (themeMode === 'system') {
+      setThemeMode(theme === 'dark' ? 'light' : 'dark');
+    } else {
+      setThemeMode(themeMode === 'dark' ? 'light' : 'dark');
+    }
+  };
+
+  // Sync active theme to HTML document class
+  useEffect(() => {
+    localStorage.setItem('campusconnect_theme', theme);
+    if (theme === 'dark') {
+      document.documentElement.classList.add('dark');
+    } else {
+      document.documentElement.classList.remove('dark');
+    }
+  }, [theme]);
 
   const [activeTab, setActiveTabState] = useState<TabId>(() => {
     const hash = window.location.hash.replace('#', '') as TabId;
@@ -40,7 +123,20 @@ export const NetworkProvider: React.FC<{ children: ReactNode }> = ({ children })
     return validTabs.includes(hash) ? hash : 'overview';
   });
 
-  const [sidebarCollapsed, setSidebarCollapsed] = useState<boolean>(false);
+  const [isMobile, setIsMobile] = useState<boolean>(() => {
+    if (typeof window !== 'undefined') {
+      return window.innerWidth < 1024;
+    }
+    return false;
+  });
+
+  const [sidebarCollapsed, setSidebarCollapsed] = useState<boolean>(() => {
+    if (typeof window !== 'undefined') {
+      return window.innerWidth < 1024;
+    }
+    return false;
+  });
+
   const [globalSearch, setGlobalSearch] = useState<string>('');
   const [selectedStudent, setSelectedStudent] = useState<Student | null>(null);
   const [dashboardData, setDashboardData] = useState<DashboardData | null>(null);
@@ -50,19 +146,19 @@ export const NetworkProvider: React.FC<{ children: ReactNode }> = ({ children })
   const [isReanalyzing, setIsReanalyzing] = useState<boolean>(false);
   const [error, setError] = useState<string | null>(null);
 
-  // Apply theme to HTML tag
+  // Automatically adapt sidebar to window/screen resize
   useEffect(() => {
-    localStorage.setItem('campusconnect_theme', theme);
-    if (theme === 'dark') {
-      document.documentElement.classList.add('dark');
-    } else {
-      document.documentElement.classList.remove('dark');
-    }
-  }, [theme]);
+    const handleResize = () => {
+      const mobile = window.innerWidth < 1024;
+      setIsMobile(mobile);
+      if (mobile) {
+        setSidebarCollapsed(true);
+      }
+    };
 
-  const toggleTheme = () => {
-    setTheme((prev) => (prev === 'dark' ? 'light' : 'dark'));
-  };
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
 
   const setActiveTab = (tab: TabId) => {
     setActiveTabState(tab);
@@ -78,19 +174,11 @@ export const NetworkProvider: React.FC<{ children: ReactNode }> = ({ children })
     setIsLoading(true);
     setError(null);
     try {
-      const [dashRes, valRes, studRes] = await Promise.all([
-        fetch('/api/dashboard'),
-        fetch('/api/dataset/validation'),
-        fetch('/api/students?page=1&page_size=200')
+      const [dashData, valData, studData] = await Promise.all([
+        fetchApi('/api/dashboard'),
+        fetchApi('/api/dataset/validation'),
+        fetchApi('/api/students?page=1&page_size=200')
       ]);
-
-      if (!dashRes.ok) throw new Error(`Dashboard API error: ${dashRes.statusText}`);
-      if (!valRes.ok) throw new Error(`Validation API error: ${valRes.statusText}`);
-      if (!studRes.ok) throw new Error(`Students API error: ${studRes.statusText}`);
-
-      const dashData = await dashRes.json();
-      const valData = await valRes.json();
-      const studData = await studRes.json();
 
       setDashboardData(dashData);
       setValidationReport(valData);
@@ -135,14 +223,13 @@ export const NetworkProvider: React.FC<{ children: ReactNode }> = ({ children })
 
   const fetchStudentDetail = async (regNumber: string): Promise<Student | null> => {
     try {
-      const res = await fetch(`/api/students/${encodeURIComponent(regNumber)}`);
-      if (!res.ok) return null;
-      const data = await res.json();
+      const data = await fetchApi(`/api/students/${encodeURIComponent(regNumber)}`);
       setSelectedStudent(data);
       return data;
     } catch (err) {
-      console.error('Error fetching student detail:', err);
-      return null;
+      const fallback = allStudents.find((s) => s.registration_number === regNumber) || null;
+      if (fallback) setSelectedStudent(fallback);
+      return fallback;
     }
   };
 
@@ -150,11 +237,16 @@ export const NetworkProvider: React.FC<{ children: ReactNode }> = ({ children })
     <NetworkContext.Provider
       value={{
         theme,
+        themeMode,
+        setThemeMode,
+        cycleTheme,
         toggleTheme,
         activeTab,
         setActiveTab,
         sidebarCollapsed,
+        setSidebarCollapsed,
         toggleSidebar,
+        isMobile,
         globalSearch,
         setGlobalSearch,
         selectedStudent,

@@ -12,9 +12,10 @@ import {
 import { useNetwork } from '../../context/NetworkContext';
 import { CommunityData, Student } from '../../types';
 import { StudentBadge } from '../common/StudentBadge';
+import { fetchApi } from '../../utils/api';
 
 export const CommunitiesPage: React.FC = () => {
-  const { fetchStudentDetail, setActiveTab } = useNetwork();
+  const { fetchStudentDetail, setActiveTab, allStudents } = useNetwork();
   const [communities, setCommunities] = useState<CommunityData[]>([]);
   const [modularityScore, setModularityScore] = useState<number>(0.6784);
   const [selectedCommId, setSelectedCommId] = useState<string>('Community 1');
@@ -23,8 +24,7 @@ export const CommunitiesPage: React.FC = () => {
   const [communityMatrix, setCommunityMatrix] = useState<Record<string, Record<string, number>>>({});
 
   useEffect(() => {
-    fetch('/api/communities')
-      .then((res) => res.json())
+    fetchApi('/api/communities')
       .then((data) => {
         setCommunities(data.communities || []);
         setModularityScore(data.modularity || 0.6784);
@@ -39,13 +39,17 @@ export const CommunitiesPage: React.FC = () => {
 
   useEffect(() => {
     if (!selectedCommId) return;
-    fetch(`/api/communities/${encodeURIComponent(selectedCommId)}`)
-      .then((res) => res.json())
+    fetchApi(`/api/communities/${encodeURIComponent(selectedCommId)}`)
       .then((data) => {
         setCommunityStudents(data.students || []);
       })
-      .catch((err) => console.error(err));
-  }, [selectedCommId]);
+      .catch(() => {
+        // Fallback to in-memory students
+        if (allStudents && allStudents.length > 0) {
+          setCommunityStudents(allStudents.filter((s) => s.community === selectedCommId));
+        }
+      });
+  }, [selectedCommId, allStudents]);
 
   const activeCommunity = communities.find((c) => c.community_id === selectedCommId) || communities[0];
 

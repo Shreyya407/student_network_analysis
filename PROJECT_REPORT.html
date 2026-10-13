@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CampusConnect — Project Technical Report</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap');
+
+    :root {
+      --bg: #ffffff;
+      --text: #1e293b;
+      --text-muted: #64748b;
+      --primary: #4f46e5;
+      --primary-light: #eef2ff;
+      --border: #e2e8f0;
+      --card-bg: #f8fafc;
+      --accent: #0ea5e9;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      color: var(--text);
+      background: var(--bg);
+      line-height: 1.65;
+      padding: 2.5rem 1.5rem;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+    }
+
+    .header-banner {
+      border-bottom: 2px solid var(--border);
+      padding-bottom: 2rem;
+      margin-bottom: 2.5rem;
+    }
+
+    .badge {
+      display: inline-block;
+      padding: 0.25rem 0.75rem;
+      font-size: 0.75rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      border-radius: 9999px;
+      background: var(--primary-light);
+      color: var(--primary);
+      margin-bottom: 0.75rem;
+    }
+
+    h1 {
+      font-size: 2.25rem;
+      font-weight: 800;
+      color: #0f172a;
+      line-height: 1.2;
+      margin-bottom: 0.5rem;
+    }
+
+    .subtitle {
+      font-size: 1.125rem;
+      color: var(--text-muted);
+      font-weight: 400;
+    }
+
+    .meta-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 1.5rem 0 2rem;
+      font-size: 0.875rem;
+      background: var(--card-bg);
+      border-radius: 8px;
+      overflow: hidden;
+      border: 1px solid var(--border);
+    }
+
+    .meta-table td {
+      padding: 0.75rem 1rem;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .meta-table tr:last-child td {
+      border-bottom: none;
+    }
+
+    .meta-table td:first-child {
+      font-weight: 600;
+      width: 30%;
+      color: #334155;
+      background: #f1f5f9;
+    }
+
+    h2 {
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: #0f172a;
+      margin: 2.5rem 0 1rem;
+      padding-bottom: 0.5rem;
+      border-bottom: 1px solid var(--border);
+    }
+
+    h3 {
+      font-size: 1.15rem;
+      font-weight: 600;
+      color: #1e293b;
+      margin: 1.5rem 0 0.5rem;
+    }
+
+    p {
+      margin-bottom: 1rem;
+      color: #334155;
+    }
+
+    ul, ol {
+      margin: 0.5rem 0 1.25rem 1.5rem;
+      color: #334155;
+    }
+
+    li {
+      margin-bottom: 0.35rem;
+    }
+
+    table.data-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 1.25rem 0;
+      font-size: 0.875rem;
+    }
+
+    table.data-table th, table.data-table td {
+      padding: 0.65rem 0.85rem;
+      border: 1px solid var(--border);
+      text-align: left;
+    }
+
+    table.data-table th {
+      background: #f8fafc;
+      font-weight: 600;
+      color: #1e293b;
+    }
+
+    table.data-table tr:nth-child(even) {
+      background: #fafafa;
+    }
+
+    .code-box {
+      background: #0f172a;
+      color: #e2e8f0;
+      padding: 1rem 1.25rem;
+      border-radius: 8px;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 0.825rem;
+      line-height: 1.5;
+      overflow-x: auto;
+      margin: 1.25rem 0;
+    }
+
+    .callout {
+      padding: 1rem 1.25rem;
+      background: #f0fdf4;
+      border-left: 4px solid #22c55e;
+      border-radius: 4px;
+      margin: 1.25rem 0;
+      font-size: 0.9rem;
+    }
+
+    .callout-title {
+      font-weight: 700;
+      color: #15803d;
+      margin-bottom: 0.25rem;
+    }
+
+    .footer {
+      margin-top: 3.5rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid var(--border);
+      text-align: center;
+      font-size: 0.825rem;
+      color: var(--text-muted);
+    }
+
+    @media print {
+      body {
+        padding: 0;
+        font-size: 10.5pt;
+      }
+      .container {
+        max-width: 100%;
+      }
+      h2 {
+        page-break-before: auto;
+      }
+      .code-box {
+        background: #f1f5f9;
+        color: #0f172a;
+        border: 1px solid var(--border);
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header-banner">
+      <div class="badge">Technical Project Report</div>
+      <h1>CampusConnect</h1>
+      <div class="subtitle">College Social Network Intelligence Platform — Comprehensive Engineering & Analytics Report</div>
+      
+      <table class="meta-table">
+        <tr>
+          <td>Document Classification</td>
+          <td>Graph Analytics & Social Network Analysis (SNA) System Documentation</td>
+        </tr>
+        <tr>
+          <td>Target Stakeholders</td>
+          <td>Academic Deans, Student Welfare Committees, Institutional Researchers</td>
+        </tr>
+        <tr>
+          <td>Network Scale</td>
+          <td>630 Students (7 Departments) • 3,985 Friendship Ties</td>
+        </tr>
+        <tr>
+          <td>Algorithmic Framework</td>
+          <td>Louvain Modularity (Q = 0.6777), Brandes' Betweenness, PageRank (α = 0.85)</td>
+        </tr>
+        <tr>
+          <td>Software Stack</td>
+          <td>FastAPI, NetworkX 3.7, React 18, TypeScript, Cytoscape.js, Recharts, Vite</td>
+        </tr>
+      </table>
+    </div>
+
+    <h2>1. Executive Summary & Problem Formulation</h2>
+    <p>
+      Higher education analytics systems historically assess students using siloed academic and transactional attributes—predominantly grade point averages, credit completion velocity, and lecture attendance logs. However, sociological research demonstrates that student retention, emotional well-being, collaborative problem solving, and campus belonging are fundamentally governed by informal social networks.
+    </p>
+    <p>
+      <strong>CampusConnect</strong> models campus interactions as a complex relational graph of 630 students across 7 academic departments with 3,985 recorded mutual friendship ties. By coupling NetworkX graph-theoretic routines with an interactive React and Cytoscape.js dashboard, the platform reveals emergent social communities, identifies opinion leaders, detects structural bridges, and isolates disconnected students who require targeted student affairs outreach.
+    </p>
+
+    <h2>2. Dataset Specification & Relational Graph Modeling</h2>
+    <p>The network is formalized as a simple, undirected graph G = (V, E):</p>
+    <ul>
+      <li><strong>Node Population (|V|):</strong> 630 students partitioned across 7 departments (exactly 90 students per department).</li>
+      <li><strong>Edge Volume (|E|):</strong> 3,985 mutual, undirected friendship connections.</li>
+      <li><strong>Average Degree:</strong> 12.65 friendships per student.</li>
+      <li><strong>Graph Density:</strong> 0.0201 (2.01% of all possible pairwise connections are active).</li>
+      <li><strong>Connected Components:</strong> 7 components (1 giant connected component of 624 students, and 6 isolated singletons).</li>
+    </ul>
+
+    <table class="data-table">
+      <thead>
+        <tr>
+          <th>Department Name</th>
+          <th>Registration ID Prefix</th>
+          <th>Cohort Size</th>
+          <th>Average Degree</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>AI / Machine Learning (AI/ML)</td>
+          <td><code>RA231102601xxxx</code></td>
+          <td>90</td>
+          <td>13.82</td>
+        </tr>
+        <tr>
+          <td>Big Data Analytics</td>
+          <td><code>RA231102701xxxx</code></td>
+          <td>90</td>
+          <td>13.29</td>
+        </tr>
+        <tr>
+          <td>Cloud Computing</td>
+          <td><code>RA231102801xxxx</code></td>
+          <td>90</td>
+          <td>12.78</td>
+        </tr>
+        <tr>
+          <td>Computer Networking</td>
+          <td><code>RA231102901xxxx</code></td>
+          <td>90</td>
+          <td>12.56</td>
+        </tr>
+        <tr>
+          <td>CSE Core</td>
+          <td><code>RA231100301xxxx</code></td>
+          <td>90</td>
+          <td>12.31</td>
+        </tr>
+        <tr>
+          <td>Cybersecurity</td>
+          <td><code>RA231103001xxxx</code></td>
+          <td>90</td>
+          <td>12.04</td>
+        </tr>
+        <tr>
+          <td>Data Science</td>
+          <td><code>RA231105601xxxx</code></td>
+          <td>90</td>
+          <td>11.78</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h2>3. Graph Algorithms & Mathematical Formulations</h2>
+
+    <h3>3.1 Louvain Community Detection (Modularity Maximization)</h3>
+    <p>
+      The platform organizes students into natural peer groups by maximizing Newman-Girvan Modularity Q:
+    </p>
+    <div class="code-box">
+Q = (1 / 2m) * Σ [ A_ij - γ * (k_i * k_j) / (2m) ] * δ(c_i, c_j)
+
+Where:
+- m = 3,985 (total edges)
+- γ = 0.75 (modularity resolution parameter)
+- A_ij = 1 if friendship exists, 0 otherwise
+- k_i, k_j = node degrees
+- δ(c_i, c_j) = 1 if nodes share community, 0 otherwise
+    </div>
+    <p>
+      The algorithm executes two repeating phases: local modularity optimization followed by hierarchical community aggregation. It uncovers <strong>4 emergent communities</strong> with a modularity of <strong>Q = 0.6777</strong>:
+    </p>
+    <ul>
+      <li><strong>Community 1:</strong> 179 students (28.4% of cohort)</li>
+      <li><strong>Community 2:</strong> 166 students (26.3% of cohort)</li>
+      <li><strong>Community 3:</strong> 152 students (24.1% of cohort)</li>
+      <li><strong>Community 4:</strong> 127 students (20.2% of cohort)</li>
+    </ul>
+
+    <h3>3.2 Centrality Metrics & Algorithmic Roles</h3>
+    <table class="data-table">
+      <thead>
+        <tr>
+          <th>Metric</th>
+          <th>Mathematical Formulation</th>
+          <th>Algorithmic Role</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>Degree Centrality</strong></td>
+          <td><code>C_D(v) = deg(v) / (N - 1)</code></td>
+          <td>Measures immediate local popularity and direct social sphere size.</td>
+        </tr>
+        <tr>
+          <td><strong>PageRank (α = 0.85)</strong></td>
+          <td><code>PR(u) = (1-α)/N + α * Σ [PR(v) / deg(v)]</code></td>
+          <td>Measures recursive structural prestige and opinion leadership.</td>
+        </tr>
+        <tr>
+          <td><strong>Betweenness Centrality</strong></td>
+          <td><code>C_B(v) = Σ [σ_st(v) / σ_st]</code> (Brandes)</td>
+          <td>Measures shortest-path mediation to detect cross-community bridge students.</td>
+        </tr>
+        <tr>
+          <td><strong>Closeness Centrality</strong></td>
+          <td><code>C_C(v) = (N - 1) / Σ d(v, u)</code></td>
+          <td>Measures average proximity to determine rapid information disseminators.</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h3>3.3 Four-Level Mutually Exclusive Connectivity Classification</h3>
+    <table class="data-table">
+      <thead>
+        <tr>
+          <th>Classification Tier</th>
+          <th>Degree Rule</th>
+          <th>Student Count</th>
+          <th>Percentage</th>
+          <th>Administrative Action</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>Completely Isolated</strong></td>
+          <td><code>deg = 0</code></td>
+          <td>6 students</td>
+          <td>0.95%</td>
+          <td>Immediate wellness check & faculty advisor outreach.</td>
+        </tr>
+        <tr>
+          <td><strong>Low Connectivity</strong></td>
+          <td><code>1 &le; deg &le; 3</code></td>
+          <td>10 students</td>
+          <td>1.59%</td>
+          <td>Peer mentor assignment & student club onboarding.</td>
+        </tr>
+        <tr>
+          <td><strong>Moderately Connected</strong></td>
+          <td><code>4 &le; deg &le; 10</code></td>
+          <td>147 students</td>
+          <td>23.33%</td>
+          <td>Standard campus life integration.</td>
+        </tr>
+        <tr>
+          <td><strong>Highly Connected</strong></td>
+          <td><code>deg &gt; 10</code></td>
+          <td>467 students</td>
+          <td>74.13%</td>
+          <td>Potential candidates for student leadership & peer ambassadors.</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h2>4. System Architecture & Software Implementation</h2>
+    <div class="code-box">
+[Frontend: React 18 + TypeScript + Vite]
+   ├── Cytoscape.js (Interactive canvas, CoSE force-directed layout)
+   ├── Recharts (Scatter correlations, modularity bars, area curves)
+   ├── Tailwind CSS (Midnight Navy & Slate palettes)
+   └── NetworkContext (Global caching, search, node drawers)
+               │ (HTTP / JSON REST)
+[Backend: FastAPI + Python 3 + NetworkX 3.7]
+   ├── NetworkEngine (In-memory graph analytics singleton)
+   ├── Dynamic Reanalysis (POST /api/analyze)
+   └── CSV Data Ingestion & Schema Validation (POST /api/dataset/upload)
+               │
+[Data Repository: CSV Store]
+   ├── students_630.csv (630 student nodes)
+   └── student_connections.csv (3,985 undirected friendship pairs)
+    </div>
+
+    <h2>5. Overview of Core Functional Modules</h2>
+    <ol>
+      <li><strong>Overview Dashboard:</strong> High-level KPIs, community distribution bar charts, departmental activity, and primary navigation actions.</li>
+      <li><strong>Student Network Explorer:</strong> Interactive Cytoscape.js graph with layout selection (CoSE, Concentric, Circle, Grid), color/size modes, and node inspection drawers.</li>
+      <li><strong>Louvain Communities Explorer:</strong> Deep-dive profiles of all 4 communities, internal edge density, dominant departments, top hubs, and inter-community interaction matrix.</li>
+      <li><strong>Influential Students:</strong> Leaderboards ranked by PageRank and degree centrality with department filtering and CSV export.</li>
+      <li><strong>Bridge Students Detection:</strong> Identifies shortest-path bottlenecks and boundary spanners connecting disparate communities.</li>
+      <li><strong>Completely Isolated Students:</strong> Specialized intervention dashboard tracking the 6 singletons with degree zero.</li>
+      <li><strong>Four-Level Connectivity Analysis:</strong> Mutually exclusive tier distributions and intervention tracking table for low-connectivity students.</li>
+      <li><strong>Department Analytics:</strong> Comparative department metrics, internal vs external friendship ratios, and 7x7 interaction matrix.</li>
+      <li><strong>Centrality Metric Comparison:</strong> Scatter correlation plots (Degree vs PageRank, Degree vs Betweenness) and degree histograms.</li>
+      <li><strong>Data Explorer & Validation:</strong> Raw node/edge tables, real-time schema validation reports, and CSV download center.</li>
+      <li><strong>Methodology & Insights:</strong> Scientific documentation detailing mathematical formulations, parameter choices, and ethical data guidelines.</li>
+    </ol>
+
+    <h2>6. Verification & Quality Assurance Summary</h2>
+    <div class="callout">
+      <div class="callout-title">System Verification Status: All Quality Gates Passed</div>
+      The platform was verified through automated testing and runtime validation: 630/630 nodes verified, 3,985/3,985 symmetric edges validated with zero missing references, Louvain modularity confirmed at Q = 0.6777, and production frontend bundles built with zero TypeScript errors.
+    </div>
+
+    <h2>7. Institutional Impact & Recommendations</h2>
+    <ul>
+      <li><strong>Early Intervention:</strong> Use the Completely Isolated and Low Connectivity rosters to proactively pair vulnerable students with campus mentors.</li>
+      <li><strong>Campaign Dissemination:</strong> Coordinate with high-PageRank opinion leaders for student orientation and mental health awareness campaigns.</li>
+      <li><strong>Interdisciplinary Collaboration:</strong> Engage identified bridge students to lead cross-departmental clubs, research symposia, and hackathons.</li>
+      <li><strong>Longitudinal Assessment:</strong> Monitor shifts in modularity (Q) and cross-departmental friendship ratios annually to assess campus social cohesion.</li>
+    </ul>
+
+    <div class="footer">
+      CampusConnect — College Social Network Intelligence Platform • Production Release 1.0.0
+    </div>
+  </div>
+</body>
+</html>

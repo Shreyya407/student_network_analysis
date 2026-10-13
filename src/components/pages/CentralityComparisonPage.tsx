@@ -13,6 +13,7 @@ import {
 import { useNetwork } from '../../context/NetworkContext';
 import { Student } from '../../types';
 import { StudentBadge } from '../common/StudentBadge';
+import { fetchApi } from '../../utils/api';
 
 export const CentralityComparisonPage: React.FC = () => {
   const { fetchStudentDetail } = useNetwork();
@@ -27,8 +28,7 @@ export const CentralityComparisonPage: React.FC = () => {
   const [scatterMode, setScatterMode] = useState<'degree_vs_pagerank' | 'degree_vs_betweenness'>('degree_vs_pagerank');
 
   useEffect(() => {
-    fetch('/api/centrality')
-      .then((res) => res.json())
+    fetchApi('/api/centrality')
       .then((data) => {
         setCentralityData(data);
       })

@@ -19,6 +19,7 @@ import {
 } from 'lucide-react';
 import { Student } from '../../types';
 import { useNetwork } from '../../context/NetworkContext';
+import { fetchApi } from '../../utils/api';
 
 interface StudentNetworkGraphProps {
   initialFocusNodeId?: string | null;
@@ -68,8 +69,7 @@ export const StudentNetworkGraph: React.FC<StudentNetworkGraphProps> = ({
     if (minDegree > 0) params.append('min_degree', minDegree.toString());
     if (searchQuery.trim()) params.append('search', searchQuery.trim());
 
-    fetch(`/api/network?${params.toString()}`)
-      .then((res) => res.json())
+    fetchApi(`/api/network?${params.toString()}`)
       .then((data) => {
         if (!containerRef.current) return;
 
@@ -296,9 +296,24 @@ export const StudentNetworkGraph: React.FC<StudentNetworkGraphProps> = ({
     setIsFullscreen(!isFullscreen);
   };
 
+  // Auto-resize Cytoscape canvas when container or window size changes
+  useEffect(() => {
+    const container = containerRef.current;
+    if (!container || typeof ResizeObserver === 'undefined') return;
+
+    const observer = new ResizeObserver(() => {
+      if (cyRef.current) {
+        cyRef.current.resize();
+      }
+    });
+
+    observer.observe(container);
+    return () => observer.disconnect();
+  }, []);
+
   return (
     <div className={`relative flex flex-col rounded-2xl bg-white dark:bg-[#111827] border border-slate-200 dark:border-slate-800 overflow-hidden shadow-sm ${
-      isFullscreen ? 'fixed inset-4 z-50 rounded-2xl shadow-2xl' : 'h-[720px] w-full'
+      isFullscreen ? 'fixed inset-4 z-50 rounded-2xl shadow-2xl' : 'h-[500px] sm:h-[620px] lg:h-[720px] w-full'
     }`}>
       
       {/* Top Filter and Controls Toolbar */}

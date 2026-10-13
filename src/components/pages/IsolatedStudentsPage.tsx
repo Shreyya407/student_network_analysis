@@ -3,6 +3,7 @@ import { UserX, Download, Search, AlertCircle, Info, ExternalLink } from 'lucide
 import { useNetwork } from '../../context/NetworkContext';
 import { Student } from '../../types';
 import { StudentBadge } from '../common/StudentBadge';
+import { fetchApi } from '../../utils/api';
 
 export const IsolatedStudentsPage: React.FC = () => {
   const { fetchStudentDetail } = useNetwork();
@@ -16,8 +17,7 @@ export const IsolatedStudentsPage: React.FC = () => {
   const [search, setSearch] = useState<string>('');
 
   useEffect(() => {
-    fetch('/api/isolated')
-      .then((res) => res.json())
+    fetchApi('/api/isolated')
       .then((data) => {
         setIsolatedData(data);
       })

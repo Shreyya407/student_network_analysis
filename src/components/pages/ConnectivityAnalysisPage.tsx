@@ -13,6 +13,7 @@ import {
 import { useNetwork } from '../../context/NetworkContext';
 import { Student, ConnectivityCategory } from '../../types';
 import { StudentBadge } from '../common/StudentBadge';
+import { fetchApi } from '../../utils/api';
 
 export const ConnectivityAnalysisPage: React.FC = () => {
   const { fetchStudentDetail, dashboardData } = useNetwork();
@@ -29,8 +30,7 @@ export const ConnectivityAnalysisPage: React.FC = () => {
 
   // Fetch full connectivity summary & department breakdown
   useEffect(() => {
-    fetch('/api/connectivity')
-      .then((res) => res.json())
+    fetchApi('/api/connectivity')
       .then((data) => {
         setConnectivityData(data);
       })
@@ -47,8 +47,7 @@ export const ConnectivityAnalysisPage: React.FC = () => {
     if (selectedDept !== 'all') params.append('department', selectedDept);
     if (selectedCategory !== 'all') params.append('connectivity', selectedCategory);
 
-    fetch(`/api/students?${params.toString()}`)
-      .then((res) => res.json())
+    fetchApi(`/api/students?${params.toString()}`)
       .then((data) => {
         setStudents(data.items || []);
         setStudentsTotal(data.total || 630);

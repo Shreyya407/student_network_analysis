@@ -17,6 +17,7 @@ import {
 import { useNetwork } from '../../context/NetworkContext';
 import { Student, ValidationReport } from '../../types';
 import { StudentBadge } from '../common/StudentBadge';
+import { fetchApi } from '../../utils/api';
 
 export const DataExplorerPage: React.FC = () => {
   const { validationReport, refreshData, fetchStudentDetail, dashboardData } = useNetwork();
@@ -66,8 +67,7 @@ export const DataExplorerPage: React.FC = () => {
   // Fetch edges when edges tab active
   useEffect(() => {
     if (activeSubTab === 'edges' && edges.length === 0) {
-      fetch('/api/network')
-        .then((res) => res.json())
+      fetchApi('/api/network')
         .then((data) => {
           const edgeElements = data.elements
             .filter((e: any) => e.group === 'edges')

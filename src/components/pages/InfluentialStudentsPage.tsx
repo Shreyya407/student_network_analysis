@@ -3,6 +3,7 @@ import { Trophy, Search, Download, Filter, HelpCircle, ArrowUpDown, ExternalLink
 import { useNetwork } from '../../context/NetworkContext';
 import { Student } from '../../types';
 import { StudentBadge } from '../common/StudentBadge';
+import { fetchApi } from '../../utils/api';
 
 export const InfluentialStudentsPage: React.FC = () => {
   const { fetchStudentDetail } = useNetwork();
@@ -16,8 +17,7 @@ export const InfluentialStudentsPage: React.FC = () => {
   const pageSize = 20;
 
   useEffect(() => {
-    fetch('/api/students?page=1&page_size=200')
-      .then((res) => res.json())
+    fetchApi('/api/students?page=1&page_size=200')
       .then((data) => {
         setStudents(data.items || []);
       })

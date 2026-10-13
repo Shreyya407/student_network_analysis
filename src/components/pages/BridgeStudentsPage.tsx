@@ -3,6 +3,7 @@ import { GitMerge, Download, Search, Info, ExternalLink, ArrowRight, Network } f
 import { useNetwork } from '../../context/NetworkContext';
 import { Student } from '../../types';
 import { StudentBadge } from '../common/StudentBadge';
+import { fetchApi } from '../../utils/api';
 
 export const BridgeStudentsPage: React.FC = () => {
   const { fetchStudentDetail, setActiveTab } = useNetwork();
@@ -14,8 +15,7 @@ export const BridgeStudentsPage: React.FC = () => {
   const pageSize = 20;
 
   useEffect(() => {
-    fetch('/api/bridges?limit=100')
-      .then((res) => res.json())
+    fetchApi('/api/bridges?limit=100')
       .then((data) => {
         setBridges(data.students || []);
       })
