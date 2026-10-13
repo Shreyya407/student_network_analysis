@@ -1,0 +1,95 @@
+{
+  "students": 630,
+  "students_per_department": {
+    "AI/ML": 90,
+    "Big Data Analytics": 90,
+    "CSE Core": 90,
+    "Cloud Computing": 90,
+    "Computer Networking": 90,
+    "Cybersecurity": 90,
+    "Data Science": 90
+  },
+  "friendship_edges": 4020,
+  "isolated_students_detected": 6,
+  "communities_detected_by_louvain": 4,
+  "modularity": 0.6783542177173832,
+  "community_sizes": [
+    158,
+    156,
+    155,
+    155
+  ],
+  "top_10_by_pagerank": [
+    {
+      "registration_number": "RA2311027010059",
+      "student_name": "Tanvi Chopra",
+      "department": "Big Data Analytics",
+      "degree": 25,
+      "pagerank": 0.002913831481891115
+    },
+    {
+      "registration_number": "RA2311028010039",
+      "student_name": "Neel Singh",
+      "department": "Cloud Computing",
+      "degree": 23,
+      "pagerank": 0.0026764648008454554
+    },
+    {
+      "registration_number": "RA2311028010003",
+      "student_name": "Diya Rao",
+      "department": "Cloud Computing",
+      "degree": 22,
+      "pagerank": 0.002540185180298944
+    },
+    {
+      "registration_number": "RA2311028010054",
+      "student_name": "Aditya Nair",
+      "department": "Cloud Computing",
+      "degree": 22,
+      "pagerank": 0.002526343908448296
+    },
+    {
+      "registration_number": "RA2311003010004",
+      "student_name": "Rohan Sharma",
+      "department": "CSE Core",
+      "degree": 21,
+      "pagerank": 0.002481104931542717
+    },
+    {
+      "registration_number": "RA2311028010075",
+      "student_name": "Riya Sharma",
+      "department": "Cloud Computing",
+      "degree": 21,
+      "pagerank": 0.00247019332573473
+    },
+    {
+      "registration_number": "RA2311027010072",
+      "student_name": "Riya Mishra",
+      "department": "Big Data Analytics",
+      "degree": 21,
+      "pagerank": 0.0024606614147725013
+    },
+    {
+      "registration_number": "RA2311026010017",
+      "student_name": "Shaurya Bose 2",
+      "department": "AI/ML",
+      "degree": 21,
+      "pagerank": 0.002460240845585089
+    },
+    {
+      "registration_number": "RA2311003010062",
+      "student_name": "Ishaan Mishra 3",
+      "department": "CSE Core",
+      "degree": 21,
+      "pagerank": 0.0024555093166899306
+    },
+    {
+      "registration_number": "RA2311003010009",
+      "student_name": "Kabir Nair",
+      "department": "CSE Core",
+      "degree": 21,
+      "pagerank": 0.002434526149915596
+    }
+  ],
+  "note": "Input files have no preassigned influence/isolation/community labels. Department is an attribute. Latent groups used during generation are not exported."
+}
