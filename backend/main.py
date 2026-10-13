@@ -34,6 +34,19 @@ app.add_middleware(
 )
 
 
+@app.get("/")
+async def root():
+    return {
+        "status": "online",
+        "service": "CampusConnect Network Intelligence API",
+        "version": "1.0.0",
+        "docs": "/docs",
+        "health": "/api/health",
+        "nodes": engine.G.number_of_nodes(),
+        "edges": engine.G.number_of_edges()
+    }
+
+
 @app.get("/api/health")
 async def get_health():
     """Health check endpoint."""
