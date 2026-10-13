@@ -129,29 +129,6 @@ export const Sidebar: React.FC = () => {
             })}
           </nav>
         </div>
-
-        {/* Bottom Footer Details */}
-        <div className="p-3 border-t border-slate-100 dark:border-slate-800/80">
-          {!sidebarCollapsed ? (
-            <div className="px-2 py-1.5 rounded-xl bg-slate-50 dark:bg-slate-900/50 border border-slate-100 dark:border-slate-800/60 text-[10px] text-slate-500 dark:text-slate-400">
-              <div className="font-semibold text-slate-700 dark:text-slate-300 flex items-center justify-between">
-                <span>Cohort 2027</span>
-                <span className="text-emerald-600 dark:text-emerald-400 font-bold">Live Graph</span>
-              </div>
-              <div className="mt-0.5 truncate text-slate-400">
-                630 Students • 7 Departments
-              </div>
-            </div>
-          ) : (
-            <button
-              onClick={toggleSidebar}
-              title="Expand Navigation"
-              className="w-full p-2 flex justify-center text-slate-400 hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors"
-            >
-              <ChevronRight className="w-4 h-4" />
-            </button>
-          )}
-        </div>
       </aside>
     </>
   );
